@@ -97,14 +97,15 @@
             <option value="aprendeu-sozinho">Sozinho</option>
         </select>
 
-        <label for="compraria">2.8 Você compraria uma licença de leitor de tela?</label>
-        <select name="compraria" id="compraria">
+        <label for="pagar">2.8 Você acha que vale a pena pagar para um leitor de tela?</label>
+        <select name="pagar" id="pagar">
             <option value>Sem resposta</option>
-            <option value="compraria-sim">Sim</option>
-            <option value="compraria-nao">Não</option>
+            <option value="pagar-sim">Sim</option>
+            <option value="pagar-nao">Não</option>
         </select>    
-        <label for="compraria-porque">2.8.1 Por quê você compraria ou não?</label>
-        <input id="compraria-porque" name="compraria-porque" type="text">        
+        
+        <label for="pagar-porque">2.9 Explique o motivo de sua resposta acima.</label>
+        <input id="pagar-porque" name="pagar-porque" type="text">        
 
         <button class="usa-button-secondary">Voltar</button>
         <button class="usa-button">Continuar</button>
