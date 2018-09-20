@@ -15,7 +15,7 @@
   <form class="usa-form-large">
     <fieldset>
 
-       <label for="premio">Quer ter a oportunidade de receber um prêmio para sua participação nessa pesquisa?</label>       
+       <label for="premio">Quer ter a oportunidade de receber um prêmio para sua participação nesta pesquisa?</label>       
        <select name="premio" id="premio">
           <option value>Sem resposta</option>
           <option value="premio-sim">Sim</option>
