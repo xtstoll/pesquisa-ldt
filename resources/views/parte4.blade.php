@@ -36,6 +36,17 @@
             <option value="teclado-externo-sim">Não</option>
         </select>
 
+        <label for="digitacao-voz">4.4 Com qual frequência você utiliza o recurso de digitação por voz no seu celular / tablet?</label>    
+        <select name="digitacao-voz" id="digitacao-voz">
+            <option value>Sem resposta</option>
+            <option value="digitacao-voz-sempre">Sempre</option>
+            <option value="digitacao-voz-frequentemente">Frequentemente</option>
+            <option value="digitacao-voz-asvezes">Às vezes</option>
+            <option value="digitacao-voz-raramente">Raramente</option>
+            <option value="digitacao-voz-nunca">Nunca</option>
+            <option value="digitacao-voz-naosei">Não sei o que isso trata</option>
+        </select>
+
         <button class="usa-button-secondary">Voltar</button>
         <button class="usa-button">Continuar</button>
        
