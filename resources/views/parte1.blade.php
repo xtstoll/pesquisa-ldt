@@ -21,15 +21,12 @@
         <label for="genero">1.2 Qual é o seu gênero?</label>
         <select name="genero" id="genero">
         	<option value>Sem resposta</option>
-        	<option value="genero-mulher">Mulher</option>
         	<option value="genero-homem">Homem</option>
+        	<option value="genero-mulher">Mulher</option>
         	<option value="genero-outro">Outro</option>
         </select>
 
-        <label for="cidade">1.3 Em qual cidade você mora?</label>
-        <input id="cidade" name="cidade" type="text">
-
-        <label for="estado">1.4 Em qual estado você mora?</label>
+        <label for="estado">1.3 Em qual estado você mora?</label>
         <select name="estado" id="estado">
         	<option value>Sem resposta</option>
         	<option value="estado-AC">Acre</option>
@@ -61,7 +58,7 @@
         	<option value="estado-TO">Tocantins</option>
         </select>    
 
-        <label for="escolaridade">1.5 Qual o seu nível de escolaridade?</label>
+        <label for="escolaridade">1.4 Qual o seu nível de escolaridade?</label>
         <select name="escolaridade" id="escolaridade">
         	<option value>Sem resposta</option>
         	<option value="escolaridade-ef-incompleto">Fundamental incompleto</option>
@@ -74,7 +71,7 @@
         	<option value="escolaridade-pg-completo">Pós-graduação completo</option>
         </select>
 
-    	<label>1.6 Qual(is) deficiência(s) você possui?</label>
+    	<label>1.5 Qual(is) deficiência(s) você possui?</label>
     	 <ul class="usa-unstyled-list">
     	    <li>
     	      <input id="deficiencia-cegueira" type="checkbox" name="deficiencia-cegueira" value="deficiencia-cegueira">
@@ -96,14 +93,14 @@
     	      <input id="deficiencia-motora" type="checkbox" name="deficiencia-motora" value="deficiencia-motora">
     	      <label for="deficiencia-motora">Motora</label>
     	    </li> 
-    	    <li>
-    	      <input id="deficiencia-nenhuma" type="checkbox" name="deficiencia-nenhuma" value="deficiencia-nenhuma">
-    	      <label for="deficiencia-enhuma">Nenhuma</label>
-    	    </li>
             <li>
               <input id="deficiencia-outra" type="checkbox" name="deficiencia-outra" value="deficiencia-outra">
               <label for="deficiencia-outra">Outra</label>
-            </li>                                 
+            </li>  
+    	    <li>
+    	      <input id="deficiencia-nenhuma" type="checkbox" name="deficiencia-nenhuma" value="deficiencia-nenhuma">
+    	      <label for="deficiencia-enhuma">Nenhuma</label>
+    	    </li>            
     	  </ul>
 
         <button class="usa-button">Continuar</button>
