@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Parte 5 - Pesquisa nacional de leitores de tela</title>
-  <link rel="stylesheet" href="assets/uswds-1.6.8/css/uswds.min.css">
-  <link rel="stylesheet" href="assets/stylesheets/pesquisa.css">
-</head>
-<body>
+@extends('layouts.app')
 
+@section('content')
 <main>
   <h1>Parte 5: Acessibilidade</h1>
 
@@ -51,6 +43,4 @@
   </form>
 </main>
 
-<script src="assets/uswds-1.0.0/js/uswds.min.js"></script>
-</body>
-</html>
+@endsection
