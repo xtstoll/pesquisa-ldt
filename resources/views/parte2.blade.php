@@ -31,7 +31,7 @@
             <option value="ldt-desktop1-naoutilizo">Não utilizo nenhum</option>
         </select>    
 
-        <label for="ldt-desktop2">2.2 Há outro leitor de tela você mais utiliza para computador / notebook?</label>
+        <label for="ldt-desktop2">2.2 Há outro leitor de tela que você mais utiliza para computador / notebook?</label>
         <select name="ldt-desktop2" id="ldt-desktop2">
             <option value>Sem resposta</option>
             <option value="ldt-desktop2-chromevox">ChromeVox</option>
@@ -73,8 +73,8 @@
         <select name="uso-recurso" id="uso-recurso">
             <option value>Sem resposta</option>
             <option value="uso-recurso-apenas-leitor">Utilizo somente a fala do leitor de tela.</option>
-            <option value="uso-recurso-mais-leitor">Utilizo principalmente a fala do leitor de tela, mas também preciso os recursos visuais.</option>
-            <option value="uso-recurso-mais-visual">Utilizo principalmente dos recursos visuais, mas também preciso a fala do leitor de tela.</option>
+            <option value="uso-recurso-mais-leitor">Utilizo principalmente a fala do leitor de tela, mas também preciso dos recursos visuais.</option>
+            <option value="uso-recurso-mais-visual">Utilizo principalmente dos recursos visuais, mas também preciso da fala do leitor de tela.</option>
             <option value="uso-recurso-apenas-visual">Utilizo somente os recursos visuais.</option>
         </select>
 
