@@ -73,7 +73,7 @@
         <select name="uso-dispositivo" id="uso-dispositivo">
             <option value>Sem resposta</option>
             <option value="uso-dispositivo-mais-desktop">Utilizo mais o leitor de tela do computador / notebook.</option>
-            <option value="uso-dispositivo-tanto">Utilizo tanto o leitor de tela do computador / notebook quanto do celular / tablet.</option>
+            <option value="uso-dispositivo-tanto">Utilizo tanto o leitor de tela do computador / notebook quanto o do celular / tablet.</option>
             <option value="uso-dispositivo-mais-mobile">Utilizo mais o leitor de tela do celular / tablet.</option>
         </select>
 
@@ -81,8 +81,8 @@
         <select name="aprendeu" id="aprendeu">
             <option value>Sem resposta</option>
             <option value="aprendeu-amigos">Com amigos</option>
-            <option value="aprendeu-associacao">Numa associação de cegos</option>
-            <option value="aprendeu-fundacao">Numa fundação para cegos</option>
+            <option value="aprendeu-associacao">Em uma associação de cegos</option>
+            <option value="aprendeu-fundacao">Em uma fundação para cegos</option>
             <option value="aprendeu-escola">Na escola</option>
             <option value="aprendeu-trabalho">No trabalho</option>
             <option value="aprendeu-sozinho">Sozinho</option>
@@ -95,7 +95,7 @@
             <option value="pagar-nao">Não</option>
         </select>    
         
-        <label for="pagar-porque">2.9 Explique o motivo de sua resposta acima.</label>
+        <label for="pagar-porque">2.9 Explique o motivo da resposta acima.</label>
         <input id="pagar-porque" name="pagar-porque" type="text">        
 
         <button class="usa-button-secondary">Voltar</button>
