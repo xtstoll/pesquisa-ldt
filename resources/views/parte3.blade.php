@@ -86,7 +86,7 @@
         <label for="nav-dificil">3.8 Em qual elemento você tem mais dificuldade de navegar?</label>
         <select name="nav-dificil" id="nav-dificil">
             <option value>Sem resposta</option>
-            <option value="nav-dificil-busca">Busca inacessível ou ausente</option>
+            <option value="nav-dificil-busca">Campo de busca inacessível ou inexistente</option>
             <option value="nav-dificil-cabecalhos">Cabeçalhos ausentes ou fora da ordem lógica</option>
             <option value="nav-dificil-excesso">Excesso de links ou itens de navegação</option>
             <option value="nav-dificil-irlinks">Falta de links “ir para conteúdo” ou “ir para o menu”</option>
