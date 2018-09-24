@@ -32,10 +32,10 @@
         <label for="nav-encontrar">3.3 Ao tentar encontrar informações em uma página da Internet, qual das seguintes opções você costuma utilizar?</label>
         <select name="nav-encontrar" id="nav-encontrar">
             <option value>Sem resposta</option>
-            <option value="nav-encontrar-cabecalhos">Navegar pelos cabeçalhos (tecla H ou números 1 a 6)</option>
+            <option value="nav-encontrar-cabecalhos">Navegar pelos cabeçalhos (tecla H ou números de 1 a 6)</option>
             <option value="nav-encontrar-pesquisa">Utilizar a pesquisa da página (Ctrl + F)</option>
             <option value="nav-encontrar-links">Navegar pelos links (Tab ou tecla K)</option>
-            <option value="nav-encontrar-marcas">Navegar pelos frames/marcas/regiões (tecla M ou R)</option>
+            <option value="nav-encontrar-marcas">Navegar pelos marcas/regiões (tecla D ou R)</option>
             <option value="nav-encontrar-item">Navegar item por item (seta para baixo)</option>
         </select>
 
@@ -47,10 +47,10 @@
             <option value="nav-irpara-asvezes">Às vezes</option>
             <option value="nav-irpara-raramente">Raramente</option>
             <option value="nav-irpara-nunca">Nunca</option>
-            <option value="nav-irpara-naosei">Não sei o que isso trata</option>
+            <option value="nav-irpara-naosei">Não sei do que se trata</option>
         </select>
 
-        <label for="nav-marcas">3.5 Com qual frequência você utiliza a navegação pelas marcas / regiões (tecla M ou R) em uma página?</label>
+        <label for="nav-marcas">3.5 Com qual frequência você utiliza a navegação pelas marcas / regiões (tecla D ou R) em uma página?</label>
         <select name="nav-marcas" id="nav-marcas">
             <option value>Sem resposta</option>
             <option value="nav-marcas-sempre">Sempre</option>
@@ -58,7 +58,7 @@
             <option value="nav-marcas-asvezes">Às vezes</option>
             <option value="nav-marcas-raramente">Raramente</option>
             <option value="nav-marcas-nunca">Nunca</option>
-            <option value="nav-marcas-naosei">Não sei o que isso trata</option>
+            <option value="nav-marcas-naosei">Não sei do que se trata</option>
         </select>
         
         <label for="nav-barra">3.6 Com qual frequência você utiliza as opções de aumentar/diminuir fonte ou alternar contraste, quando estão disponíveis em uma página?</label>
@@ -69,7 +69,7 @@
             <option value="nav-barra-asvezes">Às vezes</option>
             <option value="nav-barra-raramente">Raramente</option>
             <option value="nav-barra-nunca">Nunca</option>
-            <option value="nav-barra-naosei">Não sei o que isso trata</option>
+            <option value="nav-barra-naosei">Não sei do que se trata</option>
         </select> 
         
         <label for="nav-teclas">3.7 Com qual frequência você utiliza as teclas de atalho de um site, quando estão disponíveis? Por exemplo, a tecla P para publicar um novo status no Facebook.</label>
@@ -80,7 +80,7 @@
             <option value="nav-teclas-asvezes">Às vezes</option>
             <option value="nav-teclas-raramente">Raramente</option>
             <option value="nav-teclas-nunca">Nunca</option>
-            <option value="nav-teclas-naosei">Não sei o que isso trata</option>
+            <option value="nav-teclas-naosei">Não sei do que se trata</option>
         </select>
         
         <label for="nav-dificil">3.8 Em qual elemento você tem mais dificuldade de navegar?</label>
@@ -94,7 +94,7 @@
             <option value="nav-dificil-captcha">Imagens CAPTCHA apresentando texto usado para verificar que você não é um robô</option>
             <option value="nav-dificil-imagens">Imagens sem descrição ou com descrições inadequadas</option>
             <option value="nav-dificil-linksbotoes">Links ou botões que não fazem sentido</option>
-            <option value="nav-dificil-teclado">Navegação não é acessível por teclado</option>
+            <option value="nav-dificil-teclado">Navegação que não é acessível por teclado</option>
             <option value="nav-dificil-flash">Presença de conteúdo Flash inacessível</option>
             <option value="nav-dificil-tabelas">Tabelas complexas</option>
             <option value="nav-dificil-mudam">Telas ou partes de telas que mudam inesperadamente</option>
