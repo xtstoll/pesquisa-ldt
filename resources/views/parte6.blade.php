@@ -14,14 +14,14 @@
           <option value="premio-não">Não</option>
         </select>
 
-       <label for="publicamos">Quer receber um e-mail quando publicamos os resultados da pesquisa?</label>       
+       <label for="publicamos">Quer receber um e-mail quando publicarmos os resultados da pesquisa?</label>       
        <select name="publicamos" id="publicamos">
           <option value>Sem resposta</option>
           <option value="publicamos-sim">Sim</option>
           <option value="publicamos-não">Não</option>
         </select>  
 
-        <label for="email">Qual é seu e-mail?</label>
+        <label for="email">Qual o seu e-mail?</label>
         <input id="email" name="email" type="email">             
 
         <button class="usa-button-secondary">Voltar</button>
