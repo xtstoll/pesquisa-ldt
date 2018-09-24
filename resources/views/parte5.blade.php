@@ -12,7 +12,7 @@
           <option value>Sem resposta</option>
           <option value="prefere-web-desktop">Computador / notebook</option>
           <option value="prefere-web-mobile">Celular / tablet</option>
-          <option value="prefere-web-nao">Não tenho nenhuma preferência</option>
+          <option value="prefere-web-nao">Não tenho preferência</option>
       </select>
 
       <label for="mais-acessivel">5.2 Na sua opinião, você acha que a Internet ficou mais acessível desde 2015?</label>
@@ -23,7 +23,7 @@
           <option value="mais-acessivel-nao">Não, ficou menos acessível</option>
         </select>
         
-       <label for="lbi">5.3 Você ouviu falar da LBI (Lei Brasileira de Inclusão, nº 13.146/2015)?</label>
+       <label for="lbi">5.3 Você já ouviu falar da LBI (Lei Brasileira de Inclusão, nº 13.146/2015)?</label>
        <select name="lbi" id="lbi">
           <option value>Sem resposta</option>
           <option value="lbi-sim">Sim</option>
