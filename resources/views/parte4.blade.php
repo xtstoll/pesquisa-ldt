@@ -36,7 +36,7 @@
             <option value="digitacao-voz-asvezes">Às vezes</option>
             <option value="digitacao-voz-raramente">Raramente</option>
             <option value="digitacao-voz-nunca">Nunca</option>
-            <option value="digitacao-voz-naosei">Não sei o que isso trata</option>
+            <option value="digitacao-voz-naosei">Não sei do que se trata</option>
         </select>
 
         <button class="usa-button-secondary">Voltar</button>
