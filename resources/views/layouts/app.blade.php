@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ asset('stylesheets/pesquisa.css') }}">
 </head>
 <body>
-@yeld('content')
+@yield('content')
 <script src="assets/uswds-1.0.0/js/uswds.min.js"></script>
 </body>
 </html>
