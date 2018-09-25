@@ -19,6 +19,7 @@
             <option value="ldt-desktop1-virtualvision">Virtual Vision</option>
             <option value="ldt-desktop1-voiceover">VoiceOver</option>
             <option value="ldt-desktop1-zoomtext">ZoomText</option>
+            <option value="ldt-desktop1-outro">Outro</option>
             <option value="ldt-desktop1-naoutilizo">Não utilizo nenhum</option>
         </select>    
 
@@ -35,7 +36,8 @@
             <option value="ldt-desktop2-virtualvision">Virtual Vision</option>
             <option value="ldt-desktop2-voiceover">VoiceOver</option>
             <option value="ldt-desktop2-zoomtext">ZoomText</option>
-            <option value="ldt-desktop2-naoutilizo">Não utilizo nenhum</option>
+            <option value="ldt-desktop2-outro">Outro</option>
+            <option value="ldt-desktop2-naoutilizo">Não, só utilizo um</option>
         </select> 
 
         <label for="ldt-atualizar">2.3 Quando foi a última vez que você atualizou seu leitor de tela para computador / notebook?</label>
@@ -45,6 +47,7 @@
             <option value="ldt-atualizar-meses">Há alguns meses</option>
             <option value="ldt-atualizar-ano">Há mais de um ano</option>
             <option value="ldt-atualizar-naoatualizo">Não tenho costume de atualizar</option>
+            <option value="ldt-atualizar-naosei">Não sei</option>            
         </select>
 
         <label for="ldt-mobile">2.4 Qual leitor de tela você mais utiliza para celular / tablet?</label>
@@ -65,11 +68,11 @@
             <option value>Sem resposta</option>
             <option value="uso-recurso-apenas-leitor">Utilizo somente a fala do leitor de tela.</option>
             <option value="uso-recurso-mais-leitor">Utilizo principalmente a fala do leitor de tela, mas também preciso dos recursos visuais.</option>
-            <option value="uso-recurso-mais-visual">Utilizo principalmente dos recursos visuais, mas também preciso da fala do leitor de tela.</option>
+            <option value="uso-recurso-mais-visual">Utilizo principalmente os recursos visuais, mas também preciso da fala do leitor de tela.</option>
             <option value="uso-recurso-apenas-visual">Utilizo somente os recursos visuais.</option>
         </select>
 
-        <label for="uso-dispositivo">2.6 Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?</label>
+        <label for="uso-dispositivo">2.6 Você utiliza mais computador / notebook ou do celular / tablet?</label>
         <select name="uso-dispositivo" id="uso-dispositivo">
             <option value>Sem resposta</option>
             <option value="uso-dispositivo-mais-desktop">Utilizo mais o leitor de tela do computador / notebook.</option>
@@ -81,8 +84,7 @@
         <select name="aprendeu" id="aprendeu">
             <option value>Sem resposta</option>
             <option value="aprendeu-amigos">Com amigos</option>
-            <option value="aprendeu-associacao">Em uma associação de cegos</option>
-            <option value="aprendeu-fundacao">Em uma fundação para cegos</option>
+            <option value="aprendeu-instituicao">Em uma instituição para pessoas com deficiência visual</option>
             <option value="aprendeu-escola">Na escola</option>
             <option value="aprendeu-trabalho">No trabalho</option>
             <option value="aprendeu-sozinho">Sozinho</option>
