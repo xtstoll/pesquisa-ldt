@@ -7,7 +7,7 @@
   <form class="usa-form-large">
     <fieldset>
 
-@-(false)
+@if(false)
 @else
 
 <label for="sorteio">Quer ter a oportunidade de receber um prêmio para sua participação nesta pesquisa?</label>       
@@ -23,7 +23,7 @@
           <option value="publicamos-sim">Sim</option>
           <option value="publicamos-não">Não</option>
         </select>  
-endif
+@endif
 
         <label for="email">Qual o seu e-mail?</label>
         <input id="email" name="email" type="email">             
