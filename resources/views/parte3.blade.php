@@ -35,7 +35,7 @@
             <option value="nav-encontrar-cabecalhos">Navegar pelos cabeçalhos (tecla H ou números de 1 a 6)</option>
             <option value="nav-encontrar-pesquisa">Utilizar a pesquisa da página (Ctrl + F)</option>
             <option value="nav-encontrar-links">Navegar pelos links (Tab ou tecla K)</option>
-            <option value="nav-encontrar-marcas">Navegar pelos marcas/regiões (tecla D ou R)</option>
+            <option value="nav-encontrar-marcas">Navegar pelas marcas/regiões (tecla D ou R)</option>
             <option value="nav-encontrar-item">Navegar item por item (seta para baixo)</option>
         </select>
 
