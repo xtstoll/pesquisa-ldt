@@ -7,8 +7,8 @@
     <form class="usa-form-large">     
       <fieldset>
         
-        <label for="idade">1.1 Qual é a sua idade?</label>
-        <input id="idade" name="idade" type="number" min="1" max="100">
+        <label for="ano-nasceu">1.1 Qual ano você nasceu?</label>
+        <input id="ano-nasceu" name="ano-nasceu" type="number" min="1" max="2018">
 
         <label for="genero">1.2 Qual é o seu gênero?</label>
         <select name="genero" id="genero">
@@ -27,7 +27,7 @@
         	<option value="estado-AM">Amazonas</option>
         	<option value="estado-BA">Bahia</option>
         	<option value="estado-CE">Ceará</option>
-        	<option value="estado-DF">Distrito Federal</option>
+        	<option value="estado-DF">Distrito Federal (Brasília)</option>
         	<option value="estado-ES">Espírito Santo</option>
         	<option value="estado-GO">Goiás</option>
         	<option value="estado-MA">Maranhão</option>
