@@ -31,10 +31,10 @@
        </select>        
 
       <label for="site-acessivel">5.4 Qual é o site mais acessível que você utiliza?</label>
-        <input id="site-acessivel" name="site-acessivel" type="text" required>
+        <input id="site-acessivel" name="site-acessivel" type="text" placeholder="Qual é o site mais acessível que você utiliza?" required>
 
       <label for="site-inacessivel">5.5 Qual é o site menos acessível que você utiliza?</label>
-        <input id="site-inacessivel" name="site-inacessivel" type="text" required>
+        <input id="site-inacessivel" name="site-inacessivel" type="text" placeholder="Qual é o site menos acessível que você utiliza?" required>
 
         <button class="usa-button-secondary">Voltar</button>
         <button class="usa-button">Continuar</button>
