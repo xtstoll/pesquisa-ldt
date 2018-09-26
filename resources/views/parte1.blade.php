@@ -8,7 +8,7 @@
       <fieldset>
         
         <label for="ano-nasceu">1.1 Qual ano você nasceu?</label>
-        <input id="ano-nasceu" name="ano-nasceu" type="number" min="1" max="2018" required>
+        <input id="ano-nasceu" name="ano-nasceu" type="number" min="1" max="2018" placeholder="Ano de nascimento" required>
 
         <label for="genero">1.2 Qual é o seu gênero?</label>
         <select name="genero" id="genero" required>
