@@ -2,9 +2,14 @@
 
 @section('content')
 <main>
-    <h1>Pesquisa nacional de leitores de tela</h1>
-    <p>Bem vindo à Pesquisa Nacional de Leitores de Tela! É a primeira pesquisa nacional para usuários de leitores de tela.</p>
-    <p>Essa é a versão beta. Na última página da pesquisa inclua sua opinião sobre ela, por favor. Obrigado!</p>
+
+    <h1>Pesquisa Nacional de Leitores de Tela</h1>
+    
+    <p>Bem vindos à primeira Pesquisa exclusivamente Nacional sobre usos e costumes de leitores de tela por usuários cegos e de baixa visão.</p>
+    <p>Estamos neste momento na versão beta, e temos o maior prazer de poder contar com vocês, escolhidos a dedo, para nos ajudar com críticas e sugestões, a fim de tornar a pesquisa o mais completa possível.</p>
+    <p>Na última página da pesquisa temos um espaço para que vocês possam deixar seu feedback e nos ajudar com este trabalho que, esperamos, sirva para conhecer as tendências e necessidades dos deficientes brasileiros.</p>
+    <p>A nossa equipe agradece a todos os beta testers pela colaboração!</p>
+    
     <button class="usa-button">Iniciar a pesquisa</button>
 </main>
 @endsection
