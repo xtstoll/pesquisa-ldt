@@ -100,7 +100,7 @@
         </select>    
         
         <label for="pagar-porque">2.9 Explique o motivo da resposta acima.</label>
-        <input id="pagar-porque" name="pagar-porque" type="text" required>        
+        <input id="pagar-porque" name="pagar-porque" type="text" placeholder="Motivo da resposta acima" required>        
 
         <button class="usa-button-secondary">Voltar</button>
         <button class="usa-button">Continuar</button>
