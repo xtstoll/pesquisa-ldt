@@ -11,7 +11,7 @@
 @yield('content')
 <footer>
     <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com">Entre em contato por e-mail</a>.</p>
-    <p>Copyright 2018 &copy; Everis.</p>
+    <p>Copyright 2018 &copy; everis</p>
 </footer>
 <script src="assets/uswds-1.0.0/js/uswds.min.js"></script>
 </body>
