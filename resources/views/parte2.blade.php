@@ -9,8 +9,8 @@
       <fieldset>
         
         <label for="ldt-desktop1">2.1 Qual leitor de tela você mais utiliza para computador / notebook?</label>
-        <select name="ldt-desktop1" id="ldt-desktop1">
-            <option value>Sem resposta</option>
+        <select name="ldt-desktop1" id="ldt-desktop1" required>
+            <option value>Selecione</option>
             <option value="ldt-desktop1-chromevox">ChromeVox</option>
             <option value="ldt-desktop1-dosvox">Dosvox</option>
             <option value="ldt-desktop1-jaws">JAWS</option>
@@ -26,8 +26,8 @@
         </select>    
 
         <label for="ldt-desktop2">2.2 Há outro leitor de tela que você mais utiliza para computador / notebook?</label>
-        <select name="ldt-desktop2" id="ldt-desktop2">
-            <option value>Sem resposta</option>
+        <select name="ldt-desktop2" id="ldt-desktop2" required>
+            <option value>Selecione</option>
             <option value="ldt-desktop2-chromevox">ChromeVox</option>
             <option value="ldt-desktop2-dosvox">Dosvox</option>
             <option value="ldt-desktop2-jaws">JAWS</option>
@@ -43,8 +43,8 @@
         </select> 
 
         <label for="ldt-atualizar">2.3 Quando foi a última vez que você atualizou seu leitor de tela para computador / notebook?</label>
-        <select name="ldt-atualizar" id="ldt-atualizar">
-            <option value>Sem resposta</option>
+        <select name="ldt-atualizar" id="ldt-atualizar" required>
+            <option value>Selecione</option>
             <option value="ldt-atualizar-dias">Há alguns dias</option>
             <option value="ldt-atualizar-meses">Há alguns meses</option>
             <option value="ldt-atualizar-ano">Há mais de um ano</option>
@@ -53,8 +53,8 @@
         </select>
 
         <label for="ldt-mobile">2.4 Qual leitor de tela você mais utiliza para celular / tablet?</label>
-        <select name="ldt-mobile" id="ldt-mobile">
-            <option value>Sem resposta</option>
+        <select name="ldt-mobile" id="ldt-mobile" required>
+            <option value>Selecione</option>
             <option value="ldt-mobile-mobileacessibility">Mobile Accessibility</option>
             <option value="ldt-mobile-mobilespeaks">MobileSpeak</option>
             <option value="ldt-mobile-nunancetalks">Nuance Talks</option>
@@ -66,8 +66,8 @@
         </select> 
 
         <label for="uso-recurso">2.5 Qual opção descreve como você utiliza o seu leitor de tela?</label>
-        <select name="uso-recurso" id="uso-recurso">
-            <option value>Sem resposta</option>
+        <select name="uso-recurso" id="uso-recurso" required>
+            <option value>Selecione</option>
             <option value="uso-recurso-apenas-leitor">Utilizo somente a fala do leitor de tela.</option>
             <option value="uso-recurso-mais-leitor">Utilizo principalmente a fala do leitor de tela, mas também preciso dos recursos visuais.</option>
             <option value="uso-recurso-mais-visual">Utilizo principalmente os recursos visuais, mas também preciso da fala do leitor de tela.</option>
@@ -75,16 +75,16 @@
         </select>
 
         <label for="uso-dispositivo">2.6 Você utiliza mais computador / notebook ou do celular / tablet?</label>
-        <select name="uso-dispositivo" id="uso-dispositivo">
-            <option value>Sem resposta</option>
+        <select name="uso-dispositivo" id="uso-dispositivo" required>
+            <option value>Selecione</option>
             <option value="uso-dispositivo-mais-desktop">Utilizo mais o leitor de tela do computador / notebook.</option>
             <option value="uso-dispositivo-tanto">Utilizo tanto o leitor de tela do computador / notebook quanto o do celular / tablet.</option>
             <option value="uso-dispositivo-mais-mobile">Utilizo mais o leitor de tela do celular / tablet.</option>
         </select>
 
         <label for="aprendeu">2.7 Como você aprendeu a utilizar seu leitor de tela?</label>
-        <select name="aprendeu" id="aprendeu">
-            <option value>Sem resposta</option>
+        <select name="aprendeu" id="aprendeu" required>
+            <option value>Selecione</option>
             <option value="aprendeu-amigos">Com amigos</option>
             <option value="aprendeu-instituicao">Em uma instituição para pessoas com deficiência visual</option>
             <option value="aprendeu-escola">Na escola</option>
@@ -93,14 +93,14 @@
         </select>
 
         <label for="pagar">2.8 Você acha que vale a pena pagar para um leitor de tela?</label>
-        <select name="pagar" id="pagar">
-            <option value>Sem resposta</option>
+        <select name="pagar" id="pagar" required>
+            <option value>Selecione</option>
             <option value="pagar-sim">Sim</option>
             <option value="pagar-nao">Não</option>
         </select>    
         
         <label for="pagar-porque">2.9 Explique o motivo da resposta acima.</label>
-        <input id="pagar-porque" name="pagar-porque" type="text">        
+        <input id="pagar-porque" name="pagar-porque" type="text" required>        
 
         <button class="usa-button-secondary">Voltar</button>
         <button class="usa-button">Continuar</button>
