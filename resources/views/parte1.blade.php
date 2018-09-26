@@ -8,19 +8,20 @@
       <fieldset>
         
         <label for="ano-nasceu">1.1 Qual ano você nasceu?</label>
-        <input id="ano-nasceu" name="ano-nasceu" type="number" min="1" max="2018">
+        <input id="ano-nasceu" name="ano-nasceu" type="number" min="1" max="2018" required>
 
         <label for="genero">1.2 Qual é o seu gênero?</label>
-        <select name="genero" id="genero">
-        	<option value>Sem resposta</option>
+        <select name="genero" id="genero" required>
+        	<option value>Selecione</option>
         	<option value="genero-homem">Homem</option>
         	<option value="genero-mulher">Mulher</option>
         	<option value="genero-outro">Outro</option>
+        	<option value="genero-semresposta">Não quero responder</option>
         </select>
 
         <label for="estado">1.3 Em qual estado você mora?</label>
-        <select name="estado" id="estado">
-        	<option value>Sem resposta</option>
+        <select name="estado" id="estado" required>
+        	<option value>Selecione</option>
         	<option value="estado-AC">Acre</option>
         	<option value="estado-AL">Alagoas</option>
         	<option value="estado-AP">Amapá</option>
@@ -48,6 +49,7 @@
         	<option value="estado-SP">São Paulo</option>
         	<option value="estado-SE">Sergipe</option>
         	<option value="estado-TO">Tocantins</option>
+        	<option value="estado-semresposta">Não quero responder</option>
         </select>    
 
         <label for="escolaridade">1.4 Qual o seu nível de escolaridade?</label>
@@ -61,6 +63,7 @@
         	<option value="escolaridade-es-completo">Superior completo</option>
         	<option value="escolaridade-pg-incompleto">Pós-graduação incompleto</option>
         	<option value="escolaridade-pg-completo">Pós-graduação completo</option>
+        	<option value="escolaridade-semresposta">Não quero responder</option>
         </select>
 
     	<label>1.5 Qual(is) deficiência(s) você possui?</label>
