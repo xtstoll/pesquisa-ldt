@@ -3,6 +3,7 @@
 @section('pageTitle', 'Parte 1')
 
 @section('content')
+
 <main id="main-content">
 	
 	<section class="usa-grid usa-section">
@@ -11,13 +12,13 @@
 
 			<h1>Parte 1: Sobre você</h1>
 
-			    <form name="parte1" class="us	a-form-large" action="{{ url('/parte1') }}" method="post">     
+			    <form name="parte1" class="usa-form-large" action="{{ url('/parte1') }}" method="post">     
 			      <fieldset>
 			        
-			        <label for="ano_nascimento" id="anoNasc">1.1 Qual ano você nasceu?</label>
+			        <label for="ano_nascimento" id="ano">1.1 Qual ano você nasceu?</label>
 			        <input id="ano_nascimento" name="ano_nascimento" type="number" min="1918" max="2018" placeholder="Ano de nascimento" required>
 			
-			        <label for="genero" id="gn">1.2 Qual é o seu gênero?</label>
+			        <label for="genero" id="gen">1.2 Qual é o seu gênero?</label>
 			        <select name="genero" id="genero" required>
 			        	<option value="">Selecione</option>
 			        	<option value="homem">Homem</option>
@@ -76,8 +77,8 @@
 			    	<label id="deficiencias">1.5 Qual(is) deficiência(s) você possui?</label>
 			    	 <ul class="usa-unstyled-list">
 			    	    <li>
-			    	      <input id="deficiencia-cegueira"	type="checkbox" name="deficiencia[]" value="cegueira">
-			    	      <label for="deficiencia-cegueira" id="dvc">Cegueira</label>
+			    	      <input id="deficiencia-cegueira" type="checkbox" name="deficiencia[]" value="cegueira">
+			    	      <label for="deficiencia-cegueira">Cegueira</label>
 			    	    </li>
 			    	    <li>
 			    	      <input id="deficiencia-baixa-visao" type="checkbox" name="deficiencia[]" value="baixa-visao">
@@ -85,15 +86,15 @@
 			    	    </li>
 			    	    <li>
 			    	      <input id="deficiencia-cognitiva" type="checkbox" name="deficiencia[]" value="cognitiva">
-			    	      <label for="deficiencia-cognitiva" id="dvCog">Cognitiva</label>
+			    	      <label for="deficiencia-cognitiva">Cognitiva</label>
 			    	    </li> 
 			    	    <li>
 			    	      <input id="deficiencia-auditiva" type="checkbox" name="deficiencia[]" value="auditiva">
-			    	      <label for="deficiencia-auditiva" id="dva">Auditiva</label>
+			    	      <label for="deficiencia-auditiva">Auditiva</label>
 			    	    </li>
 			    	    <li>
 			    	      <input id="deficiencia-motora" type="checkbox" name="deficiencia[]" value="motora">
-			    	      <label for="deficiencia-motora" id="dvm">Motora</label>
+			    	      <label for="deficiencia-motora">Motora</label>
 			    	    </li> 
 			            <li>
 			              <input id="deficiencia-outra" type="checkbox" name="deficiencia[]" value="outra">
@@ -105,7 +106,7 @@
 			    	    </li>            
 			    	  </ul>
 			
-			        <button class="usa-button" type="button"  onclick="validarP1();">Continuar</button>
+			        <button class="usa-button" type="button" onclick="validarP1();">Continuar</button>
 		       
 		       </fieldset>      
 		    </form>
