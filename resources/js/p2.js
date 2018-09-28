@@ -12,12 +12,12 @@ var pgto=document.getElementById("pagar-porque").value;
 if(desctop1="")
 {
 parte2.ldt-desktop2.focus();
-document.getElementById("desc1").innerHTML='<label for="ldt-desktop1" id="desc1" role="alert">Por gentileza, selecione a opção abaixo. - 2.1 Qual leitor de tela você mais utiliza para computador / notebook?</label>';
+document.getElementById("desktop1").innerHTML='<label for="ldt-desktop1" id="desktop1" role="alert">Por gentileza, selecione a opção abaixo. - 2.1 Qual leitor de tela você mais utiliza para computador / notebook?</label>';
 }
 else if(desctop2=="")
 {
 parte2.ldt-desktop2.focus();
-document.getElementById("desc2").innerHTML='<label for="ldt-desktop2" id="desc2" role="alert">Por gentileza, selecione uma opção. - 2.2 Há outro leitor de tela que você mais utiliza para computador / notebook?</label>';
+document.getElementById("desktop2").innerHTML='<label for="ldt-desktop2" id="desktop2" role="alert">Por gentileza, selecione uma opção. - 2.2 Há outro leitor de tela que você mais utiliza para computador / notebook?</label>';
 }
 else if(atualizar=="")
 {

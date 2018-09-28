@@ -15,7 +15,7 @@
 			    <form name="parte2" class="usa-form-large" action="{{ url('/parte2') }}" method="post">
 			      <fieldset>
 			        
-			        <label for="ldt-desktop1" id="desc1">2.1 Qual leitor de tela você mais utiliza para computador / notebook?</label>
+			        <label for="ldt-desktop1" id="desktop1">2.1 Qual leitor de tela você mais utiliza para computador / notebook?</label>
 			        <select name="ldt_desktop1" id="ldt-desktop1" required>
 			            <option value="">Selecione</option>
 			            <option value="chromevox">ChromeVox</option>
@@ -32,7 +32,7 @@
 			            <option value="naoutilizo">Não utilizo nenhum</option>
 			        </select>    
 			
-			        <label for="ldt-desktop2" id="desc2">2.2 Há outro leitor de tela que você mais utiliza para computador / notebook?</label>
+			        <label for="ldt-desktop2" id="desktop2">2.2 Há outro leitor de tela que você mais utiliza para computador / notebook?</label>
 			        <select name="ldt_desktop2" id="ldt-desktop2" required>
 			            <option value="">Selecione</option>
 			            <option value="chromevox">ChromeVox</option>
