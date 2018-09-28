@@ -7,7 +7,7 @@
 	
 	<section class="usa-grid usa-section">
 
-		<div class="usa-width-one-half">
+		<div class="usa-width-one-whole">
 
 			<h1>Parte 1: Sobre você</h1>
 
