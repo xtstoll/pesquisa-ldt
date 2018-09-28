@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('pageTitle', 'Parte 6')
+
 @section('content')
 <main>
   <h1>Parte 6: Conclusão</h1>

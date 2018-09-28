@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('pageTitle', 'Parte 4')
+
 @section('content')
 <main>
     <h1>Parte 4: Teclados</h1>

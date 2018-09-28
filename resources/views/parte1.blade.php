@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('pageTitle', 'Parte 1')
+
 @section('content')
 <main>
     <h1>Parte 1: Sobre você</h1>

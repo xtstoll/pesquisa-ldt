@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('pageTitle', 'Parte 2')
+
 @section('content')
 
 <main>

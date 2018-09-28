@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('pageTitle', 'Confirmação')
+
 @section('content')
 <main>
   <h1>Obrigado pela participação!</h1>
