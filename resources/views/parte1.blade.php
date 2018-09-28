@@ -30,7 +30,7 @@
         	<option value="AM">Amazonas</option>
         	<option value="BA">Bahia</option>
         	<option value="CE">Ceará</option>
-        	<option value="DF">Distrito Federal (Brasília)</option>
+        	<option value="DF">Distrito Federal</option>
         	<option value="ES">Espírito Santo</option>
         	<option value="GO">Goiás</option>
         	<option value="MA">Maranhão</option>
