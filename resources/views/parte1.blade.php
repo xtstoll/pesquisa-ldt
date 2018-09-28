@@ -99,7 +99,7 @@
 			            </li>  
 			    	    <li>
 			    	      <input id="deficiencia-nenhuma" type="checkbox" name="deficiencia[]" value="nenhuma">
-			    	      <label for="deficiencia-enhuma">Nenhuma</label>
+			    	      <label for="deficiencia-nenhuma">Nenhuma</label>
 			    	    </li>            
 			    	  </ul>
 			
