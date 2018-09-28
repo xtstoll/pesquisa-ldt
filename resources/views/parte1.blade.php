@@ -4,101 +4,101 @@
 <main>
     <h1>Parte 1: Sobre você</h1>
 
-    <form class="usa-form-large">     
+    <form class="usa-form-large" action="{{ url('/parte1') }}" method="post">     
       <fieldset>
         
-        <label for="ano-nasceu">1.1 Qual ano você nasceu?</label>
-        <input id="ano-nasceu" name="ano-nasceu" type="number" min="1" max="2018" placeholder="Ano de nascimento" required>
+        <label for="ano_nascimento">1.1 Qual ano você nasceu?</label>
+        <input id="ano_nascimento" name="ano_nascimento" type="number" min="1918" max="2018" placeholder="Ano de nascimento" required>
 
         <label for="genero">1.2 Qual é o seu gênero?</label>
         <select name="genero" id="genero" required>
-        	<option value>Selecione</option>
-        	<option value="genero-homem">Homem</option>
-        	<option value="genero-mulher">Mulher</option>
-        	<option value="genero-outro">Outro</option>
-        	<option value="genero-semresposta">Não quero responder</option>
+        	<option value="">Selecione</option>
+        	<option value="homem">Homem</option>
+        	<option value="mulher">Mulher</option>
+        	<option value="outro">Outro</option>
+        	<option value="semresposta">Não quero responder</option>
         </select>
 
         <label for="estado">1.3 Em qual estado você mora?</label>
         <select name="estado" id="estado" required>
-        	<option value>Selecione</option>
-        	<option value="estado-AC">Acre</option>
-        	<option value="estado-AL">Alagoas</option>
-        	<option value="estado-AP">Amapá</option>
-        	<option value="estado-AM">Amazonas</option>
-        	<option value="estado-BA">Bahia</option>
-        	<option value="estado-CE">Ceará</option>
-        	<option value="estado-DF">Distrito Federal (Brasília)</option>
-        	<option value="estado-ES">Espírito Santo</option>
-        	<option value="estado-GO">Goiás</option>
-        	<option value="estado-MA">Maranhão</option>
-        	<option value="estado-MT">Mato Grosso</option>
-        	<option value="estado-MS">Mato Grosso do Sul</option>    	
-        	<option value="estado-MG">Minas Gerais</option>
-        	<option value="estado-PA">Pará</option>
-        	<option value="estado-PB">Paraíba</option>   
-        	<option value="estado-PR">Paraná</option>
-        	<option value="estado-PE">Pernambuco</option>
-        	<option value="estado-PI">Piauí</option> 
-        	<option value="estado-RJ">Rio de Janeiro</option>
-        	<option value="estado-RN">Rio Grande do Norte</option>
-        	<option value="estado-RS">Rio Grande do Sul</option> 
-        	<option value="estado-RO">Rondônia</option>
-        	<option value="estado-RR">Roraima</option>
-        	<option value="estado-RS">Santa Catarina</option> 
-        	<option value="estado-SP">São Paulo</option>
-        	<option value="estado-SE">Sergipe</option>
-        	<option value="estado-TO">Tocantins</option>
-        	<option value="estado-semresposta">Não quero responder</option>
+        	<option value="">Selecione</option>
+        	<option value="AC">Acre</option>
+        	<option value="AL">Alagoas</option>
+        	<option value="AP">Amapá</option>
+        	<option value="AM">Amazonas</option>
+        	<option value="BA">Bahia</option>
+        	<option value="CE">Ceará</option>
+        	<option value="DF">Distrito Federal (Brasília)</option>
+        	<option value="ES">Espírito Santo</option>
+        	<option value="GO">Goiás</option>
+        	<option value="MA">Maranhão</option>
+        	<option value="MT">Mato Grosso</option>
+        	<option value="MS">Mato Grosso do Sul</option>    	
+        	<option value="MG">Minas Gerais</option>
+        	<option value="PA">Pará</option>
+        	<option value="PB">Paraíba</option>   
+        	<option value="PR">Paraná</option>
+        	<option value="PE">Pernambuco</option>
+        	<option value="PI">Piauí</option> 
+        	<option value="RJ">Rio de Janeiro</option>
+        	<option value="RN">Rio Grande do Norte</option>
+        	<option value="RS">Rio Grande do Sul</option> 
+        	<option value="RO">Rondônia</option>
+        	<option value="RR">Roraima</option>
+        	<option value="RS">Santa Catarina</option> 
+        	<option value="SP">São Paulo</option>
+        	<option value="SE">Sergipe</option>
+        	<option value="TO">Tocantins</option>
         </select>    
 
         <label for="escolaridade">1.4 Qual o seu nível de escolaridade?</label>
         <select name="escolaridade" id="escolaridade">
-        	<option value>Sem resposta</option>
-        	<option value="escolaridade-ef-incompleto">Fundamental incompleto</option>
-        	<option value="escolaridade-ef-completo">Fundamental completo</option>
-        	<option value="escolaridade-em-incompleto">Ensino médio incompleto</option>
-        	<option value="escolaridade-em-completo">Ensino médio completo</option>
-        	<option value="escolaridade-es-incompleto">Superior incompleto</option>
-        	<option value="escolaridade-es-completo">Superior completo</option>
-        	<option value="escolaridade-pg-incompleto">Pós-graduação incompleto</option>
-        	<option value="escolaridade-pg-completo">Pós-graduação completo</option>
-        	<option value="escolaridade-semresposta">Não quero responder</option>
+        	<option value="">Selecione</option>
+        	<option value="ef-incompleto">Fundamental incompleto</option>
+        	<option value="ef-completo">Fundamental completo</option>
+        	<option value="em-incompleto">Ensino médio incompleto</option>
+        	<option value="em-completo">Ensino médio completo</option>
+        	<option value="es-incompleto">Superior incompleto</option>
+        	<option value="es-completo">Superior completo</option>
+        	<option value="pg">Pós-graduação</option>
+<option value="mestrado">Mestrado</option>
+<option value="doutorado">Doutorado</option>
+        	<option value="semresposta">Não quero responder</option>
         </select>
 
     	<label>1.5 Qual(is) deficiência(s) você possui?</label>
     	 <ul class="usa-unstyled-list">
     	    <li>
-    	      <input id="deficiencia-cegueira" type="checkbox" name="deficiencia-cegueira" value="deficiencia-cegueira">
+    	      <input id="deficiencia-cegueira" type="checkbox" name="deficiencia[]" value="cegueira">
     	      <label for="deficiencia-cegueira">Cegueira</label>
     	    </li>
     	    <li>
-    	      <input id="deficiencia-baixa-visao" type="checkbox" name="deficiencia-baixa-visao" value="deficiencia-baixa-visao">
+    	      <input id="deficiencia-baixa-visao" type="checkbox" name="deficiencia[]" value="baixa-visao">
     	      <label for="deficiencia-baixa-visao">Baixa visão</label>
     	    </li>
     	    <li>
-    	      <input id="deficiencia-cognitiva" type="checkbox" name="deficiencia-cognitiva" value="deficiencia-cognitiva">
+    	      <input id="deficiencia-cognitiva" type="checkbox" name="deficiencia[]" value="cognitiva">
     	      <label for="deficiencia-cognitiva">Cognitiva</label>
     	    </li> 
     	    <li>
-    	      <input id="deficiencia-auditiva" type="checkbox" name="deficiencia-auditiva" value="deficiencia-auditiva">
+    	      <input id="deficiencia-auditiva" type="checkbox" name="deficiencia[]" value="auditiva">
     	      <label for="deficiencia-auditiva">Auditiva</label>
     	    </li>
     	    <li>
-    	      <input id="deficiencia-motora" type="checkbox" name="deficiencia-motora" value="deficiencia-motora">
+    	      <input id="deficiencia-motora" type="checkbox" name="deficiencia[]" value="motora">
     	      <label for="deficiencia-motora">Motora</label>
     	    </li> 
             <li>
-              <input id="deficiencia-outra" type="checkbox" name="deficiencia-outra" value="deficiencia-outra">
+              <input id="deficiencia-outra" type="checkbox" name="deficiencia[]" value="outra">
               <label for="deficiencia-outra">Outra</label>
             </li>  
     	    <li>
-    	      <input id="deficiencia-nenhuma" type="checkbox" name="deficiencia-nenhuma" value="deficiencia-nenhuma">
+    	      <input id="deficiencia-nenhuma" type="checkbox" name="deficiencia[]" value="nenhuma">
     	      <label for="deficiencia-enhuma">Nenhuma</label>
     	    </li>            
     	  </ul>
 
-        <button class="usa-button">Continuar</button>
+        <button class="usa-button" type="submit">Continuar</button>
        
        </fieldset>      
     </form>
