@@ -3,11 +3,13 @@
 @section('pageTitle', 'Parte 1')
 
 @section('content')
-<main>
-    <h1>Parte 1: Sobre você</h1>
-    
-    	<div class="usa-grid">
-			<div class="usa-width-one-half">
+<main id="main-content">
+	
+	<section class="usa-grid usa-section">
+
+		<div class="usa-width-one-half">
+
+			<h1>Parte 1: Sobre você</h1>
 
 			    <form class="usa-form-large" action="{{ url('/parte1') }}" method="post">     
 			      <fieldset>
@@ -109,7 +111,7 @@
 		    </form>
 			
 			</div>
-    	</div>
+    	</section>
 </main>
 
 @endsection
