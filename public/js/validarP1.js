@@ -11,7 +11,7 @@ var deficienciaAuditiva=document.getElementById("deficienciaauditiva").checked;
 var deficienciaMotora=document.getElementById("deficienciamotora").checked;
 var deficienciaOutra=document.getElementById("deficienciaoutra").checked;
 var deficienciaNenhuma=document.getElementById("deficiencianenhuma").checked;
-if((anoNascimento<=1912) & (anoNascimento<=2014))
+if((anoNascimento<=1912) & (anoNascimento>=2014))
 {
 parte1.anonascimento.focus();
 document.getElementById("anoNascimento").innerHTML='<label for="anonascimento" id="anoNascimento" role="alert"><strong style="color:red;">Por favor, digite uma resposta v\u00E1lida.</strong> -  1.1 Qual ano voc\u00EA nasceu?</label>';
