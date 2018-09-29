@@ -23,7 +23,7 @@ document.getElementById("anoNascimento").innerHTML='<label for="anonascimento" i
 else if(Genero=="")
 {
 parte1.genero.focus();
-document.getElementById("Genero").innerHTML='<label for="genero" id="Genero"  role="alert">Por favor, selecione uma opção abaixo. - 1.2 Qual é o seu gênero?</label>';
+document.getElementById("Genero").innerHTML='<label for="genero" id="Genero"  role="alert">Por favor, selecione uma opção abaixo. - 1.2 Qual \u00C9 o seu gênero?</label>';
 return false;
 }
 else if(Estado=="")
