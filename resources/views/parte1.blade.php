@@ -3,7 +3,6 @@
 @section('pageTitle', 'Parte 1')
 
 @section('content')
-
 <main id="main-content">
 	
 	<section class="usa-grid usa-section">
@@ -12,13 +11,13 @@
 
 			<h1>Parte 1: Sobre você</h1>
 
-			    <form name="parte1" class="usa-form-large" action="{{ url('/parte1') }}" method="post">     
+			    <form name="parte1" class="us	a-form-large" action="{{ url('/parte1') }}" method="post">     
 			      <fieldset>
 			        
-			        <label for="ano_nascimento" id="ano">1.1 Qual ano você nasceu?</label>
-			        <input id="ano_nascimento" name="ano_nascimento" type="number" min="1918" max="2018" placeholder="Ano de nascimento" required>
+			        <label for="anonascimento" id="anoNascimento">1.1 Qual ano você nasceu?</label>
+			        <input id="anonascimento" name="ano_nascimento" type="number" min="1918" max="2018" placeholder="Ano de nascimento" required>
 			
-			        <label for="genero" id="gen">1.2 Qual é o seu gênero?</label>
+			        <label for="genero" id="Genero">1.2 Qual é o seu gênero?</label>
 			        <select name="genero" id="genero" required>
 			        	<option value="">Selecione</option>
 			        	<option value="homem">Homem</option>
@@ -27,7 +26,7 @@
 			        	<option value="semresposta">Não quero responder</option>
 			        </select>
 			
-			        <label for="estado" id="est">1.3 Em qual estado você mora?</label>
+			        <label for="estado" id="Estado">1.3 Em qual estado você mora?</label>
 			        <select name="estado" id="estado" required>
 			        	<option value="">Selecione</option>
 			        	<option value="AC">Acre</option>
@@ -59,7 +58,7 @@
 			        	<option value="TO">Tocantins</option>
 			        </select>    
 			
-			        <label for="escolaridade" id="esc">1.4 Qual o seu nível de escolaridade?</label>
+			        <label for="escolaridade" id="Escolaridade">1.4 Qual o seu nível de escolaridade?</label>
 			        <select name="escolaridade" id="escolaridade">
 			        	<option value="">Selecione</option>
 			        	<option value="ef-incompleto">Fundamental incompleto</option>
@@ -74,42 +73,43 @@
 			        	<option value="semresposta">Não quero responder</option>
 			        </select>
 			
-			    	<label id="deficiencias">1.5 Qual(is) deficiência(s) você possui?</label>
+			    	<label id="Deficiencias">1.5 Qual(is) deficiência(s) você possui?</label>
 			    	 <ul class="usa-unstyled-list">
 			    	    <li>
-			    	      <input id="deficiencia-cegueira" type="checkbox" name="deficiencia[]" value="cegueira">
-			    	      <label for="deficiencia-cegueira">Cegueira</label>
+			    	      <input id="deficienciacegueira"	type="checkbox" name="deficiencia[]" value="cegueira">
+			    	      <label for="deficienciacegueira">Cegueira</label>
 			    	    </li>
 			    	    <li>
-			    	      <input id="deficiencia-baixa-visao" type="checkbox" name="deficiencia[]" value="baixa-visao">
-			    	      <label for="deficiencia-baixa-visao">Baixa visão</label>
+			    	      <input id="deficienciabaixavisao" type="checkbox" name="deficiencia[]" value="baixa-visao">
+			    	      <label for="deficienciabaixavisao">Baixa visão</label>
 			    	    </li>
 			    	    <li>
-			    	      <input id="deficiencia-cognitiva" type="checkbox" name="deficiencia[]" value="cognitiva">
-			    	      <label for="deficiencia-cognitiva">Cognitiva</label>
+			    	      <input id="deficienciacognitiva" type="checkbox" name="deficiencia[]" value="cognitiva">
+			    	      <label for="deficienciacognitiva">Cognitiva</label>
 			    	    </li> 
 			    	    <li>
-			    	      <input id="deficiencia-auditiva" type="checkbox" name="deficiencia[]" value="auditiva">
-			    	      <label for="deficiencia-auditiva">Auditiva</label>
+			    	      <input id="deficienciaauditiva" type="checkbox" name="deficiencia[]" value="auditiva">
+			    	      <label for="deficienciaauditiva">Auditiva</label>
 			    	    </li>
 			    	    <li>
-			    	      <input id="deficiencia-motora" type="checkbox" name="deficiencia[]" value="motora">
-			    	      <label for="deficiencia-motora">Motora</label>
+			    	      <input id="deficienciamotora" type="checkbox" name="deficiencia[]" value="motora">
+			    	      <label for="deficienciamotora">Motora</label>
 			    	    </li> 
 			            <li>
-			              <input id="deficiencia-outra" type="checkbox" name="deficiencia[]" value="outra">
-			              <label for="deficiencia-outra">Outra</label>
+			              <input id="deficienciaoutra" type="checkbox" name="deficiencia[]" value="outra">
+			              <label for="deficienciaoutra">Outra</label>
 			            </li>  
 			    	    <li>
-			    	      <input id="deficiencia-nenhuma" type="checkbox" name="deficiencia[]" value="nenhuma">
-			    	      <label for="deficiencia-nenhuma">Nenhuma</label>
+			    	      <input id="deficiencianenhuma" type="checkbox" name="deficiencia[]" value="nenhuma">
+			    	      <label for="deficiencianenhuma">Nenhuma</label>
 			    	    </li>            
 			    	  </ul>
 			
-			        <button class="usa-button" type="button" onclick="validarP1();">Continuar</button>
+			        <button class="usa-button" type="button"  onclick="validarP1();">Continuar</button>
 		       
 		       </fieldset>      
 		    </form>
+
 			
 			</div>
     	</section>
