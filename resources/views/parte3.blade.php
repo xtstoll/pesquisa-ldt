@@ -11,7 +11,6 @@
 		    <h1>Parte 3: Navegação na Internet</h1>
 		    
 			    <form name="parte3" class="usa-form-large" action="{{ url('/parte3') }}" method="post">
-			      <fieldset>
 			
 			        <label for="navegadordesktop"  id="navDesk">3.1 Qual navegador você mais utiliza no seu computador / notebook?</label>    
 			        <select name="navegador_desktop" id="navegadordesktop" required>
@@ -110,7 +109,6 @@
 			        <button class="usa-button-secondary">Voltar</button>
 			        <button class="usa-button" type="button" onclick="validarP3();">Continuar</button>
 			       
-			       </fieldset>     
 			    </form>		    		
 
 		    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>

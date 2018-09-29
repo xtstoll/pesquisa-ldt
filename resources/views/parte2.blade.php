@@ -11,7 +11,6 @@
 		    <h1>Parte 2: Leitores de tela</h1>
 		
 			    <form name="parte2" class="usa-form-large" action="{{ url('/parte2') }}" method="post">
-			      <fieldset>
 			        
 			        <label for="ldtdesktop1" id="ldtDesktop1">2.1 Qual leitor de tela você mais utiliza para computador / notebook?</label>
 			        <select name="ldt_desktop1" id="ldtdesktop1" required>
@@ -110,7 +109,6 @@
 			        <button class="usa-button-secondary">Voltar</button>
 			        <button class="usa-button" type="button" onclick="validarP2();">Continuar</button>
 			       
-			       </fieldset>   
 		    	</form>		    		
 
 		    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>

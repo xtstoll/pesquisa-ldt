@@ -11,7 +11,6 @@
 			<h1>Parte 1: Sobre você</h1>
 
 			    <form name="parte1" class="usa-form-large" action="{{ url('/parte1') }}" method="post">     
-			      <fieldset>
 			        
 			        <label for="anonascimento" id="anoNascimento">1.1 Qual ano você nasceu?</label>
 			        <input id="anonascimento" name="ano_nascimento" type="number" min="1918" max="2018" placeholder="Ano de nascimento" required>
@@ -105,9 +104,8 @@
 			    	  </ul>
 			
 			        <button class="usa-button" type="button"  onclick="validarP1();">Continuar</button>
-		       
-		       </fieldset>      
-		    </form>		    		
+	
+			    </form>		    		
 
 		    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
 
