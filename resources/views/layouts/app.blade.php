@@ -11,14 +11,10 @@
   <script src="js/validarP5.js"></script>
   <script src="js/validarP6.js"></script>
   <link rel="stylesheet" href="{{ asset('uswds-1.6.8/css/uswds.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('stylesheets/pesquisa.css') }}">
+  <link rel="stylesheet" href="css/pesquisa.css">
 </head>
 <body>
 @yield('content')
-<footer>
-    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa LDT">Entre em contato por e-mail</a>.</p>
-    <p>Copyright 2018 &copy; everis</p>
-</footer>
 <script src="{{ asset('uswds-1.6.8/js/uswds.min.js') }}"></script>
 </body>
 </html>
