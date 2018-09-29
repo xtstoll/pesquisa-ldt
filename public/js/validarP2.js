@@ -5,7 +5,7 @@ var ldtDesktop2=document.getElementById("ldtdesktop2").value;
 var Atualizar=document.getElementById("ldtatualizar").value;
 var ldtMobile=document.getElementById("ldtmobile").value;
 var usoRecurso=document.getElementById("usorecurso").value;
-var Dispositivo=document.getElementById("usodispositivo").value;
+var usoDispositivo=document.getElementById("usodispositivo").value;
 var Aprendeu=document.getElementById("aprendeu").value;
 var Pagar=document.getElementById("pagar").value;
 var pagarPorque=document.getElementById("pagarporque").value;
@@ -34,10 +34,10 @@ else if(usoRecurso=="")
 parte2.usorecurso.focus(); 
 document.getElementById("usoRecurso").innerHTML='<label for="usorecurso" id="usoRecurso" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 2.5 Qual op\u00E7\u00E3o descreve como voc\u00EA utiliza o seu leitor de tela?</label>';
 }
-else if(Dispositivo=="")
+else if(usoDispositivo=="")
 {
 parte2.usodispositivo.focus();
-document.getElementById("Dispositivo").innerHTML='<label for="usodispositivo" id="Dispositivo" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 2.6 Voc\u00EA utiliza mais computador / notebook ou do celular / tablet?</label>';
+document.getElementById("usoDispositivo").innerHTML='<label for="usodispositivo" id="usoDispositivo" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 2.6 Voc\u00EA utiliza mais computador / notebook ou do celular / tablet?</label>';
 }
 else if(Aprendeu=="")
 {
