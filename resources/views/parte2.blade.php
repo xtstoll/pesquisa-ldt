@@ -114,7 +114,6 @@
 		    	</form>		    		
 
 		    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
-		    <p>Copyright 2018 &copy; everis</p>
 
 		</div>   	
     </section>
