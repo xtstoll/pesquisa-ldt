@@ -12,10 +12,9 @@
 			
 			  <form name="parte6" class="usa-form-large" action="{{ url('/parte6') }}" method="post" >
 			    <fieldset>
-			
-	@if(false)
-	@else		
-			<label for="sorteio" id="Sorteio">Quer ter a oportunidade de receber um prêmio para sua participação nesta pesquisa?</label>       
+					
+<!--
+				   <label for="sorteio" id="Sorteio">Quer ter a oportunidade de receber um prêmio para sua participação nesta pesquisa?</label>       
 			       <select name="sorteio" id="sorteio" required>
 			          <option value="">Selecione</option>
 			          <option value="sim">Sim</option>
@@ -27,8 +26,8 @@
 			          <option value="">Selecione</option>
 			          <option value="sim">Sim</option>
 			          <option value="não">Não</option>
-			        </select>  
-	@endif
+			        </select> 
+--> 
 			
 			        <label for="email" id="Email">Qual o seu e-mail?</label>
 			        <input id="email" name="email" onblur="validarMail(parte6.email);"  type="email" maxlength="100" required>             
@@ -46,7 +45,6 @@
 			  </form>		    		
 
 		    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
-		    <p>Copyright 2018 &copy; everis</p>
 
 		</div>    	
     </section>
