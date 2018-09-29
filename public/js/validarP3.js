@@ -23,6 +23,11 @@ else if(navEncontrar=="")
 parte3.navencontrar.focus();
 document.getElementById("navEncontrar").innerHTML='<label for="nav-encontrar" id="navEncontrar" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.3 Ao tentar encontrar informa\u00E7\u00F5es em uma p\u00E1gina da Internet, qual das seguintes op\u00E7\u00F5es voc\u00EA costuma utilizar?</label>';
 }
+else if(navIrPara=="")
+{
+parte3.navirpara.focus();
+document.getElementById("navIrPara").innerHTML='<label for="nav-irpara" id="navIrPara" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.4 Com qual frequ\u00EAncia voc\u00EA utiliza os links \u201Cir para conte\u00FAdo\u201D ou \u201Cir para o menu\u201D quando est\u00E3o dispon\u00EDveis em uma p\u00E1gina?</label>';
+}
 else if(navMarcas=="")
 {
 parte3.navmarcas.focus();
@@ -45,7 +50,6 @@ document.getElementById("navDificil").innerHTML='<label for="nav-dificil" id="na
 }
 else
 {
-//Liberar formul\u00E1rio para submit.
 parte3.submit();
 }
 }
