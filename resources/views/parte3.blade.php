@@ -6,13 +6,12 @@
 
 <main>
     <h1>Parte 3: Navegação na Internet</h1>
-
-    <form class="usa-form-large" action="{{ url('/parte3') }}" method="post">
+    <form name="parte3" class="usa-form-large" action="{{ url('/parte3') }}" method="post">
       <fieldset>
 
-        <label for="navegador-desktop">3.1 Qual navegador você mais utiliza no seu computador / notebook?</label>    
-        <select name="navegador_desktop" id="navegador-desktop" required>
-            <option value="">Selecione</option>
+        <label for="navegadordesktop"  id="navDesk">3.1 Qual navegador você mais utiliza no seu computador / notebook?</label>    
+        <select name="navegador_desktop" id="navegadordesktop" required>
+            <option value="selecione">Selecione</option>
             <option value="chrome">Chrome</option>
             <option value="edge">Edge</option>
             <option value="firefox">Firefox</option>
@@ -23,8 +22,8 @@
             <option value="naoutilizo">Não utilizo nenhum</option>
        </select>
 
-        <label for="navegador-mobile">3.2 Qual navegador você mais utiliza no seu celular / tablet?</label>    
-        <select name="navegador_mobile" id="navegador-mobile" required>
+        <label for="navegadormobile" id="navMobile">3.2 Qual navegador você mais utiliza no seu celular / tablet?</label>    
+        <select name="navegador_mobile" id="navegadormobile" required>
             <option value="">Selecione</option>
             <option value="chrome">Chrome</option>
             <option value="firefox">Firefox</option>
@@ -33,9 +32,9 @@
             <option value="naoutilizo">Não utilizo nenhum</option>
         </select>
 
-        <label for="nav-encontrar">3.3 Ao tentar encontrar informações em uma página da Internet, qual das seguintes opções você costuma utilizar?</label>
-        <select name="nav_encontrar" id="nav-encontrar" required>
-            <option value="">Selecione</option>
+        <label for="navencontrar" id="navEncontrar">3.3 Ao tentar encontrar informações em uma página da Internet, qual das seguintes opções você costuma utilizar?</label>
+        <select name="nav_encontrar" id="navencontrar" required>
+            <option value="">Selecione</option>		
             <option value="cabecalhos">Navegar pelos cabeçalhos (tecla H ou números de 1 a 6)</option>
             <option value="pesquisa">Utilizar a pesquisa da página (Ctrl + F)</option>
             <option value="links">Navegar pelos links (Tab ou tecla K)</option>
@@ -43,8 +42,8 @@
             <option value="item">Navegar item por item (seta para baixo)</option>
         </select>
 
-        <label for="nav-irpara">3.4 Com qual frequência você utiliza os links “ir para conteúdo” ou “ir para o menu” quando estão disponíveis em uma página?</label>
-        <select name="nav_irpara" id="nav-irpara" required>
+        <label for="nav-irpara" id="navIrPara">3.4 Com qual frequência você utiliza os links “ir para conteúdo” ou “ir para o menu” quando estão disponíveis em uma página?</label>
+        <select name="nav_irpara" id="navirpara" required>
             <option value="">Selecione</option>
             <option value="sempre">Sempre</option>
             <option value="frequentemente">Frequentemente</option>
@@ -54,8 +53,8 @@
             <option value="naosei">Não sei do que se trata</option>
         </select>
 
-        <label for="nav-marcas">3.5 Com qual frequência você utiliza a navegação pelas marcas / regiões (tecla D ou R) em uma página?</label>
-        <select name="nav_marcas" id="nav-marcas" required>
+        <label for="nav-marcas" id="navMarcas">3.5 Com qual frequência você utiliza a navegação pelas marcas / regiões (tecla D ou R) em uma página?</label>
+        <select name="nav_marcas" id="navmarcas" required>
             <option value="">Selecione</option>
             <option value="sempre">Sempre</option>
             <option value="frequentemente">Frequentemente</option>
@@ -65,8 +64,8 @@
             <option value="naosei">Não sei do que se trata</option>
         </select>
         
-        <label for="nav-barra">3.6 Com qual frequência você utiliza as opções de aumentar/diminuir fonte ou alternar contraste, quando estão disponíveis em uma página?</label>
-        <select name="nav_barra" id="nav-barra" required>
+        <label for="navbarra" id="navBarra">3.6 Com qual frequência você utiliza as opções de aumentar/diminuir fonte ou alternar contraste, quando estão disponíveis em uma página?</label>
+        <select name="nav_barra" id="navbarra" required>
             <option value="">Selecione</option>
             <option value="sempre">Sempre</option>
             <option value="frequentemente">Frequentemente</option>
@@ -76,8 +75,8 @@
             <option value="naosei">Não sei do que se trata</option>
         </select> 
         
-        <label for="nav-teclas">3.7 Com qual frequência você utiliza as teclas de atalho de um site, quando estão disponíveis? Por exemplo, a tecla P para publicar um novo status no Facebook.</label>
-        <select name="nav_teclas" id="nav-teclas" required>
+        <label for="nav-teclas" id="navTeclas">3.7 Com qual frequência você utiliza as teclas de atalho de um site, quando estão disponíveis? Por exemplo, a tecla P para publicar um novo status no Facebook.</label>
+        <select name="nav_teclas" id="navteclas" required>
             <option value="">Selecione</option>
             <option value="sempre">Sempre</option>
             <option value="frequentemente">Frequentemente</option>
@@ -87,8 +86,8 @@
             <option value="naosei">Não sei do que se trata</option>
         </select>
         
-        <label for="nav-dificil">3.8 Em qual elemento você tem mais dificuldade de navegar?</label>
-        <select name="nav_dificuldade" id="nav-dificil" required>
+        <label for="nav-dificil" id="navDificil">3.8 Em qual elemento você tem mais dificuldade de navegar?</label>
+        <select name="nav_dificuldade" id="navdificil" required>
             <option value="">Selecione</option>
             <option value="busca">Campo de busca inacessível ou inexistente</option>
             <option value="cabecalhos">Cabeçalhos ausentes ou fora da ordem lógica</option>
@@ -105,10 +104,7 @@
         </select>         
 
         <button class="usa-button-secondary">Voltar</button>
-        <button class="usa-button" type="submit" >Continuar</button>
+        <button class="usa-button" type="button" onclick="validarP3();">Continuar</button>
        
        </fieldset>        
     </form>
-</main>
-
-@endsection
