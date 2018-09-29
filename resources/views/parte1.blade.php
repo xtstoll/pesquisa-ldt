@@ -3,15 +3,14 @@
 @section('pageTitle', 'Parte 1')
 
 @section('content')
-<main id="main-content">
-	
-	<section class="usa-grid usa-section">
 
+<main id="main-content">	
+	<section class="usa-grid usa-section">
 		<div class="usa-width-one-whole">
 
 			<h1>Parte 1: Sobre você</h1>
 
-			    <form name="parte1" class="us	a-form-large" action="{{ url('/parte1') }}" method="post">     
+			    <form name="parte1" class="usa-form-large" action="{{ url('/parte1') }}" method="post">     
 			      <fieldset>
 			        
 			        <label for="anonascimento" id="anoNascimento">1.1 Qual ano você nasceu?</label>
@@ -109,10 +108,9 @@
 		       
 		       </fieldset>      
 		    </form>
-
-			
-			</div>
-    	</section>
+		    		
+		</div>
+    </section>
 </main>
 
 @endsection
