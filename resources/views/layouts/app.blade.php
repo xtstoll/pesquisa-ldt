@@ -10,7 +10,7 @@
   <script src="js/validarP4.js"></script>
   <script src="js/validarP5.js"></script>
   <script src="js/validarP6.js"></script>
-    <script src="js/CHK.js"></script>
+  <script src="js/CHK.js"></script>
   <link rel="stylesheet" href="{{ asset('uswds-1.6.8/css/uswds.min.css') }}">
   <link rel="stylesheet" href="css/pesquisa.css">
 </head>
