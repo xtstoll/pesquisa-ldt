@@ -1,21 +1,18 @@
 @extends('layouts.app')
 
-@section('pageTitle', 'Parte 1')
+@section('pageTitle', 'Parte 1 - ')
 
 @section('content')
-<main id="main-content">
-	
+<main id="main-content">	
 	<section class="usa-grid usa-section">
-
 		<div class="usa-width-one-whole">
 
 			<h1>Parte 1: Sobre você</h1>
 
-			    <form name="parte1" class="us	a-form-large" action="{{ url('/parte1') }}" method="post">     
-			      <fieldset>
+			    <form name="parte1" class="usa-form-large" action="{{ url('/parte1') }}" method="post">     
 			        
 			        <label for="anonascimento" id="anoNascimento">1.1 Qual ano você nasceu?</label>
-			        <input id="anonascimento" name="ano_nascimento" type="number" min="1918" max="2018" placeholder="Ano de nascimento" required>
+			        <input id="anonascimento" name="ano_nascimento" type="number" min="1912" max="2014" placeholder="Ano de nascimento" required>
 			
 			        <label for="genero" id="Genero">1.2 Qual é o seu gênero?</label>
 			        <select name="genero" id="genero" required>
@@ -106,14 +103,13 @@
 			    	  </ul>
 			
 			        <button class="usa-button" type="button"  onclick="validarP1();">Continuar</button>
-		       
-		       </fieldset>      
-		    </form>
+		           
+				</form>
 
-
+		    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
 			
 			</div>
-    	</section>
+    </section>
 </main>
 
 @endsection 
