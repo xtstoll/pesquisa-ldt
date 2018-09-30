@@ -33,7 +33,6 @@ else
 {
 parte1.deficienciacognitiva.setAttribute('aria-label', "deficiência cognitiva não selecionado");
 }
-
 if(deficienciaMotora==true)
 {
 parte1.deficienciamotora.setAttribute('aria-label', "deficiência motora selecionado");
@@ -42,7 +41,6 @@ else
 {
 parte1.deficienciamotora.setAttribute('aria-label', "deficiência motora não selecionado");
 }
-
 if(deficienciaOutra==true)
 {
 parte1.deficienciaoutra.setAttribute('aria-label', "outra deficiência selecionado");
@@ -69,8 +67,4 @@ else
 {
 parte1.deficienciaauditiva.setAttribute('aria-label', "deficiencia auditiva não selecionado");
 }
-
-
-
-
 }
