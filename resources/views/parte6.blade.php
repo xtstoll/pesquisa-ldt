@@ -11,22 +11,6 @@
 		  <h1>Parte 6: Conclusão</h1>
 			
 			  <form name="parte6" class="usa-form-large" action="{{ url('/parte6') }}" method="post" >
-					
-<!--
-				   <label for="sorteio" id="Sorteio">Quer ter a oportunidade de receber um prêmio para sua participação nesta pesquisa?</label>       
-			       <select name="sorteio" id="sorteio" required>
-			          <option value="">Selecione</option>
-			          <option value="sim">Sim</option>
-			          <option value="não">Não</option>
-			        </select>
-			
-			       <label for="publicarmos" id="Publicarmos">Quer receber um e-mail quando publicarmos os resultados da pesquisa?</label>       
-			       <select name="publicada" id="publicarmos" required>
-			          <option value="">Selecione</option>
-			          <option value="sim">Sim</option>
-			          <option value="não">Não</option>
-			        </select> 
---> 
 			
 			        <label for="email" id="Email">Qual o seu e-mail?</label>
 			        <input id="email" name="email" onblur="validarMail(parte6.email);"  type="email" maxlength="100" required>             
