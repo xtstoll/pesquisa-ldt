@@ -1,16 +1,18 @@
 @extends('layouts.app')
 
-@section('pageTitle', 'Parte 1 - ')
+@section('pageTitle', 'Parte 1')
 
 @section('content')
-
-<main id="main-content">	
+<main id="main-content">
+	
 	<section class="usa-grid usa-section">
+
 		<div class="usa-width-one-whole">
 
 			<h1>Parte 1: Sobre você</h1>
 
-			    <form name="parte1" class="usa-form-large" action="{{ url('/parte1') }}" method="post">     
+			    <form name="parte1" class="us	a-form-large" action="{{ url('/parte1') }}" method="post">     
+			      <fieldset>
 			        
 			        <label for="anonascimento" id="anoNascimento">1.1 Qual ano você nasceu?</label>
 			        <input id="anonascimento" name="ano_nascimento" type="number" min="1918" max="2018" placeholder="Ano de nascimento" required>
@@ -74,44 +76,44 @@
 			    	<label id="Deficiencias">1.5 Qual(is) deficiência(s) você possui?</label>
 			    	 <ul class="usa-unstyled-list">
 			    	    <li>
-			    	      <input id="deficienciacegueira"	type="checkbox" name="deficiencia[]" value="cegueira">
+			    	      <input id="deficienciacegueira" role="checkbox" type="checkbox" name="deficiencia[]" value="cegueira" onclick="CHK();" onKeyPress="CHK();"  aria-label="não selecionado cegueira">
 			    	      <label for="deficienciacegueira">Cegueira</label>
 			    	    </li>
 			    	    <li>
-			    	      <input id="deficienciabaixavisao" type="checkbox" name="deficiencia[]" value="baixa-visao">
+			    	      <input id="deficienciabaixavisao" type="checkbox" name="deficiencia[]" value="baixa-visao" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="baixa visão não selecionado">
 			    	      <label for="deficienciabaixavisao">Baixa visão</label>
 			    	    </li>
 			    	    <li>
-			    	      <input id="deficienciacognitiva" type="checkbox" name="deficiencia[]" value="cognitiva">
+			    	      <input id="deficienciacognitiva" type="checkbox" name="deficiencia[]" value="cognitiva" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="deficiência coignitiva não selecionado">
 			    	      <label for="deficienciacognitiva">Cognitiva</label>
 			    	    </li> 
 			    	    <li>
-			    	      <input id="deficienciaauditiva" type="checkbox" name="deficiencia[]" value="auditiva">
+			    	      <input id="deficienciaauditiva" type="checkbox" name="deficiencia[]" value="auditiva" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="deficiência alditiva não selecionado">
 			    	      <label for="deficienciaauditiva">Auditiva</label>
 			    	    </li>
 			    	    <li>
-			    	      <input id="deficienciamotora" type="checkbox" name="deficiencia[]" value="motora">
+			    	      <input id="deficienciamotora" type="checkbox" name="deficiencia[]" value="motora" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="deficiência motora não selecionado">
 			    	      <label for="deficienciamotora">Motora</label>
 			    	    </li> 
 			            <li>
-			              <input id="deficienciaoutra" type="checkbox" name="deficiencia[]" value="outra">
+			              <input id="deficienciaoutra" type="checkbox" name="deficiencia[]" value="outra" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="outra deficiência  não selecionado">
 			              <label for="deficienciaoutra">Outra</label>
 			            </li>  
 			    	    <li>
-			    	      <input id="deficiencianenhuma" type="checkbox" name="deficiencia[]" value="nenhuma">
+			    	      <input id="deficiencianenhuma" type="checkbox" name="deficiencia[]" value="nenhuma" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="nenhuma deficiência não selecionado">
 			    	      <label for="deficiencianenhuma">Nenhuma</label>
 			    	    </li>            
 			    	  </ul>
 			
 			        <button class="usa-button" type="button"  onclick="validarP1();">Continuar</button>
-	
-			    </form>		    		
+		       
+		       </fieldset>      
+		    </form>
 
-		    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
 
-		</div> 
-    </section>
+			
+			</div>
+    	</section>
 </main>
-
 
 @endsection
