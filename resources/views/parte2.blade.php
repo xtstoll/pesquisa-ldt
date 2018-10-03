@@ -11,7 +11,8 @@
 		    <h1>Parte 2: Leitores de tela</h1>
 		
 			    <form name="parte2" class="usa-form-large" action="{{ url('/parte2') }}" method="post">
-			        
+@csrf			        
+<input name="id" type="hidden" value="{{ $id }}" />
 			        <label for="ldtdesktop1" id="ldtDesktop1">2.1 Qual leitor de tela você mais utiliza para computador / notebook?</label>
 			        <select name="ldt_desktop1" id="ldtdesktop1" required>
 			            <option value="">Selecione</option>
@@ -53,7 +54,7 @@
 			            <option value="meses">Há alguns meses</option>
 			            <option value="ano">Há mais de um ano</option>
 			            <option value="naoatualizo">Não tenho costume de atualizar</option>
-			            <option value="naosei">Não sei</option>            
+			            <option value="naosei">Não tenho certeza</option>            
 			        </select>
 			
 			        <label for="ldtmobile" id="ldtMobile">2.4 Qual leitor de tela você mais utiliza para celular / tablet?</label>
@@ -78,7 +79,7 @@
 			            <option value="apenas-visual">Utilizo somente os recursos visuais.</option>
 			        </select>
 			
-			        <label for="usodispositivo" id="usoDispositivo">2.6 Você utiliza mais computador / notebook ou do celular / tablet?</label>
+			        <label for="usodispositivo" id="usoDispositivo">2.6 Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?</label>
 			        <select name="dispositivo_usado" id="usodispositivo" required>
 			            <option value="">Selecione</option>
 			            <option value="mais-desktop">Utilizo mais o leitor de tela do computador / notebook.</option>
@@ -106,12 +107,11 @@
 			        <label for="pagarporque" id="pagarPorque">2.9 Explique o motivo da resposta acima.</label>
 			        <input id="pagarporque" name="ldt_pagar_motivo" type="text" maxlength="250" placeholder="Motivo da resposta acima" required>        
 			
-			        <button class="usa-button-secondary">Voltar</button>
 			        <button class="usa-button" type="button" onclick="validarP2();">Continuar</button>
 			       
-		    	</form>		    		
-
-		    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
+		    	</form>		
+		    	    		
+		    <p>Você tem alguma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
 
 		</div>   	
     </section>
