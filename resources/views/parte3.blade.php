@@ -11,7 +11,8 @@
 		    <h1>Parte 3: Navegação na Internet</h1>
 		    
 			    <form name="parte3" class="usa-form-large" action="{{ url('/parte3') }}" method="post">
-			
+@csrf			
+				<input name="id" type="hidden" value="{{ $id }}" />
 			        <label for="navegadordesktop"  id="navDesk">3.1 Qual navegador você mais utiliza no seu computador / notebook?</label>    
 			        <select name="navegador_desktop" id="navegadordesktop" required>
 			            <option value="selecione">Selecione</option>
@@ -45,7 +46,7 @@
 			            <option value="item">Navegar item por item (seta para baixo)</option>
 			        </select>
 			
-			        <label for="nav-irpara" id="navIrPara">3.4 Com qual frequência você utiliza os links “ir para conteúdo” ou “ir para o menu” quando estão disponíveis em uma página?</label>
+			        <label for="navirpara" id="navIrPara">3.4 Com qual frequência você utiliza os links “ir para conteúdo” ou “ir para o menu” quando estão disponíveis em uma página?</label>
 			        <select name="nav_irpara" id="navirpara" required>
 			            <option value="">Selecione</option>
 			            <option value="sempre">Sempre</option>
@@ -56,7 +57,7 @@
 			            <option value="naosei">Não sei do que se trata</option>
 			        </select>
 			
-			        <label for="nav-marcas" id="navMarcas">3.5 Com qual frequência você utiliza a navegação pelas marcas / regiões (tecla D ou R) em uma página?</label>
+			        <label for="navmarcas" id="navMarcas">3.5 Com qual frequência você utiliza a navegação pelas marcas / regiões (tecla D ou R) em uma página?</label>
 			        <select name="nav_marcas" id="navmarcas" required>
 			            <option value="">Selecione</option>
 			            <option value="sempre">Sempre</option>
@@ -78,7 +79,7 @@
 			            <option value="naosei">Não sei do que se trata</option>
 			        </select> 
 			        
-			        <label for="nav-teclas" id="navTeclas">3.7 Com qual frequência você utiliza as teclas de atalho de um site, quando estão disponíveis? Por exemplo, a tecla P para publicar um novo status no Facebook.</label>
+			        <label for="navteclas" id="navTeclas">3.7 Com qual frequência você utiliza as teclas de atalho de um site, quando estão disponíveis? Por exemplo, a tecla P para publicar um novo status no Facebook.</label>
 			        <select name="nav_teclas" id="navteclas" required>
 			            <option value="">Selecione</option>
 			            <option value="sempre">Sempre</option>
@@ -89,7 +90,7 @@
 			            <option value="naosei">Não sei do que se trata</option>
 			        </select>
 			        
-			        <label for="nav-dificil" id="navDificil">3.8 Em qual elemento você tem mais dificuldade de navegar?</label>
+			        <label for="navdificil" id="navDificil">3.8 Em qual elemento você tem mais dificuldade de navegar?</label>
 			        <select name="nav_dificuldade" id="navdificil" required>
 			            <option value="">Selecione</option>
 			            <option value="busca">Campo de busca inacessível ou inexistente</option>
@@ -106,12 +107,11 @@
 			            <option value="mudam">Telas ou partes de telas que mudam inesperadamente</option>
 			        </select>         
 			
-			        <button class="usa-button-secondary">Voltar</button>
 			        <button class="usa-button" type="button" onclick="validarP3();">Continuar</button>
 			       
 			    </form>		    		
 
-		    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
+		    <p>Você tem alguma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
 
 		</div>   	
     </section>
