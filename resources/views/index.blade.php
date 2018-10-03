@@ -12,7 +12,7 @@
 				<p>Na última página da pesquisa temos um espaço para que vocês possam deixar seu feedback e nos ajudar com este trabalho que, esperamos, sirva para conhecer as tendências e necessidades dos brasileiros com deficiência.</p>
 				<p>A nossa equipe agradece a todos os beta testers pela colaboração!</p>		    
 		   
-		    <button class="usa-button">Iniciar a pesquisa</button>
+		    <a href="{{ url('/parte1') }}" role="button"  class="usa-button">Iniciar a pesquisa</a>
 		
 		</div>
     </section>
