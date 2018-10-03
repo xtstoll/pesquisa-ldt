@@ -11,7 +11,8 @@
 		    <h1>Parte 4: Teclados</h1>
 		
 			    <form name="parte4" class="usa-form-large" action="{{ url('/parte4') }}" method="post" >
-			
+@csrf			
+				<input name="id" type="hidden" value="{{ $id }}" />
 			        <label for="braillevirtual" id="brailleVirtual">4.1 Você utiliza algum teclado virtual braille no seu celular / tablet? <em>Por exemplo, Entrada via Braille do iOS ou o aplicativo Soft Braille Keyboard do Android.</em></label>    
 			        <select name="braille_virtual" id="braillevirtual" required>
 			            <option value="">Selecione</option>
@@ -47,12 +48,11 @@
 			            <option value="naosei">Não sei do que se trata</option>
 			        </select>
 			
-			        <button class="usa-button-secondary">Voltar</button>
 			        <button class="usa-button" type="button" onclick="validarP4();">Continuar</button>
 			       
 			    </form>		    		
 
-		    <p>Há uma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
+		    <p>Você tem alguma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
 
 		</div>     	
     </section>
