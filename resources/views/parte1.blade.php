@@ -93,7 +93,7 @@
 			    	      <label for="deficienciamotora">Motora</label>
 			    	    </li> 
 			            <li>
-			              <input id="deficienciaoutra" type="checkbox" name="deficiencia[]" value="outra" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="outra deficiência  não selecionado">
+			              <input id="deficienciaoutra" type="checkbox" name="deficiencia[]" value="outra" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="outra deficiência não selecionado">
 			              <label for="deficienciaoutra">Outra</label>
 			            </li>  
 			    	    <li>

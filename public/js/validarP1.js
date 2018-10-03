@@ -27,7 +27,6 @@ else if(Estado=="")
 parte1.estado.focus();
 document.getElementById("Estado").innerHTML='<label for="estado" id="Estado" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 1.3 Em qual estado voc\u00EA mora?</label>';
 return false;
-return false;
 }
 else if(Escolaridade=="")				
 {
