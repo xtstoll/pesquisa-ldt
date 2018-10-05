@@ -5,6 +5,32 @@ var maisAcessivel=document.getElementById("maisacessivel").value;
 var LBI=document.getElementById("lbi").value;
 var siteAcessivel=document.getElementById("siteacessivel").value;
 var siteInacessivel=document.getElementById("siteinacessivel").value;
+if(prefereWebe!="")
+{
+document.getElementById("prefereWebe").innerHTML='<label for="prefereweb" id="prefereWebe">5.1 Você prefere navegar em uma página da Internet pelo computador / notebook ou pelo celular / tablet?</label>';
+}
+if(maisAcessivel!="")
+{
+document.getElementById("maisAcessivel").innerHTML='					  <label for="maisacessivel" id="maisAcessivel">5.2 Na sua opinião, você acha que a Internet ficou mais acessível desde 2015?</label>';
+}
+if(LBI!="")
+{
+document.getElementById("LBI").innerHTML='<label for="lbi" id="LBI">5.3 Você já ouviu falar da LBI (Lei Brasileira de Inclusão, nº 13.146/2015)?</label>';
+}
+if(siteAcessivel!="")
+{
+document.getElementById("siteAcessivel").innerHTML='<label for="siteacessivel" id="siteAcessivel">5.4 Qual é o site mais acessível que você utiliza?</label>';
+}
+if(siteAcessivel.length>=5)
+{
+document.getElementById("siteAcessivel").innerHTML='<label for="siteacessivel" id="siteAcessivel">5.4 Qual é o site mais acessível que você utiliza?</label>';
+}
+if(siteInacessivel!="")
+{
+document.getElementById("siteInacessivel").innerHTML='<input id="siteinacessivel" name="site_inacessivel" type="text" placeholder="Qual é o site menos acessível que você utiliza?" maxlength="100" required>';
+}
+
+
 if(prefereWebe=="")
 {
 parte5.prefereweb.focus();

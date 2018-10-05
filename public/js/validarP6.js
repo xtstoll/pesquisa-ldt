@@ -4,6 +4,19 @@ var Email=document.getElementById("email").value;
 var Nome=document.getElementById("nome").value;
 var Pesquisa=document.getElementById("pesquisa").value;
 var validarMail = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+if(validarMail.test(Email))
+{
+document.getElementById("Email").innerHTML='<label for="email" id="Email">Qual o seu e-mail?</label>';
+}
+else if((Nome!="") | (Nome.length>=3))
+{
+document.getElementById("Nome").innerHTML='<label for="nome" id="Nome">Qual o seu nome?</label>';
+}
+if(Pesquisa!="")
+{
+document.getElementById("Pesquisa").innerHTML='<label for="pesquisa" id="Pesquisa">O que você achou da pesquisa?</label>';
+}
+
 if(!validarMail.test(Email))
 {
 parte6.email.focus();

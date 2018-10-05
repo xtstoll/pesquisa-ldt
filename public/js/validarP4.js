@@ -4,6 +4,23 @@ var brailleVirtual=document.getElementById("braillevirtual").value;
 var brailleLinha=document.getElementById("braillelinha").value;
 var tecladoExterno=document.getElementById("tecladoexterno").value;
 var digitacaoVoz=document.getElementById("digitacaovoz").value;
+if(brailleVirtual!="")
+{
+document.getElementById("brailleVirtual").innerHTML='<label for="braillevirtual" id="brailleVirtual">4.1 Você utiliza algum teclado virtual braille no seu celular / tablet? <em>Por exemplo, Entrada via Braille do iOS ou o aplicativo Soft Braille Keyboard do Android.</em></label>';    
+}
+if(brailleLinha!="")
+{
+document.getElementById("brailleLinha").innerHTML='<label for="braillelinha" id="brailleLinha">4.2 Você utiliza alguma linha braille com seu leitor de tela?</label>';    
+}
+if(tecladoExterno!="")
+{
+document.getElementById("tecladoExterno").innerHTML='			        <label for="tecladoexterno" id="tecladoExterno">4.3 Você utiliza algum teclado externo para navegar e digitar no seu celular / tablet?</label>';    
+}
+if(digitacaoVoz!="")
+{
+document.getElementById("digitacaoVoz").innerHTML='			        <label for="digitacaovoz" id="digitacaoVoz">4.4 Com qual frequência você utiliza o recurso de digitação por voz no seu celular / tablet?</label>';    
+}
+
 
 if(brailleVirtual=="")
 {
