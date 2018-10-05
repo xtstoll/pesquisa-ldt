@@ -18,7 +18,6 @@ document.getElementById("brailleLinha").innerHTML='<label for="braille-linha" id
 else if(tecladoExterno=="")
 {
 parte4.tecladoexterno.focus();
-
 document.getElementById("tecladoExterno").innerHTML='<label for="teclado-externo" id="tecladoExterno" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 4.3 Voc\u00EA utiliza algum teclado externo para navegar e digitar no seu celular / tablet?</label>';    
 }
 else if(digitacaoVoz=="")
