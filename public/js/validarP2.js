@@ -19,9 +19,9 @@ document.getElementById("ldtDesktop2").innerHTML='<label for="ldtdesktop2" id="l
 }
 if(Atualizar!="")
 {
-document.getElementById("Atualizar").innerHTML='<label for="ldtatualizar" id="ldtAtualizar">2.3 Quando foi a última vez que você atualizou seu leitor de tela para computador / notebook?</label>';
+document.getElementById("ldtAtualizar").innerHTML='<label for="ldtatualizar" id="ldtAtualizar">2.3 Quando foi a última vez que você atualizou seu leitor de tela para computador / notebook?</label>';
 }
-if(ldtMobile=="")
+if(ldtMobile!="")
 {
 document.getElementById("ldtMobile").innerHTML='<label for="ldtmobile" id="ldtMobile">2.4 Qual leitor de tela você mais utiliza para celular / tablet?</label>';
 }
