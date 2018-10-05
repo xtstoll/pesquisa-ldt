@@ -8,7 +8,7 @@ if(validarMail.test(Email))
 {
 document.getElementById("Email").innerHTML='<label for="email" id="Email">Qual o seu e-mail?</label>';
 }
-else if((Nome!="") | (Nome.length>=3))
+if((Nome!="") | (Nome.length>=3))
 {
 document.getElementById("Nome").innerHTML='<label for="nome" id="Nome">Qual o seu nome?</label>';
 }
