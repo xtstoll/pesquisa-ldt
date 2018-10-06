@@ -16,7 +16,7 @@
 			        <select name="ldt_desktop1" id="ldtdesktop1" required>
 			            <option value="">Selecione</option>
 			            <option value="chromevox">ChromeVox</option>
-			            <option value="dosvox">Dosvox</option>
+			            <option value="dosvox">Monitvox (Dosvox)</option>
 			            <option value="jaws">JAWS</option>
 			            <option value="NVDA">NVDA</option>
 			            <option value="narrador">Narrador</option>
@@ -33,7 +33,7 @@
 			        <select name="ldt_desktop2" id="ldtdesktop2" required>
 			            <option value="">Selecione</option>
 			            <option value="chromevox">ChromeVox</option>
-			            <option value="dosvox">Dosvox</option>
+			            <option value="dosvox">Monitvox (Dosvox)</option>
 			            <option value="jaws">JAWS</option>
 			            <option value="NVDA">NVDA</option>
 			            <option value="narrador">Narrador</option>
