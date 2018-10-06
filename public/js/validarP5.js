@@ -7,23 +7,23 @@ var siteAcessivel=document.getElementById("siteacessivel").value;
 var siteInacessivel=document.getElementById("siteinacessivel").value;
 if(prefereWebe!="")
 {
-document.getElementById("prefereWebe").innerHTML='<label for="prefereweb" id="prefereWebe">5.1 Você prefere navegar em uma página da Internet pelo computador / notebook ou pelo celular / tablet?</label>';
+document.getElementById("prefereWebe").innerHTML='<label for="prefereweb" id="prefereWebe">5.1 Voc\u00EA prefere navegar em uma p\u00E1gina da Internet pelo computador / notebook ou pelo celular / tablet?</label>';
 }
 if(maisAcessivel!="")
 {
-document.getElementById("maisAcessivel").innerHTML='					  <label for="maisacessivel" id="maisAcessivel">5.2 Na sua opinião, você acha que a Internet ficou mais acessível desde 2015?</label>';
+document.getElementById("maisAcessivel").innerHTML='<label for="maisacessivel" id="maisAcessivel">5.2 Na sua opini\u00E3o, voc\u00EA acha que a Internet ficou mais acess\u00EDvel desde 2015?</label>';
 }
 if(LBI!="")
 {
-document.getElementById("LBI").innerHTML='<label for="lbi" id="LBI">5.3 Você já ouviu falar da LBI (Lei Brasileira de Inclusão, nº 13.146/2015)?</label>';
+document.getElementById("LBI").innerHTML='<label for="lbi" id="LBI">5.3 Voc\u00EA j\u00E1 ouviu falar da LBI (Lei Brasileira de Inclus\u00E3o)?</label>';
 }
 if(siteAcessivel!="")
 {
-document.getElementById("siteAcessivel").innerHTML='<label for="siteacessivel" id="siteAcessivel">5.4 Qual é o site mais acessível que você utiliza?</label>';
+document.getElementById("siteAcessivel").innerHTML='<label for="siteacessivel" id="siteAcessivel">5.4 Qual \u00E9 o site mais acess\u00EDvel que voc\u00EA utiliza?</label>';
 }
 if(siteAcessivel.length>=5)
 {
-document.getElementById("siteAcessivel").innerHTML='<label for="siteacessivel" id="siteAcessivel">5.4 Qual é o site mais acessível que você utiliza?</label>';
+document.getElementById("siteAcessivel").innerHTML='<label for="siteacessivel" id="siteAcessivel">5.5 Qual \u00E9 o site menos acess\u00EDvel que voc\u00EA utiliza?</label>';
 }
 if(siteInacessivel!="")
 {

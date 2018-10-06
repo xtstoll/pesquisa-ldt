@@ -11,35 +11,35 @@ var Pagar=document.getElementById("pagar").value;
 var pagarPorque=document.getElementById("pagarporque").value;
 if(ldtDesktop1!="")
 {
-document.getElementById("ldtDesktop1").innerHTML='<label for="ldtdesktop1" id="ldtDesktop1">2.1 Qual leitor de tela você mais utiliza para computador / notebook?</label>';
+document.getElementById("ldtDesktop1").innerHTML='<label for="ldtdesktop1" id="ldtDesktop1">2.1 Qual leitor de tela voc\u00EA mais utiliza para computador / notebook?</label>';
 }
 if(ldtDesktop2!="")
 {
-document.getElementById("ldtDesktop2").innerHTML='<label for="ldtdesktop2" id="ldtDesktop2">2.2 Há outro leitor de tela que você mais utiliza para computador / notebook?</label>';
+document.getElementById("ldtDesktop2").innerHTML='<label for="ldtdesktop2" id="ldtDesktop2">2.2 H\u00E1 outro leitor de tela que voc\u00EA mais utiliza para computador / notebook?</label>';
 }
 if(Atualizar!="")
 {
-document.getElementById("ldtAtualizar").innerHTML='<label for="ldtatualizar" id="ldtAtualizar">2.3 Quando foi a última vez que você atualizou seu leitor de tela para computador / notebook?</label>';
+document.getElementById("ldtAtualizar").innerHTML='<label for="ldtatualizar" id="ldtAtualizar">2.3 Quando foi a \u00FAltima vez que voc\u00EA atualizou seu leitor de tela para computador / notebook?</label>';
 }
 if(ldtMobile!="")
 {
-document.getElementById("ldtMobile").innerHTML='<label for="ldtmobile" id="ldtMobile">2.4 Qual leitor de tela você mais utiliza para celular / tablet?</label>';
+document.getElementById("ldtMobile").innerHTML='<label for="ldtmobile" id="ldtMobile">2.4 Qual leitor de tela voc\u00EA mais utiliza para celular / tablet?</label>';
 }
 if(usoRecurso!="")
 {
-document.getElementById("usoRecurso").innerHTML='<label for="usorecurso" id="usoRecurso">2.5 Qual opção descreve como você utiliza o seu leitor de tela?</label>';
+document.getElementById("usoRecurso").innerHTML='<label for="usorecurso" id="usoRecurso">2.5 Qual op\u00E7\u00E3o descreve como voc\u00EA utiliza o seu leitor de tela?</label>';
 }
 if(usoDispositivo!="")
 {
-document.getElementById("usoDispositivo").innerHTML='<label for="usodispositivo" id="usoDispositivo">2.6 Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?</label>';
+document.getElementById("usoDispositivo").innerHTML='<label for="usodispositivo" id="usoDispositivo">2.6 Voc\u00EA utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?</label>';
 }
 if(Aprendeu!="")
 {
-document.getElementById("Aprendeu").innerHTML='<label for="aprendeu" id="Aprendeu">2.7 Como você aprendeu a utilizar seu leitor de tela?</label>';
+document.getElementById("Aprendeu").innerHTML='<label for="aprendeu" id="Aprendeu">2.7 Como voc\u00EA aprendeu a utilizar seu leitor de tela?</label>';
 }
 if(Pagar!="")
 {
-document.getElementById("Pagar").innerHTML='<label for="pagar" id="Pagar">2.8 Você acha que vale a pena pagar por um leitor de tela?</label>';
+document.getElementById("Pagar").innerHTML='<label for="pagar" id="Pagar">2.8 Voc\u00EA acha que vale a pena pagar por um leitor de tela?</label>';
 }
 if(pagarPorque!="")
 {

@@ -6,21 +6,20 @@ var tecladoExterno=document.getElementById("tecladoexterno").value;
 var digitacaoVoz=document.getElementById("digitacaovoz").value;
 if(brailleVirtual!="")
 {
-document.getElementById("brailleVirtual").innerHTML='<label for="braillevirtual" id="brailleVirtual">4.1 Você utiliza algum teclado virtual braille no seu celular / tablet? <em>Por exemplo, Entrada via Braille do iOS ou o aplicativo Soft Braille Keyboard do Android.</em></label>';    
+document.getElementById("brailleVirtual").innerHTML='<label for="braillevirtual" id="brailleVirtual">4.1 Voc\u00EA utiliza algum teclado virtual braille no seu celular / tablet? <em>Por exemplo, Entrada via Braille do iOS ou o aplicativo Soft Braille Keyboard do Android.</em></em></label>';    
 }
 if(brailleLinha!="")
 {
-document.getElementById("brailleLinha").innerHTML='<label for="braillelinha" id="brailleLinha">4.2 Você utiliza alguma linha braille com seu leitor de tela?</label>';    
+document.getElementById("brailleLinha").innerHTML='<label for="braillelinha" id="brailleLinha">4.2 Voc\u00EA utiliza alguma linha braille com seu leitor de tela?</label>';    
 }
 if(tecladoExterno!="")
 {
-document.getElementById("tecladoExterno").innerHTML='			        <label for="tecladoexterno" id="tecladoExterno">4.3 Você utiliza algum teclado externo para navegar e digitar no seu celular / tablet?</label>';    
+document.getElementById("tecladoExterno").innerHTML='<label for="tecladoexterno" id="tecladoExterno">4.3 Voc\u00EA utiliza algum teclado externo para navegar e digitar no seu celular / tablet?</label>';    
 }
 if(digitacaoVoz!="")
 {
-document.getElementById("digitacaoVoz").innerHTML='			        <label for="digitacaovoz" id="digitacaoVoz">4.4 Com qual frequência você utiliza o recurso de digitação por voz no seu celular / tablet?</label>';    
+document.getElementById("digitacaoVoz").innerHTML='<label for="digitacaovoz" id="digitacaoVoz">4.4 Com qual frequ\u00EAncia voc\u00EA utiliza o recurso de digita\u00E7\u00E3o por voz no seu celular / tablet?</label>';    
 }
-
 
 if(brailleVirtual=="")
 {
@@ -45,6 +44,5 @@ document.getElementById("digitacaoVoz").innerHTML='<label for="digitacao-voz" id
 else
 {
 parte4.submit();
-
 }
 }

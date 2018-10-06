@@ -64,6 +64,5 @@ return false;
 else
 {
 parte1.submit();
-return true;
 }
 }

@@ -11,37 +11,35 @@ var navDificil=document.getElementById("navdificil").value;
 
 if(navDesk!="selecione")
 {
-document.getElementById("navDesk").innerHTML='<label for="navegadordesktop"  id="navDesk">3.1 Qual navegador você mais utiliza no seu computador / notebook?</label>';    
+document.getElementById("navDesk").innerHTML='<label for="navegadordesktop"  id="navDesk">3.1 Qual navegador voc\u00EA mais utiliza no seu computador / notebook?</label>';    
 }
-
 if(navMobile!="")
 {
-document.getElementById("navMobile").innerHTML='<label for="navegadormobile" id="navMobile">3.2 Qual navegador você mais utiliza no seu celular / tablet?</label>';    
+document.getElementById("navMobile").innerHTML='<label for="navegadormobile" id="navMobile">3.2 Qual navegador voc\u00EA mais utiliza no seu celular / tablet?</label>';    
 }
 if(navEncontrar!="")
 {
-document.getElementById("navEncontrar").innerHTML='<label for="navencontrar" id="navEncontrar">3.3 Ao tentar encontrar informações em uma página da Internet, qual das seguintes opções você costuma utilizar?</label>';
+document.getElementById("navEncontrar").innerHTML='<label for="navencontrar" id="navEncontrar">3.3 Ao tentar encontrar informa\u00E7\u00F5es em uma p\u00E1gina da Internet, qual das seguintes op\u00E7\u00F5es voc\u00EA costuma utilizar?</label>';
 }
-
 if(navIrPara!="")
 {
-document.getElementById("navIrPara").innerHTML='			        <label for="navirpara" id="navIrPara">3.4 Com qual frequência você utiliza os links “ir para conteúdo” ou “ir para o menu” quando estão disponíveis em uma página?</label>';
+document.getElementById("navIrPara").innerHTML='<label for="navirpara" id="navIrPara">3.4 Com qual frequ\u00EAncia voc\u00EA utiliza os links \u201Cir para conte\u00FAdo\u201D ou \u201Cir para o menu\u201D quando est\u00E3o dispon\u00EDveis em uma p\u00E1gina?</label>';
 }
 if(navMarcas!="")
 {
-document.getElementById("navMarcas").innerHTML='<label for="navmarcas" id="navMarcas">3.5 Com qual frequência você utiliza a navegação pelas marcas / regiões (tecla D ou R) em uma página?</label>';
+document.getElementById("navMarcas").innerHTML='<label for="navmarcas" id="navMarcas">3.5 Com qual frequ\u00EAncia voc\u00EA utiliza a navega\u00E7\u00E3o pelas marcas / regi\u00F5es (tecla D ou R) em uma p\u00E1gina?</label>';
 }
 if(navBarra!="")
 {
-document.getElementById("navBarra").innerHTML='<label for="navbarra" id="navBarra">3.6 Com qual frequência você utiliza as opções de aumentar/diminuir fonte ou alternar contraste, quando estão disponíveis em uma página?</label>';
+document.getElementById("navBarra").innerHTML='<label for="navbarra" id="navBarra">3.6 Com qual frequ\u00EAncia voc\u00EA utiliza as op\u00E7\u00F5es de aumentar/diminuir fonte ou alternar contraste, quando est\u00E3o dispon\u00EDveis em uma p\u00E1gina?</label>';
 }
 if(navTeclas!="")
 {
-document.getElementById("navTeclas").innerHTML='<label for="navteclas" id="navTeclas">3.7 Com qual frequência você utiliza as teclas de atalho de um site, quando estão disponíveis? Por exemplo, a tecla P para publicar um novo status no Facebook.</label>';
+document.getElementById("navTeclas").innerHTML='<label for="navteclas" id="navTeclas">3.7 Com qual frequ\u00EAncia voc\u00EA utiliza as teclas de atalho de um site, quando est\u00E3o dispon\u00EDveis? Por exemplo, a tecla P para publicar um novo status no Facebook.</label>';
 }
 if(navDificil!="")
 {
-document.getElementById("navDificil").innerHTML='<label for="navdificil" id="navDificil">3.8 Em qual elemento você tem mais dificuldade de navegar?</label>';
+document.getElementById("navDificil").innerHTML='<label for="navdificil" id="navDificil">3.8 Em qual elemento voc\u00EA tem mais dificuldade de navegar?</label>';
 }
 
 if(navDesk=="selecione")
