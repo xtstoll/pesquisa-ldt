@@ -6,10 +6,12 @@
 		<div class="usa-width-one-whole">
 			
 		    <h1>Pesquisa Nacional de Leitores de Tela</h1>		    
-		    	<p>Bem vindos à primeira pesquisa nacional sobre usos e costumes de leitores de tela por usuários cegos e de baixa visão.</p>
-				<p>Estamos neste momento na versão beta, e temos o maior prazer de poder contar com vocês, escolhidos a dedo, para nos ajudar com críticas e sugestões, a fim de tornar a pesquisa o mais completa possível.</p>
-				<p>Na última página da pesquisa temos um espaço para que vocês possam deixar seu feedback e nos ajudar com este trabalho que, esperamos, sirva para conhecer as tendências e necessidades dos brasileiros com deficiência.</p>
-				<p>A nossa equipe agradece a todos os beta testers pela colaboração!</p>		    
+		    	
+		    	<p>Bem-vindo à Pesquisa Nacional de Leitores de Tela. É a primeira pesquisa brasileira sobre usuários de leitores de tela.</p>
+				<p>A pesquisa permanecerá aberta até o dia 12 de novembro de 2018. Nenhuma informação de identificação pessoal será publicada. Quando enviado, a versão do navegador e o sistema operacional serão coletados. Os resultados serão publicados no final de 2018.</p>
+				<p>Sua participação é voluntária. Levará aproximadamente 20 a 25 minutos para realizar a pesquisa. O benefício em fazer essa pesquisa é que suas experiências e opiniões podem ajudar empresas, pessoas e entidades públicas a melhorar a acessibilidade digital.</p>
+				<p>Esta pesquisa está sendo administrada por funcionários da equipe de acessibilidade da empresa Everis Brasil. Se você tiver alguma dúvida, <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-%20Tela%20Inicial">entre em contato por e-mail</a>.</p>
+				<p>Ao pressionar no botão abaixo, você concorda com a participação nesta pesquisa. Obrigado!</p>	    
 		   
 		    <a href="{{ url('/parte1') }}" role="button" class="usa-button">Iniciar a pesquisa</a>
 		
