@@ -14,7 +14,7 @@ document.getElementById("Nome").innerHTML='<label for="nome" id="Nome">Qual o se
 }
 if(Pesquisa!="")
 {
-document.getElementById("Pesquisa").innerHTML='<label for="pesquisa" id="Pesquisa">O que você achou da pesquisa?</label>';
+document.getElementById("Pesquisa").innerHTML='<label for="pesquisa" id="Pesquisa">O que voc\u00EA achou da pesquisa?</label>';
 }
 
 if(!validarMail.test(Email))

@@ -11,31 +11,28 @@ var deficienciaAuditiva=document.getElementById("deficienciaauditiva").checked;
 var deficienciaMotora=document.getElementById("deficienciamotora").checked;
 var deficienciaOutra=document.getElementById("deficienciaoutra").checked;
 var deficienciaNenhuma=document.getElementById("deficiencianenhuma").checked;
+
 if(anoNascimento!="")
 {
-
-document.getElementById("anoNascimento").innerHTML='<label for="anonascimento" id="anoNascimento">1.1 Qual ano você nasceu?</label>';
+document.getElementById("anoNascimento").innerHTML='<label for="anonascimento" id="anoNascimento">1.1 Qual ano voc\u00EA nasceu?</label>';
 }
 if(Genero!="")
 {
-document.getElementById("Genero").innerHTML='<label for="genero" id="Genero">1.2 Qual é o seu gênero?</label>';
-}
-
-if(Escolaridade!="")
-{
-document.getElementById("Escolaridade").innerHTML='<label for="escolaridade" id="Escolaridade">1.4 Qual o seu nível de escolaridade?</label>';
-}
-
-if((deficienciaCegueira==true) & (deficienciaBaixaVisao==true) & (deficienciaAuditiva==true) & (deficienciaCognitiva==true) & (deficienciaMotora==true) & (deficienciaOutra==true) & (deficienciaNenhuma==true)) 
-{
-document.getElementById("Deficiencias").innerHTML='<label id="Deficiencias">1.5 Qual(is) deficiência(s) você possui?</label>';
+document.getElementById("Genero").innerHTML='<label for="genero" id="Genero">1.2 Qual \u00E9 o seu g\u00EAnero?</label>';
 }
 if(Estado!="")
 {
-document.getElementById("Estado").innerHTML='<label for="estado" id="Estado">1.3 Em qual estado você mora?</label>';
+document.getElementById("Estado").innerHTML='<label for="estado" id="Estado">1.3 Em qual estado voc\u00EA mora?</label>';
 }
-
-if((anoNascimento<=1912) | (anoNascimento>=2014))
+if(Escolaridade!="")
+{
+document.getElementById("Escolaridade").innerHTML='<label for="escolaridade" id="Escolaridade">1.4 Qual o seu n\u00EDvel de escolaridade?</label>';
+}
+if((deficienciaCegueira==true) & (deficienciaBaixaVisao==true) & (deficienciaAuditiva==true) & (deficienciaCognitiva==true) & (deficienciaMotora==true) & (deficienciaOutra==true) & (deficienciaNenhuma==true)) 
+{
+document.getElementById("Deficiencias").innerHTML='<label id="Deficiencias">1.5 Qual(is) defici\u00EAncia(s) voc\u00EA possui?</label>';
+}
+if((anoNascimento<=1912) | (anoNascimento>=2010))
 {
 parte1.anonascimento.focus();
 document.getElementById("anoNascimento").innerHTML='<label for="anonascimento" id="anoNascimento" role="alert"><strong style="color:red;">Por favor, digite uma resposta v\u00E1lida.</strong> -  1.1 Qual ano voc\u00EA nasceu?</label>';
