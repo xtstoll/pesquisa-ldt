@@ -63,9 +63,8 @@
 			        	<option value="em-completo">Ensino médio completo</option>
 			        	<option value="es-incompleto">Superior incompleto</option>
 			        	<option value="es-completo">Superior completo</option>
-			        	<option value="pg">Pós-graduação</option>	
-						<option value="mestrado">Mestrado</option>
-						<option value="doutorado">Doutorado</option>
+			        	<option value="pg-incompleta">Pós-graduação incompleta</option>	
+			        	<option value="pg-completa">Pós-graduação completa</option>	
 			        	<option value="semresposta">Não quero responder</option>
 			        </select>
 			
