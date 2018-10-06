@@ -5,7 +5,6 @@
 @section('content')
 
 <main id="main-content">
-	<section class="usa-grid usa-section">
 		<div class="usa-width-one-whole">	
 
 		    <h1>Parte 2: Leitores de tela</h1>
@@ -115,7 +114,6 @@
 		    <p>Você tem alguma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT">Entre em contato por e-mail</a>.</p>
 
 		</div>   	
-    </section>
 </main>
 
 @endsection
