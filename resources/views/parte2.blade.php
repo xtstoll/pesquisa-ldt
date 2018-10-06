@@ -76,6 +76,7 @@
 			            <option value="mais-leitor">Utilizo principalmente a fala do leitor de tela, mas também preciso dos recursos visuais.</option>
 			            <option value="mais-visual">Utilizo principalmente os recursos visuais, mas também preciso da fala do leitor de tela.</option>
 			            <option value="apenas-visual">Utilizo somente os recursos visuais.</option>
+			            <option value="naoutilizo">Não utilizo nenhum</option>
 			        </select>
 			
 			        <label for="usodispositivo" id="usoDispositivo">2.6 Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?</label>
@@ -84,6 +85,7 @@
 			            <option value="mais-desktop">Utilizo mais o leitor de tela do computador / notebook.</option>
 			            <option value="ambos">Utilizo tanto o leitor de tela do computador / notebook quanto o do celular / tablet.</option>
 			            <option value="mais-mobile">Utilizo mais o leitor de tela do celular / tablet.</option>
+			            <option value="naoutilizo">Não utilizo nenhum</option>
 			        </select>
 			
 			        <label for="aprendeu" id="Aprendeu">2.7 Como você aprendeu a utilizar seu leitor de tela?</label>
