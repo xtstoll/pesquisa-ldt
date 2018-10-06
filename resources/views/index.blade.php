@@ -3,7 +3,6 @@
 @section('content')
 
 <main id="main-content">
-	<section class="usa-grid usa-section">
 		<div class="usa-width-one-whole">
 			
 		    <h1>Pesquisa Nacional de Leitores de Tela</h1>		    
@@ -12,10 +11,9 @@
 				<p>Na última página da pesquisa temos um espaço para que vocês possam deixar seu feedback e nos ajudar com este trabalho que, esperamos, sirva para conhecer as tendências e necessidades dos brasileiros com deficiência.</p>
 				<p>A nossa equipe agradece a todos os beta testers pela colaboração!</p>		    
 		   
-		    <a href="{{ url('/parte1') }}" role="button"  class="usa-button">Iniciar a pesquisa</a>
+		    <button href="{{ url('/parte1') }}" role="button" class="usa-button">Iniciar a pesquisa</button>
 		
 		</div>
-    </section>
 </main>
 
 @endsection
