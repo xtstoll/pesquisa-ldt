@@ -23,13 +23,16 @@ document.getElementById("siteAcessivel").innerHTML='<label for="siteacessivel" i
 }
 if(siteAcessivel.length>=5)
 {
-document.getElementById("siteAcessivel").innerHTML='<label for="siteacessivel" id="siteAcessivel">5.5 Qual \u00E9 o site menos acess\u00EDvel que voc\u00EA utiliza?</label>';
+document.getElementById("siteAcessivel").innerHTML='<label for="siteacessivel" id="siteAcessivel">5.4 Qual \u00E9 o site mais acess\u00EDvel que voc\u00EA utiliza?</label>';
 }
 if(siteInacessivel!="")
 {
-document.getElementById("siteInacessivel").innerHTML='<input id="siteinacessivel" name="site_inacessivel" type="text" placeholder="Qual é o site menos acessível que você utiliza?" maxlength="100" required>';
+document.getElementById("siteInacessivel").innerHTML='<label for="siteinacessivel" id="siteInacessivel">5.5 Qual \u00E9 o site menos acess\u00EDvel que voc\u00EA utiliza?</label>';
 }
-
+if(siteAcessivel.length>=5)
+{
+document.getElementById("siteInacessivel").innerHTML='<label for="siteinacessivel" id="siteInacessivel">5.5 Qual \u00E9 o site menos acess\u00EDvel que voc\u00EA utiliza?</label>';
+}
 
 if(prefereWebe=="")
 {
