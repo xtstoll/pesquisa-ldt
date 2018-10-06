@@ -22,6 +22,7 @@
 			        <label for="pesquisa" id="Pesquisa">O que você achou da pesquisa?</label>
 			        <input id="pesquisa" name="opniao" type="text" required>  
 			        
+			        <!-- BRUNO PARA CORRIGIR <button class="usa-button-secondary">Voltar</button> -->
 			        <button class="usa-button" type="button" onclick="validarP6();">Enviar</button>
 			
 			  </form>		    		

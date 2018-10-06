@@ -107,6 +107,7 @@
 			            <option value="mudam">Telas ou partes de telas que mudam inesperadamente</option>
 			        </select>         
 			
+					<!-- BRUNO PARA CORRIGIR <button class="usa-button-secondary">Voltar</button> -->
 			        <button class="usa-button" type="button" onclick="validarP3();">Continuar</button>
 			       
 			    </form>		    		
