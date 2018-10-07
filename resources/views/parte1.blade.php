@@ -77,6 +77,8 @@
 			    	    <li>
 			    	      <input id="deficienciacegueira" type="radio" name="deficiencia[]" value="cegueira" onclick="CHK();" onKeyPress="CHK();"  aria-label="não selecionado cegueira" aria-describedby="Deficiencias">
 			    	      <label for="deficienciacegueira">Cegueira</label>
+			    	    </li>
+			    	    <li>
 			    	      <input id="deficienciabaixavisao" type="radio" name="deficiencia[]" value="baixa-visao" onclick="CHK();" onKeyPress="CHK();" aria-label="baixa visão não selecionado">
 			    	      <label for="deficienciabaixavisao">Baixa visão</label>
 			    	    </li>
