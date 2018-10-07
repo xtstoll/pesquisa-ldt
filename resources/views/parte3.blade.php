@@ -17,7 +17,7 @@
 			        <div class="pergunta">
 				        <label for="navegadordesktop" id="navDesk">3.1 Qual navegador você mais utiliza no seu computador / notebook?</label>    
 				        <select name="navegador_desktop" id="navegadordesktop" required>
-				            <option value="selecione">Selecione</option>
+				            <option value="">Selecione</option>
 				            <option value="chrome">Chrome</option>
 				            <option value="edge">Edge</option>
 				            <option value="firefox">Firefox</option>
