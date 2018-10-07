@@ -15,7 +15,7 @@
 				<input name="id" type="hidden" value="{{ $id }}" />
 			    
 			        <div class="pergunta">
-				        <label for="navegadordesktop"  id="navDesk">3.1 Qual navegador você mais utiliza no seu computador / notebook?</label>    
+				        <label for="navegadordesktop" id="navDesk">3.1 Qual navegador você mais utiliza no seu computador / notebook?</label>    
 				        <select name="navegador_desktop" id="navegadordesktop" required>
 				            <option value="selecione">Selecione</option>
 				            <option value="chrome">Chrome</option>
