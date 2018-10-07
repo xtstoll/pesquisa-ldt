@@ -128,7 +128,7 @@
 				        <input id="pagarporque" name="ldt_pagar_motivo" type="text" maxlength="1000" placeholder="Motivo da resposta acima" required>     
 			        </div>   
 			
-			        <!-- BRUNO PARA CORRIGIR <button class="usa-button-secondary">Voltar</button> -->
+			        <button class="usa-button-secondary" onclick="window.history.back();">Voltar</button>
 			        <button class="usa-button" type="button" onclick="validarP2();">Continuar</button>
 			       
 		    	</form>		

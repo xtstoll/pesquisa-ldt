@@ -53,7 +53,7 @@
 					    <input id="siteinacessivel" name="site_inacessivel" type="text" placeholder="Qual é o site menos acessível que você utiliza?" maxlength="100" required>
 			        </div>
 						
-						<!-- BRUNO PARA CORRIGIR <button class="usa-button-secondary">Voltar</button> -->
+						<button class="usa-button-secondary" onclick="window.history.back();">Voltar</button>
 					    <button class="usa-button" type="button" onclick="validarP5();">Continuar</button>
 					
 					</form>		    		

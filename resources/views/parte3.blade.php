@@ -134,7 +134,7 @@
 				        </select>
 			        </div>
 			
-					<!-- BRUNO PARA CORRIGIR <button class="usa-button-secondary">Voltar</button> -->
+					<button class="usa-button-secondary" onclick="window.history.back();">Voltar</button>
 			        <button class="usa-button" type="button" onclick="validarP3();">Continuar</button>
 			       
 			    </form>		    		
