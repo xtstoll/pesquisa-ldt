@@ -72,7 +72,7 @@
 			        	<option value="semresposta">Não quero responder</option>
 			        </select>
 			
-			    	<label id="Deficiencias">1.5 Qual(is) deficiência(s) você possui?</label>
+			    	<label id="Deficiencias" tabindex="0">1.5 Qual(is) deficiência(s) você possui?</label>
 			    	 <ul class="usa-unstyled-list">
 			    	    <li>
 			    	      <input id="deficienciacegueira" type="radio" name="deficiencia[]" value="cegueira" onclick="CHK();" onKeyPress="CHK();"  aria-label="não selecionado cegueira" aria-describedby="Deficiencias">
