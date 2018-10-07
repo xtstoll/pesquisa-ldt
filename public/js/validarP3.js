@@ -44,7 +44,7 @@ document.getElementById("navDificil").innerHTML='<label for="navdificil" id="nav
 }
 if(navLinks!="")
 {
-document.getElementById("navLinks").innerHTML='<label for="navlinks" id="navLinks">3.9 Quando existem dois links seguidos, o seu leitor de tela os l\u00EA um em cada linha?</label>';
+document.getElementById("navLinks").innerHTML='<label for="navlinks" id="navLinks">3.9 Quando existem dois ou mais links seguidos, o seu leitor de tela l\u00EA todos na mesma linha ou cada link em uma linha separada?</label>';
 }
 
 if(navDesk=="selecione")
@@ -90,7 +90,7 @@ document.getElementById("navDificil").innerHTML='<label for="nav-dificil" id="na
 else if(navLinks=="")
 {
 parte3.navlinks.focus();
-document.getElementById("navLinks").innerHTML='<label for="nav-links" id="navLinks" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.9 Quando existem dois links seguidos, o seu leitor de tela os l\u00EA um em cada linha?</label>'; 
+document.getElementById("navLinks").innerHTML='<label for="nav-links" id="navLinks" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.9 Quando existem dois ou mais links seguidos, o seu leitor de tela l\u00EA todos na mesma linha ou cada link em uma linha separada?</label>'; 
 }
 else
 {

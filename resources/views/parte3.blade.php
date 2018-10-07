@@ -125,11 +125,11 @@
 			        </div>        
 			        
 			        <div class="pergunta">
-				        <label for="navlinks" id="navLinks">3.9 Quando existem dois links seguidos, o seu leitor de tela os lê um em cada linha?</label>			        
+				        <label for="navlinks" id="navLinks">3.9 Quando existem dois ou mais links seguidos, o seu leitor de tela lê todos na mesma linha ou cada link em uma linha separada?</label>			        
 				        <select name="nav_links" id="navlinks" required>
 				            <option value="">Selecione</option>
-				            <option value="sim">Sim</option>
-				            <option value="nao">Não</option>
+				            <option value="todos">Todos os links na mesma linha</option>
+				            <option value="cada">Cada link em uma linha separada</option>
 				            <option value="naosei">Não sei do que se trata</option>
 				        </select>
 			        </div>
