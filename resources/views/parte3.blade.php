@@ -122,10 +122,48 @@
 				            <option value="tabelas">Tabelas complexas</option>
 				            <option value="mudam">Telas ou partes de telas que mudam inesperadamente</option>
 				        </select> 
-			        </div>        
+			        </div>  
 			        
 			        <div class="pergunta">
-				        <label for="navlinks" id="navLinks">3.9 Quando existem dois ou mais links seguidos, o seu leitor de tela lê todos na mesma linha ou cada link em uma linha separada?</label>			        
+				        <label for="navdificil2" id="navDificil2">3.9 A partir da lista anterior, qual é o segundo elemento você tem mais dificuldade de navegar?</label>
+				        <select name="nav_dificuldade2" id="navdificil2" required>
+				            <option value="">Selecione</option>
+				            <option value="busca">Campo de busca inacessível ou inexistente</option>
+				            <option value="cabecalhos">Cabeçalhos ausentes ou fora da ordem lógica</option>
+				            <option value="excesso">Excesso de links ou itens de navegação</option>
+				            <option value="irlinks">Falta de links “ir para conteúdo” ou “ir para o menu”</option>
+				            <option value="formularios">Formulários complexos</option>
+				            <option value="captcha">Imagens CAPTCHA apresentando texto usado para verificar que você não é um robô</option>
+				            <option value="imagens">Imagens sem descrição ou com descrições inadequadas</option>
+				            <option value="linksbotoes">Links ou botões que não fazem sentido</option>
+				            <option value="teclado">Navegação que não é acessível por teclado</option>
+				            <option value="flash">Presença de conteúdo Flash inacessível</option>
+				            <option value="tabelas">Tabelas complexas</option>
+				            <option value="mudam">Telas ou partes de telas que mudam inesperadamente</option>
+				        </select> 
+			        </div> 
+			        
+			        <div class="pergunta">
+				        <label for="navdificil3" id="navDificil3">3.10 A partir da lista anterior, qual é o terceiro elemento você tem mais dificuldade de navegar?</label>
+				        <select name="nav_dificuldade3" id="navdificil3" required>
+				            <option value="">Selecione</option>
+				            <option value="busca">Campo de busca inacessível ou inexistente</option>
+				            <option value="cabecalhos">Cabeçalhos ausentes ou fora da ordem lógica</option>
+				            <option value="excesso">Excesso de links ou itens de navegação</option>
+				            <option value="irlinks">Falta de links “ir para conteúdo” ou “ir para o menu”</option>
+				            <option value="formularios">Formulários complexos</option>
+				            <option value="captcha">Imagens CAPTCHA apresentando texto usado para verificar que você não é um robô</option>
+				            <option value="imagens">Imagens sem descrição ou com descrições inadequadas</option>
+				            <option value="linksbotoes">Links ou botões que não fazem sentido</option>
+				            <option value="teclado">Navegação que não é acessível por teclado</option>
+				            <option value="flash">Presença de conteúdo Flash inacessível</option>
+				            <option value="tabelas">Tabelas complexas</option>
+				            <option value="mudam">Telas ou partes de telas que mudam inesperadamente</option>
+				        </select> 
+			        </div> 			         			              
+			        
+			        <div class="pergunta">
+				        <label for="navlinks" id="navLinks">3.11 Quando existem dois ou mais links seguidos, o seu leitor de tela lê todos na mesma linha ou cada link em uma linha separada?</label>			        
 				        <select name="nav_links" id="navlinks" required>
 				            <option value="">Selecione</option>
 				            <option value="todos">Todos os links na mesma linha</option>

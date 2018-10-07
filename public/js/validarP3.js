@@ -8,6 +8,8 @@ var navMarcas=document.getElementById("navmarcas").value;
 var navBarra=document.getElementById("navbarra").value;
 var navTeclas=document.getElementById("navteclas").value;
 var navDificil=document.getElementById("navdificil").value;
+var navDificil2=document.getElementById("navdificil2").value;
+var navDificil3=document.getElementById("navdificil3").value;
 var navLinks=document.getElementById("navlinks").value;
 
 if(navDesk!="selecione")
@@ -42,9 +44,17 @@ if(navDificil!="")
 {
 document.getElementById("navDificil").innerHTML='<label for="navdificil" id="navDificil">3.8 Em qual elemento voc\u00EA tem mais dificuldade de navegar?</label>';
 }
+if(navDificil2!="")
+{
+document.getElementById("navDificil2").innerHTML='<label for="navdificil2" id="navDificil2">3.9 A partir da lista anterior, qual \u00E9 segundo elemento voc\u00EA tem mais dificuldade de navegar?</label>';
+}
+if(navDificil3!="")
+{
+document.getElementById("navDificil3").innerHTML='<label for="navdificil3" id="navDificil3">3.10 A partir da lista anterior, qual \u00E9 terceiro elemento voc\u00EA tem mais dificuldade de navegar?</label>';
+}
 if(navLinks!="")
 {
-document.getElementById("navLinks").innerHTML='<label for="navlinks" id="navLinks">3.9 Quando existem dois ou mais links seguidos, o seu leitor de tela l\u00EA todos na mesma linha ou cada link em uma linha separada?</label>';
+document.getElementById("navLinks").innerHTML='<label for="navlinks" id="navLinks">3.11 Quando existem dois ou mais links seguidos, o seu leitor de tela l\u00EA todos na mesma linha ou cada link em uma linha separada?</label>';
 }
 
 if(navDesk=="selecione")
@@ -87,10 +97,20 @@ else if(navDificil=="")
 parte3.navdificil.focus();
 document.getElementById("navDificil").innerHTML='<label for="nav-dificil" id="navDificil" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.8 Em qual elemento voc\u00EA tem mais dificuldade de navegar?</label>'; 
 }
+else if(navDificil2=="")
+{
+parte3.navdificil2.focus();
+document.getElementById("navDificil2").innerHTML='<label for="nav-dificil2" id="navDificil2" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.9 A partir da lista anterior, qual \u00E9 segundo elemento voc\u00EA tem mais dificuldade de navegar?</label>'; 
+}
+else if(navDificil3=="")
+{
+parte3.navdificil3.focus();
+document.getElementById("navDificil3").innerHTML='<label for="nav-dificil3" id="navDificil3" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.10 A partir da lista anterior, qual \u00E9 terceiro elemento voc\u00EA tem mais dificuldade de navegar?</label>'; 
+}
 else if(navLinks=="")
 {
 parte3.navlinks.focus();
-document.getElementById("navLinks").innerHTML='<label for="nav-links" id="navLinks" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.9 Quando existem dois ou mais links seguidos, o seu leitor de tela l\u00EA todos na mesma linha ou cada link em uma linha separada?</label>'; 
+document.getElementById("navLinks").innerHTML='<label for="nav-links" id="navLinks" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.11 Quando existem dois ou mais links seguidos, o seu leitor de tela l\u00EA todos na mesma linha ou cada link em uma linha separada?</label>'; 
 }
 else
 {
