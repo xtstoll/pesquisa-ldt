@@ -13,7 +13,8 @@
 	<script src="js/CHK.js"></script>
 	<link rel="stylesheet" href="{{ asset('uswds-1.6.8/css/uswds.min.css') }}">
 	<link rel="stylesheet" href="css/pesquisa.css">
-	
+	<link rel="image_src" href="images/logo_pesquisa-ldt.png" alt="Logo da pesquisa brasileira sobre o uso de leitores de tela"/>
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127040926-1"></script>
 		<script>
