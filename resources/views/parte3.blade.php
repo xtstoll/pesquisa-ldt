@@ -106,6 +106,14 @@
 			            <option value="tabelas">Tabelas complexas</option>
 			            <option value="mudam">Telas ou partes de telas que mudam inesperadamente</option>
 			        </select>         
+			        
+			        <label for="navlinks" id="navLinks">3.9 Quando existem dois links seguidos, o seu leitor de tela os lê um em cada linha?</label>			        
+			        <select name="nav_links" id="navlinks" required>
+			            <option value="">Selecione</option>
+			            <option value="sim">Sim</option>
+			            <option value="nao">Não</option>
+			            <option value="naosei">Não sei do que se trata</option>
+			        </select>
 			
 					<!-- BRUNO PARA CORRIGIR <button class="usa-button-secondary">Voltar</button> -->
 			        <button class="usa-button" type="button" onclick="validarP3();">Continuar</button>
