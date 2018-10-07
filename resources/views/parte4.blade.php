@@ -12,7 +12,7 @@
 			    <form name="parte4" class="usa-form-large" action="{{ url('/parte4') }}" method="post" >
 				
 				@csrf			
-				<input name="id" type="hidden" value="{{ $id }}" />
+				
 				
 			        <div class="pergunta">
 				        <label for="braillevirtual" id="brailleVirtual">4.1 Você utiliza algum teclado virtual braille no seu celular / tablet? <em>Por exemplo, Entrada via Braille do iOS ou o aplicativo Soft Braille Keyboard do Android.</em></label>    

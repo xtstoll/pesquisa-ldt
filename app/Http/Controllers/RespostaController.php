@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 
 use App\Resposta;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cookie;
 
 class RespostaController extends Controller
 {
@@ -24,6 +25,8 @@ class RespostaController extends Controller
         $resposta->def_outra = in_array('outra', $deficiencias) ? true : false;
         $resposta->def_nenhuma = in_array('nenhuma', $deficiencias) ? true : false;
         $resposta->save();
+
+        Cookie::queue("id", $resposta->id);
         return view('parte2', [
             'id' => $resposta->id
         ]);
@@ -31,7 +34,7 @@ class RespostaController extends Controller
 
     public function parte2(Request $r)
     {
-        $resposta = Resposta::findOrFail($r->id);
+        $resposta = Resposta::findOrFail($r->cookie('id'));
         $resposta->ldt_desktop1 = $r->ldt_desktop1;
         $resposta->ldt_desktop2 = $r->ldt_desktop2;
         $resposta->ldt_atualizado = $r->ldt_atualizado;
@@ -50,7 +53,7 @@ class RespostaController extends Controller
 
     public function parte3(Request $r)
     {
-        $resposta = Resposta::findOrFail($r->id);
+        $resposta = Resposta::findOrFail($r->cookie('id'));
         $resposta->navegador_desktop = $r->navegador_desktop;
         $resposta->navegador_mobile = $r->navegador_mobile;
         $resposta->nav_encontrar = $r->nav_encontrar;
@@ -68,7 +71,7 @@ class RespostaController extends Controller
 
     public function parte4(Request $r)
     {
-        $resposta = Resposta::findOrFail($r->id);
+        $resposta = Resposta::findOrFail($r->cookie('id'));
         $resposta->braille_virtual = $r->braille_virtual;
         $resposta->linha_braille = $r->linha_braille;
         $resposta->teclado_externo = $r->teclado_externo;
@@ -79,36 +82,32 @@ class RespostaController extends Controller
             'id' => $resposta->id
         ]);
     }
-    
-    
-    
+
     public function parte5(Request $r)
     {
-        $resposta = Resposta::findOrFail($r->id);
-        $resposta->preferencia_navegacao=$r->preferencia_navegacao;
-    $resposta->mais_acessivel=$r->mais_acessivel;
-        $resposta->lbi=$r->lbi;
-        $resposta->site_acessivel=$r->site_acessivel;
-        $resposta->site_inacessivel=$r->site_inacessivel;
-        
-    $resposta->save();
-    return view('parte6', [
-        'id' => $resposta->id
-    ]);
-}
+        $resposta = Resposta::findOrFail($r->cookie('id'));
+        $resposta->preferencia_navegacao = $r->preferencia_navegacao;
+        $resposta->mais_acessivel = $r->mais_acessivel;
+        $resposta->lbi = $r->lbi;
+        $resposta->site_acessivel = $r->site_acessivel;
+        $resposta->site_inacessivel = $r->site_inacessivel;
 
-public function parte6(Request $r)
-{
-    $resposta = Resposta::findOrFail($r->id);
-    $resposta->email=$r->email;
-$resposta->nome=$r->nome;
-$resposta->opniao=$r->opniao;
+        $resposta->save();
+        return view('parte6', [
+            'id' => $resposta->id
+        ]);
+    }
 
-$resposta->save();
-return view('confirm', [
-    'id' => $resposta->id
-]);
-}
+    public function parte6(Request $r)
+    {
+        $resposta = Resposta::findOrFail($r->cookie('id'));
+        $resposta->email = $r->email;
+        $resposta->nome = $r->nome;
+        $resposta->opniao = $r->opniao;
 
-
+        $resposta->save();
+        return view('confirm', [
+            'id' => $resposta->id
+        ]);
+    }
 }

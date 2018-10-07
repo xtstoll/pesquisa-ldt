@@ -12,9 +12,8 @@
 			    <form name="parte2" class="usa-form-large" action="{{ url('/parte2') }}" method="post">
 				
 				@csrf			        
-				<input name="id" type="hidden" value="{{ $id }}" />
 				
-			        <div class="pergunta">
+							        <div class="pergunta">
 				        <label for="ldtdesktop1" id="ldtDesktop1">2.1 Qual leitor de tela você mais utiliza para computador / notebook?</label>
 				        <select name="ldt_desktop1" id="ldtdesktop1" required>
 				            <option value="">Selecione</option>

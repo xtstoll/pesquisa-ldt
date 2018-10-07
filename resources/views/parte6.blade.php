@@ -12,7 +12,7 @@
 			  <form name="parte6" class="usa-form-large" action="{{ url('/parte6') }}" method="post" >
 			  
 			  @csrf			
-			  <input name="id" type="hidden" value="{{ $id }}" />
+			  
 
 			        <div class="pergunta">									
 						<label for="sorteio" id="Sorteio">6.1 Quer ter a oportunidade de ganhar um powerbank (carregador de celular portátil) por sua participação nesta pesquisa?</label>       

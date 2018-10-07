@@ -12,7 +12,7 @@
 				<form name="parte5" class="usa-form-large" action="{{ url('/parte5') }}" method="post" >
 				
 				@csrf					
-				<input name="id" type="hidden" value="{{ $id }}" />
+				
 
 			        <div class="pergunta">				
 						<label for="prefereweb" id="prefereWebe">5.1 Você prefere navegar em uma página da Internet pelo computador / notebook ou pelo celular / tablet?</label>

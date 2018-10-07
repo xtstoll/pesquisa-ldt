@@ -12,7 +12,7 @@
 			    <form name="parte3" class="usa-form-large" action="{{ url('/parte3') }}" method="post">
 				
 				@csrf			
-				<input name="id" type="hidden" value="{{ $id }}" />
+				
 			    
 			        <div class="pergunta">
 				        <label for="navegadordesktop" id="navDesk">3.1 Qual navegador você mais utiliza no seu computador / notebook?</label>    
