@@ -75,11 +75,9 @@
 			    	<label id="Deficiencias">1.5 Qual(is) deficiência(s) você possui?</label>
 			    	 <ul class="usa-unstyled-list">
 			    	    <li>
-			    	      <input id="deficienciacegueira" role="checkbox" type="checkbox" name="deficiencia[]" value="cegueira" onclick="CHK();" onKeyPress="CHK();"  aria-label="não selecionado cegueira" aria-describedby="Deficiencias">
+			    	      <input id="deficienciacegueira" type="radio" name="deficiencia[]" value="cegueira" onclick="CHK();" onKeyPress="CHK();"  aria-label="não selecionado cegueira" aria-describedby="Deficiencias">
 			    	      <label for="deficienciacegueira">Cegueira</label>
-			    	    </li>
-			    	    <li>
-			    	      <input id="deficienciabaixavisao" type="checkbox" name="deficiencia[]" value="baixa-visao" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="baixa visão não selecionado">
+			    	      <input id="deficienciabaixavisao" type="radio" name="deficiencia[]" value="baixa-visao" onclick="CHK();" onKeyPress="CHK();" aria-label="baixa visão não selecionado">
 			    	      <label for="deficienciabaixavisao">Baixa visão</label>
 			    	    </li>
 			    	    <li>
