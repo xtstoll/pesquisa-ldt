@@ -8,6 +8,7 @@ var navMarcas=document.getElementById("navmarcas").value;
 var navBarra=document.getElementById("navbarra").value;
 var navTeclas=document.getElementById("navteclas").value;
 var navDificil=document.getElementById("navdificil").value;
+var navLinks=document.getElementById("navlinks").value;
 
 if(navDesk!="selecione")
 {
@@ -40,6 +41,10 @@ document.getElementById("navTeclas").innerHTML='<label for="navteclas" id="navTe
 if(navDificil!="")
 {
 document.getElementById("navDificil").innerHTML='<label for="navdificil" id="navDificil">3.8 Em qual elemento voc\u00EA tem mais dificuldade de navegar?</label>';
+}
+if(navLinks!="")
+{
+document.getElementById("navLinks").innerHTML='<label for="navlinks" id="navLinks">3.9 Quando existem dois links seguidos, o seu leitor de tela os l\u00EA um em cada linha?</label>';
 }
 
 if(navDesk=="selecione")
@@ -81,6 +86,11 @@ else if(navDificil=="")
 {
 parte3.navdificil.focus();
 document.getElementById("navDificil").innerHTML='<label for="nav-dificil" id="navDificil" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.8 Em qual elemento voc\u00EA tem mais dificuldade de navegar?</label>'; 
+}
+else if(navLinks=="")
+{
+parte3.navlinks.focus();
+document.getElementById("navLinks").innerHTML='<label for="nav-links" id="navLinks" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> - 3.9 Quando existem dois links seguidos, o seu leitor de tela os l\u00EA um em cada linha?</label>'; 
 }
 else
 {
