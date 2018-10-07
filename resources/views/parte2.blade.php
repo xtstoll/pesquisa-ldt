@@ -108,7 +108,7 @@
 			        <label for="pagarporque" id="pagarPorque">2.9 Explique o motivo da resposta acima.</label>
 			        <input id="pagarporque" name="ldt_pagar_motivo" type="text" maxlength="1000" placeholder="Motivo da resposta acima" required>        
 			
-			        <!-- BRUNO PARA CORRIGIR <button class="usa-button-secondary">Voltar</button> -->
+			        <button class="usa-button-secondary" onclick="window.history.back();">Voltar</button>
 			        <button class="usa-button" type="button" onclick="validarP2();">Continuar</button>
 			       
 		    	</form>		
