@@ -32,10 +32,11 @@ if((deficienciaCegueira==true) & (deficienciaBaixaVisao==true) & (deficienciaAud
 {
 document.getElementById("Deficiencias").innerHTML='<label id="Deficiencias">1.5 Qual(is) defici\u00EAncia(s) voc\u00EA possui?</label>';
 }
-if((anoNascimento<=1912) | (anoNascimento>=2010))
+
+if(anoNascimento=="")
 {
 parte1.anonascimento.focus();
-document.getElementById("anoNascimento").innerHTML='<label for="anonascimento" id="anoNascimento" role="alert"><strong style="color:red;">Por favor, digite uma resposta v\u00E1lida.</strong> -  1.1 Qual ano voc\u00EA nasceu?</label>';
+document.getElementById("anoNascimento").innerHTML='<label for="anonascimento" id="anoNascimento" role="alert"><strong style="color:red;">Por favor, selecione uma op\u00E7\u00E3o.</strong> -  1.1 Qual ano voc\u00EA nasceu?</label>';
 }
 else if(Genero=="")
 {
