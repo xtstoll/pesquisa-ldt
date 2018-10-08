@@ -1,5 +1,33 @@
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input,
+textarea,
+select {
+  font-size: 2.2rem;
+}
+
+body {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #111111;
+  color: #ffffff;
+}
+
+h1 {
+  color: #92af00;
+}
+
+.usa-button {
+  font-size: 2.2rem;
+  background-color: #111111;  	
+}
+
+a {
+  color: #78d8f9;
+}
+
+a:hover, a:focus {
+  color: #111111;
+  background-color: #78d8f9;
+  text-decoration: none;
 }
