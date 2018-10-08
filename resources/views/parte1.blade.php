@@ -3,7 +3,8 @@
 @section('pageTitle', 'Parte 1 - ')
 
 @section('content')
-<main id="main-content">	
+<main id="main-content">
+	<div class="usa-grid">	
 		<div class="usa-width-one-whole">
 
 			<h1>Parte 1: Sobre você</h1>
@@ -218,6 +219,7 @@
 		    <p>Você tem alguma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-%20Parte%201">Entre em contato por e-mail</a>.</p>
 			
 		</div>
+	</div>
 </main>
 
 @endsection 

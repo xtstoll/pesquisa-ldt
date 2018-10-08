@@ -3,9 +3,10 @@
 @section('content')
 
 <main id="main-content">
+	<section class="usa-grid usa-section">
 		<div class="usa-width-one-whole">
 			
-		    <h1>Pesquisa Nacional de Leitores de Tela</h1>		    
+		    <h1>Pesquisa sobre o uso de leitores de tela</h1>		    
 		    	
 		    	<p>Bem-vindo(a) à primeira pesquisa brasileira sobre o uso de leitores de tela!</p>
 				<p>A pesquisa permanecerá disponível até o dia 12 de novembro de 2018 e os resultados serão publicados até o final do ano. Nenhuma informação pessoal será vinculada à publicação. Apenas a versão do navegador e o sistema operacional serão coletados para fins de estatística. A sua participação é voluntária e você levará aproximadamente de 20 a 25 minutos para responder as perguntas.</p>
@@ -18,6 +19,7 @@
 		    <a href="{{ url('/parte1') }}" role="button" class="usa-button">Iniciar a pesquisa</a>
 		
 		</div>
+	</section>
 </main>
 
 @endsection
