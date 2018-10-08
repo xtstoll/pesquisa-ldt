@@ -1,5 +1,7 @@
 <?php
 
+Route::get('/dt', 'RespostaController@dt');
+
 Route::get('/', function () {
     return view('index');
 });

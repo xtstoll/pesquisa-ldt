@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 use App\Resposta;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
+use hisorange\BrowserDetect\Facade as Browser;
+
 
 class RespostaController extends Controller
 {
@@ -110,4 +112,15 @@ class RespostaController extends Controller
             'id' => $resposta->id
         ]);
     }
+    
+        public function dt(){
+        $nav=Browser::browserName();
+        $nav=Browser::platformName();
+        $nav=Browser::detect();
+        $nav=request()->ip();
+        dd($nav);
+        
+        return view('confirm');
+    }
+    
 }
