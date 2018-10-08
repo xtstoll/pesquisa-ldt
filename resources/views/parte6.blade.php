@@ -3,9 +3,9 @@
 @section('pageTitle', 'Parte 6 - ')
 
 @section('content')
-
 <main id="main-content">
-		<div class="usa-width-one-whole">	
+	<div class="usa-grid">	
+		<div class="usa-width-one-whole">
 		
 		  <h1>Parte 6: Conclusão</h1>
 			
@@ -37,14 +37,17 @@
 				        <input id="email" name="email" onblur="validarMail(parte6.email);"  type="email" maxlength="100" required>     
 			        </div>        
 			        
-			        <!-- BRUNO PARA CORRIGIR <button class="usa-button-secondary">Voltar</button> -->
-			        <button class="usa-button" type="button" onclick="validarP6();">Enviar</button>
+			        <div class="buttons">
+				        <button class="usa-button-secondary" onclick="window.history.back();">Voltar</button>
+						<button class="usa-button" type="button" onclick="validarP6();">Enviar</button>
+			        </div>
 			
 			  </form>		    		
 
 		    <p>Você tem alguma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-%20Parte%206">Entre em contato por e-mail</a>.</p>
 			
-		</div>    	
+		</div>    
+	</div>	
 </main>
 
 @endsection
