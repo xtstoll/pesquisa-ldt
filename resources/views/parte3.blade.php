@@ -3,9 +3,9 @@
 @section('pageTitle', 'Parte 3 - ')
 
 @section('content')
-
 <main id="main-content">
-		<div class="usa-width-one-whole">	
+	<div class="usa-grid">	
+		<div class="usa-width-one-whole">
 			
 		    <h1>Parte 3: Navegação na Internet</h1>
 		    
@@ -172,14 +172,17 @@
 				        </select>
 			        </div>
 			
-					<button class="usa-button-secondary" onclick="window.history.back();">Voltar</button>
-			        <button class="usa-button" type="button" onclick="validarP3();">Continuar</button>
+			        <div class="buttons">
+						<button class="usa-button-secondary" onclick="window.history.back();">Voltar</button>
+						<button class="usa-button" type="button" onclick="validarP3();">Continuar</button>
+					</div>
 			       
 			    </form>		    		
 
 		    <p>Você tem alguma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-%20Parte%203">Entre em contato por e-mail</a>.</p>
 
-		</div>   	
+		</div> 
+	</div>  	
 </main>
 
 @endsection

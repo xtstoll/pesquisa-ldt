@@ -3,8 +3,8 @@
 @section('pageTitle', 'Parte 2 - ')
 
 @section('content')
-
 <main id="main-content">
+	<div class="usa-grid">	
 		<div class="usa-width-one-whole">	
 
 		    <h1>Parte 2: Leitores de tela</h1>
@@ -13,7 +13,7 @@
 				
 				@csrf			        
 				
-							        <div class="pergunta">
+					<div class="pergunta">
 				        <label for="ldtdesktop1" id="ldtDesktop1">2.1 Qual leitor de tela você mais utiliza para computador / notebook?</label>
 				        <select name="ldt_desktop1" id="ldtdesktop1" required>
 				            <option value="">Selecione</option>
@@ -127,14 +127,17 @@
 				        <input id="pagarporque" name="ldt_pagar_motivo" type="text" maxlength="1000" placeholder="Motivo da resposta acima" required>     
 			        </div>   
 			
-			        <button class="usa-button-secondary" onclick="window.history.back();">Voltar</button>
-			        <button class="usa-button" type="button" onclick="validarP2();">Continuar</button>
+			        <div class="buttons">
+				        <button class="usa-button-secondary" onclick="window.history.back();">Voltar</button>
+						<button class="usa-button" type="button" onclick="validarP2();">Continuar</button>
+			        </div>
 			       
 		    	</form>		
 		    	    		
 		    <p>Você tem alguma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-%20Parte%202">Entre em contato por e-mail</a>.</p>
 
-		</div>   	
+		</div>   
+	</div>	
 </main>
 
 @endsection

@@ -6,19 +6,22 @@ select {
 
 body {
   font-size: 2rem;
-  margin-top: 0.5rem;
   margin-left: auto;
   margin-right: auto;
   background-color: #111111;
   color: #ffffff;
+  padding-bottom: 4rem;
 }
 
 h1 {
   color: #92af00;
+  padding-top: 4rem;
 }
 
-.usa-button {
+.usa-button, .usa-button-secondary {
   font-size: 2.2rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 a {

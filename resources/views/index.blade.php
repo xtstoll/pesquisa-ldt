@@ -3,7 +3,7 @@
 @section('content')
 
 <main id="main-content">
-	<section class="usa-grid usa-section">
+	<div class="usa-grid">	
 		<div class="usa-width-one-whole">
 			
 		    <h1>Pesquisa sobre o uso de leitores de tela</h1>		    
@@ -19,7 +19,7 @@
 		    <a href="{{ url('/parte1') }}" role="button" class="usa-button">Iniciar a pesquisa</a>
 		
 		</div>
-	</section>
+	</div>
 </main>
 
 @endsection

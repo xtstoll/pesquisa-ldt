@@ -212,7 +212,9 @@
 				    	  </ul>
 			        </div>
 			
-			        <button class="usa-button" type="button" onclick="validarP1();">Continuar</button>
+			        <div class="buttons">
+			        	<button class="usa-button" type="button" onclick="validarP1();">Continuar</button>
+			        </div>
 		           
 				</form>
 
