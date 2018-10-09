@@ -6,13 +6,34 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use hisorange\BrowserDetect\Facade as Browser;
 
-
 class RespostaController extends Controller
 {
 
+    private $resposta;
+
+    public function __construct(Request $request)
+    {
+        if (! $request->hasCookie("id")) {
+            $resposta = new Resposta();
+            $resposta->parte = 0;
+            $resposta->save();
+            setcookie("id", $resposta->id, time() + 60 * 60 * 24 * 30);
+        } else {
+
+            $resposta = Resposta::findOrFail($request->cookie('id'));
+        }
+        $this->resposta = $resposta;
+        $this->detect();
+    }
+
+    public function iniciar()
+    {
+        return view('parte1');
+    }
+
     public function parte1(Request $r)
     {
-        $resposta = new Resposta();
+        $resposta = $this->resposta;
         $resposta->parte = 1;
         $resposta->ano_nascimento = $r->ano_nascimento;
         $resposta->genero = $r->genero;
@@ -28,15 +49,13 @@ class RespostaController extends Controller
         $resposta->def_nenhuma = in_array('nenhuma', $deficiencias) ? true : false;
         $resposta->save();
 
-        Cookie::queue("id", $resposta->id);
-        return view('parte2', [
-            'id' => $resposta->id
-        ]);
+        return view('parte2');
     }
 
     public function parte2(Request $r)
     {
-        $resposta = Resposta::findOrFail($r->cookie('id'));
+        $resposta = $this->resposta;
+        $resposta->parte = 2;
         $resposta->ldt_desktop1 = $r->ldt_desktop1;
         $resposta->ldt_desktop2 = $r->ldt_desktop2;
         $resposta->ldt_atualizado = $r->ldt_atualizado;
@@ -44,18 +63,17 @@ class RespostaController extends Controller
         $resposta->ldt_uso = $r->ldt_uso;
         $resposta->dispositivo_usado = $r->dispositivo_usado;
         $resposta->aprendeu = $r->aprendeu;
-        $resposta->ldt_pagar = $r->pagar;
+        $resposta->ldt_pagar = $r->ldt_pagar;
         $resposta->ldt_pagar_motivo = $r->ldt_pagar_motivo;
 
         $resposta->save();
-        return view('parte3', [
-            'id' => $resposta->id
-        ]);
+        return view('parte3');
     }
 
     public function parte3(Request $r)
     {
-        $resposta = Resposta::findOrFail($r->cookie('id'));
+        $resposta = $this->resposta;
+        $resposta->parte = 3;
         $resposta->navegador_desktop = $r->navegador_desktop;
         $resposta->navegador_mobile = $r->navegador_mobile;
         $resposta->nav_encontrar = $r->nav_encontrar;
@@ -63,31 +81,32 @@ class RespostaController extends Controller
         $resposta->nav_marcas = $r->nav_marcas;
         $resposta->nav_barra = $r->nav_barra;
         $resposta->nav_teclas = $r->nav_teclas;
-        $resposta->nav_dificuldade = $r->nav_dificuldade;
+        $resposta->nav_dificuldade1 = $r->nav_dificuldade1;
+        $resposta->nav_dificuldade2 = $r->nav_dificuldade2;
+        $resposta->nav_dificuldade3 = $r->nav_dificuldade3;
+        $resposta->nav_links = $r->nav_links;
 
         $resposta->save();
-        return view('parte4', [
-            'id' => $resposta->id
-        ]);
+        return view('parte4');
     }
 
     public function parte4(Request $r)
     {
-        $resposta = Resposta::findOrFail($r->cookie('id'));
+        $resposta = $this->resposta;
+        $resposta->parte = 4;
         $resposta->braille_virtual = $r->braille_virtual;
         $resposta->linha_braille = $r->linha_braille;
         $resposta->teclado_externo = $r->teclado_externo;
         $resposta->digitacao_voz = $r->digitacao_voz;
 
         $resposta->save();
-        return view('parte5', [
-            'id' => $resposta->id
-        ]);
+        return view('parte5');
     }
 
     public function parte5(Request $r)
     {
-        $resposta = Resposta::findOrFail($r->cookie('id'));
+        $resposta = $this->resposta;
+        $resposta->parte = 5;
         $resposta->preferencia_navegacao = $r->preferencia_navegacao;
         $resposta->mais_acessivel = $r->mais_acessivel;
         $resposta->lbi = $r->lbi;
@@ -95,32 +114,28 @@ class RespostaController extends Controller
         $resposta->site_inacessivel = $r->site_inacessivel;
 
         $resposta->save();
-        return view('parte6', [
-            'id' => $resposta->id
-        ]);
+        return view('parte6');
     }
 
     public function parte6(Request $r)
     {
-        $resposta = Resposta::findOrFail($r->cookie('id'));
+        $resposta = $this->resposta;
         $resposta->email = $r->email;
         $resposta->nome = $r->nome;
         $resposta->opniao = $r->opniao;
+$resposta->sorteio=$r->sorteio;
+$resposta->publicada=$r->publicada;
 
         $resposta->save();
-        return view('confirm', [
-            'id' => $resposta->id
-        ]);
-    }
-    
-        public function dt(){
-        $nav=Browser::browserName();
-        $nav=Browser::platformName();
-        $nav=Browser::detect();
-        $nav=request()->ip();
-        dd($nav);
-        
         return view('confirm');
     }
-    
+
+    private function detect()
+    {
+        $resposta = $this->resposta;
+        $resposta->navegador = Browser::browserName();
+        $resposta->sistema = Browser::platformName();
+        $resposta->ns = json_encode(Browser::detect());
+        $resposta->ip = request()->ip();
+    }
 }

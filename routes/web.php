@@ -6,9 +6,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/parte1', function(){
-	return view('parte1');
-});
+Route::get('/parte1', 'RespostaController@iniciar');
 
     Route::post('/parte1', 'RespostaController@parte1');
         
