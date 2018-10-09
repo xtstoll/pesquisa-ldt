@@ -201,15 +201,15 @@
 				    	      <input id="deficienciamotora" type="checkbox" name="deficiencia[]" value="motora" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="deficiência motora não selecionado">
 				    	      <label for="deficienciamotora">Motora</label>
 				    	    </li> 
-                       </ul>
-				            <div>
+				            <li>
 				              <input id="deficienciaoutra" type="checkbox" name="deficiencia[]" value="outra" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="outra deficiência não selecionado">
 				              <label for="deficienciaoutra">Outra</label>
-				            </div> 
-				    	    <div>
+				            </li> 
+				    	    <li>
 				    	      <input id="deficiencianenhuma" type="checkbox" name="deficiencia[]" value="nenhuma" role="checkbox" onclick="CHK();" onKeyPress="CHK();" aria-label="nenhuma deficiência não selecionado">
 				    	      <label for="deficiencianenhuma">Nenhuma</label>
-				    	    </div>            
+				    	    </li>     
+                         </ul>
 			        </div>
 			
 			        <div class="buttons">
