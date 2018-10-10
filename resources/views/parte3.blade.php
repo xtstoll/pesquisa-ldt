@@ -107,7 +107,7 @@
 			        
 			        <div class="pergunta">
 				        <label for="navdificil" id="navDificil">3.8 Em qual elemento você tem mais dificuldade de navegar?</label>
-				        <select name="nav_dificuldade" id="navdificil" required>
+				        <select name="nav_dificuldade1" id="navdificil" required>
 				            <option value="">Selecione</option>
 				            <option value="busca">Campo de busca inacessível ou inexistente</option>
 				            <option value="cabecalhos">Cabeçalhos ausentes ou fora da ordem lógica</option>
