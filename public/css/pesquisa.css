@@ -31,6 +31,12 @@ select {
 label {
   font-size: 2.5rem;
   padding-bottom: 1rem;
+  max-width: none;
+}
+
+usa-form-large {
+   max-width: none !important;
+   margin-right: 0 !important;
 }
 
 .pergunta {
