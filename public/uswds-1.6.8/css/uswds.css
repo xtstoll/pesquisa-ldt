@@ -1556,6 +1556,7 @@ legend {
   position: inherit;
   left: inherit;
 } 
+/*
 
 .lt-ie9 [type=checkbox], .lt-ie9
 [type=radio] {
@@ -1570,9 +1571,11 @@ legend {
 [type=radio] + label {
   cursor: pointer;
   font-weight: 400;
-  margin-bottom: 0.65em;
+  margin-bottom: 0.65em;  
 }
+*/
 
+/*
 [type=checkbox] + label::before,
 [type=radio] + label::before {
   background: #ffffff;
@@ -1624,11 +1627,13 @@ legend {
   outline: 2px dotted #aeb0b5;
   outline-offset: 6px;
 }
+*/
 
 [type=checkbox]:disabled + label {
   color: #d6d7d9;
 }
 
+/*
 [type=checkbox]:focus + label::before {
   outline: 2px dotted #aeb0b5;
   outline-offset: 3px;
@@ -1639,7 +1644,8 @@ legend {
   background: #f1f1f1;
   box-shadow: 0 0 0 1px #aeb0b5;
   cursor: not-allowed;
-} */
+} 
+*/
 
 [type=range] {
   -webkit-appearance: none;

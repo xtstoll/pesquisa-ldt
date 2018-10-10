@@ -1,7 +1,12 @@
+.usa-width-one-whole {
+	margin-left: auto;
+	margin-right: auto;	
+}
+
 input,
-textarea,
-select {
-  font-size: 2.2rem;
+textarea
+{
+  font-size: 2rem;
 }
 
 body {
@@ -16,6 +21,20 @@ body {
 h1 {
   color: #92af00;
   padding-top: 4rem;
+  padding-bottom: 0rem;
+}
+
+select {
+  font-size: 1.8rem;	
+}
+
+label {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.pergunta {
+  padding-top: 1rem;	
 }
 
 .usa-button, .usa-button-secondary {
@@ -34,18 +53,31 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-input[type="checkbox"] {
-     -webkit-appearance: checkbox !important;
-     -moz-appearance: checkbox !important;
-     -ms-appearance: checkbox !important;
-     -o-appearance: checkbox !important;
-     appearance: checkbox !important;
+input[type="checkbox"],
+input[type="radio"]
+{
+    display: inline-block !important;
+    height: 18px !important;
+    width: 18px !important;
 }
 
-input[type="radio"] {
-     -webkit-appearance: radio !important;
-     -moz-appearance: radio !important;
-     -ms-appearance: radio !important;
-     -o-appearance: radio !important;
-     appearance: radio !important;
+input[type="checkbox"] + label, 
+input[type="radio"] + label
+{
+    display: inline-block !important;
+    padding-left: 1rem;
+}
+
+input[type="checkbox"]
+{
+   -webkit-appearance: checkbox !important;
+   -moz-appearance: checkbox !important;
+   appearance: checkbox !important;
+}
+
+input[type="radio"]
+{
+   -webkit-appearance: radio !important;
+   -moz-appearance: radio !important;
+   appearance: radio !important;
 }
