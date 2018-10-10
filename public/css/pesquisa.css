@@ -33,3 +33,19 @@ a:hover, a:focus {
   background-color: #78d8f9;
   text-decoration: none;
 }
+
+input[type="checkbox"] {
+     -webkit-appearance: checkbox !important;
+     -moz-appearance: checkbox !important;
+     -ms-appearance: checkbox !important;
+     -o-appearance: checkbox !important;
+     appearance: checkbox !important;
+}
+
+input[type="radio"] {
+     -webkit-appearance: radio !important;
+     -moz-appearance: radio !important;
+     -ms-appearance: radio !important;
+     -o-appearance: radio !important;
+     appearance: radio !important;
+}
