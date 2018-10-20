@@ -13,7 +13,7 @@ class RespostaController extends Controller
 
     public function __construct(Request $request)
     {
-        if (! $request->hasCookie("id")) {
+        if (! $request->hasCookie("id") or $_COOKIE['id'] == 0) {
             $resposta = new Resposta();
             $resposta->parte = 0;
             $resposta->save();
@@ -31,6 +31,11 @@ class RespostaController extends Controller
         return view('parte1');
     }
 
+    public function finalizar(){
+        setcookie("id", 0, -1);
+        unset($_COOKIE['id']);
+    }
+    
     public function parte1(Request $r)
     {
         $resposta = $this->resposta;
@@ -127,6 +132,7 @@ $resposta->sorteio=$r->sorteio;
 $resposta->publicada=$r->publicada;
 
         $resposta->save();
+        $this->finalizar();
         return view('confirm');
     }
 
