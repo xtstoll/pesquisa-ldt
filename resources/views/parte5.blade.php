@@ -3,9 +3,9 @@
 @section('pageTitle', 'Parte 5 - ')
 
 @section('content')
-
 <main id="main-content">
-		<div class="usa-width-one-whole">	
+	<div class="usa-grid">	
+		<div class="usa-width-one-whole">
 			
 		  	<h1>Parte 5: Acessibilidade</h1>
 		
@@ -51,16 +51,19 @@
 			        <div class="pergunta">					
 						<label for="siteinacessivel" id="siteInacessivel">5.5 Qual é o site menos acessível que você utiliza?</label>
 					    <input id="siteinacessivel" name="site_inacessivel" type="text" placeholder="Qual é o site menos acessível que você utiliza?" maxlength="100" required>
-			        </div>
-						
+			        </div>	
+					
+			        <div class="buttons">
 						<button class="usa-button-secondary" onclick="window.history.back();">Voltar</button>
 					    <button class="usa-button" type="button" onclick="validarP5();">Continuar</button>
+					</div>
 					
 					</form>		    		
 
 		    <p>Você tem alguma dúvida? <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-%20Parte%205">Entre em contato por e-mail</a>.</p>
 
-		</div>    	
+		</div> 
+	</div>   	
 </main>
 
 @endsection

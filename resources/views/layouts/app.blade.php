@@ -11,10 +11,23 @@
 	<script src="{{ secure_asset('js/validarP5.js') }}"></script>
 	<script src="{{ secure_asset('js/validarP6.js') }}"></script>
 	<script src="{{ secure_asset('js/CHK.js') }}"></script>
-	<link rel="stylesheet" href="{{ secure_asset('uswds-1.6.8/css/uswds.min.css') }}">
+	<link rel="stylesheet" href="{{ secure_asset('uswds-1.6.8/css/uswds.css') }}">
 	<link rel="stylesheet" href="{{ secure_asset('css/pesquisa.css') }}">
-	<link rel="image_src" href="{{ secure_asset('images/logo_pesquisa-ldt.png') }}" alt="Logo da pesquisa brasileira sobre o uso de leitores de tela"/>	
+	<link rel="image_src" href="{{ secure_asset('images/logo_pesquisa-ldt_twitter.jpg') }}" />	
 	
+<!-- Facebook -->
+	<meta property="og:url" content="http://estudoinclusivo.com.br" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Pesquisa brasileira sobre o uso de leitores de tela" />
+	<meta property="og:description" content="Contribua para uma web mais inclusiva participando dessa pesquisa! Só leva de 15 a 20 min para preencher, e os dados coletados serão disponibilizados para todos." />
+	<meta property="og:image" content="images/logo_pesquisa-ldt.jpg" />	
+	<meta name="twitter:card" content="summary" />
+
+<!-- Twitter -->
+	<meta name="twitter:title" content="Pesquisa brasileira sobre o uso de leitores de tela" />
+	<meta name="twitter:description" content="Contribua para uma web mais inclusiva participando dessa pesquisa! Só leva de 15 a 20 min para preencher, e os dados coletados serão disponibilizados para todos." />
+	<meta name="twitter:image" content="images/logo_pesquisa-ldt_twitter.jpg" />	
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127040926-1"></script>
 		<script>
