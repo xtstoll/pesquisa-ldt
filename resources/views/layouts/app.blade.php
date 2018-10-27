@@ -20,13 +20,13 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Pesquisa brasileira sobre o uso de leitores de tela" />
 	<meta property="og:description" content="Contribua para uma web mais inclusiva participando dessa pesquisa! Só leva de 15 a 20 min para preencher, e os dados coletados serão disponibilizados para todos." />
-	<meta property="og:image" content="images/logo_pesquisa-ldt.jpg" />	
-	<meta name="twitter:card" content="summary" />
+	<meta property="og:image" content="{{ secure_asset('images/logo_pesquisa-ldt.jpg') }}" />	
 
 <!-- Twitter -->
+	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Pesquisa brasileira sobre o uso de leitores de tela" />
 	<meta name="twitter:description" content="Contribua para uma web mais inclusiva participando dessa pesquisa! Só leva de 15 a 20 min para preencher, e os dados coletados serão disponibilizados para todos." />
-	<meta name="twitter:image" content="images/logo_pesquisa-ldt_twitter.jpg" />	
+	<meta name="twitter:image" content="{{ secure_asset('images/logo_pesquisa-ldt_twitter.jpg') }}" />	
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127040926-1"></script>
