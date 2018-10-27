@@ -16,7 +16,7 @@
 	<link rel="image_src" href="{{ secure_asset('images/logo_pesquisa-ldt_twitter.jpg') }}" />	
 	
 <!-- Facebook -->
-	<meta property="og:url" content="http://estudoinclusivo.com.br" />
+	<meta property="og:url" content="https://estudoinclusivo.com.br" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Pesquisa brasileira sobre o uso de leitores de tela" />
 	<meta property="og:description" content="Contribua para uma web mais inclusiva participando dessa pesquisa! Só leva de 15 a 20 min para preencher, e os dados coletados serão disponibilizados para todos." />
