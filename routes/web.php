@@ -40,5 +40,9 @@ Route::get('/parte6', function(){
 
 Route::post('/parte6', 'RespostaController@parte6');
 
+Route::get('/resultados', function(){
+	return view('resultados');
+});
 
+Route::post('/resultados', 'RespostaController@resultados');
 
