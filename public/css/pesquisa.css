@@ -88,6 +88,26 @@ input[type="radio"]
    appearance: radio !important;
 }
 
-table.resultados {
-	color: #ffffff;
+
+/* Resultados */
+
+h2 {
+  padding-top: 3rem;
+}
+
+tr, td {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+thead, th {
+	background-color: #a2b34f !important;
+}
+
+a {
+	color: #78d8f9;
+}
+
+p.webaim {
+	font-size: 0.8em;
 }
