@@ -87,3 +87,7 @@ input[type="radio"]
    -moz-appearance: radio !important;
    appearance: radio !important;
 }
+
+table.resultados {
+	color: #ffffff;
+}

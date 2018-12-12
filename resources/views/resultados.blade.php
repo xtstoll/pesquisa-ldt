@@ -170,7 +170,7 @@
 				
 			<h1>Parte 3</h1>
 			
-				<h2>Qual navegador você mais utiliza no seu computador / notebook?
+				<h2>Qual navegador você mais utiliza no seu computador / notebook?</h2>
 				<p>Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#browsers">webaim.org/projects/screenreadersurvey7/#browsers</a></p>	
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
