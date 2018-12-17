@@ -346,25 +346,6 @@
 			 <tr><td>Sim</td><td>248</td><td>83,8%</td></tr>
 			 <tr><td>Não</td><td>48</td><td>16,2%</td></tr>
 			</tbody></table>
-			
-			<h3>Qual é o site mais acessível que você utiliza?</h3>
-			<ol>
-				<li>google.com</li>
-				<li>cegosbrasil.net</li>
-				<li>facebook.com</li>
-				<li>visionvox.com.br</li>
-				<li>youtube.com</li>
-			</ol>
-			
-			<h3>Qual é o site menos acessível que você utiliza?</h3>
-			<ol>
-				<li>facebook.com</li>
-				<li>decolar.com.br</li>
-				<li>g1.globo.com</li>
-				<li>instagram.com</li>
-				<li>uol.com.br</li>
-			</ol>
-			
 				
 				
 			<h2>Correlações</h2>
@@ -448,7 +429,7 @@
 				 <tr><td>30 a 34 anos</td><td>21,4%</td><td>12,5%</td><td>64,3%</td><td>1,8%</td></tr>
 				 <tr><td>15 a 19 anos</td><td>21,1%</td><td>15,8%</td><td>63,2%</td><td>0,0%</td></tr>
 				 <tr><td>60 a 64 anos</td><td>20,0%</td><td>20,0%</td><td>60,0%</td><td>0,0%</td></tr>
-				 <tr><td>35 a 39 anos</td><td>18,6%</td><td>14,0%</td><td>65,1%</td><td>2,3%</td></tr>
+				 <tr><td>35 a 39 anos</td><td>18,6%</td><td>14,0%</td><td>65,1%</td><td>2,3%</td></tr
 				 <tr><td>40 a 44 anos</td><td>16,1%</td><td>19,4%</td><td>61,3%</td><td>3,2%</td></tr>
 				 <tr><td>45 a 49 anos</td><td>16,1%</td><td>12,9%</td><td>71,0%</td><td>0,0%</td></tr>
 				 <tr><td>50 a 54 anos</td><td>11,1%</td><td>16,7%</td><td>61,1%</td><td>11,1%</td></tr>
