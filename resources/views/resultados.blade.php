@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content')
+@section('pageTitle', 'Resultados - ')
 
 <main id="main-content">
 	<div class="usa-grid">	
