@@ -50,18 +50,18 @@
 				<h3>Qual o seu nível de escolaridade?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
-				 <tr><td>Superior completo</td><td>87</td><td>27,9%</td></tr>
+				 <tr><td>Fundamental incompleto</td><td>11</td><td>3,5%</td></tr>
+				 <tr><td>Fundamental completo</td><td>5</td><td>1,6%</td></tr>
+				 <tr><td>Ensino médio incompleto</td><td>16</td><td>5,1%</td></tr>
 				 <tr><td>Ensino médio completo</td><td>63</td><td>20,2%</td></tr>
 				 <tr><td>Superior incompleto</td><td>58</td><td>18,6%</td></tr>
-				 <tr><td>Pós-graduação (lato senso) completa</td><td>44</td><td>14,1%</td></tr>
-				 <tr><td>Ensino médio incompleto</td><td>16</td><td>5,1%</td></tr>
-				 <tr><td>Fundamental incompleto</td><td>11</td><td>3,5%</td></tr>
+				 <tr><td>Superior completo</td><td>87</td><td>27,9%</td></tr>
 				 <tr><td>Pós-graduação (lato senso) incompleta</td><td>10</td><td>3,2%</td></tr>
-				 <tr><td>Pós-graduação (nível mestrado) completa</td><td>9</td><td>2,9%</td></tr>
-				 <tr><td>Fundamental completo</td><td>5</td><td>1,6%</td></tr>
-				 <tr><td>Pós-graduação (nível doutorado) completa</td><td>2</td><td>0,6%</td></tr>
-				 <tr><td>Pós-graduação (nível doutorado) incompleta</td><td>2</td><td>0,6%</td></tr>
+				 <tr><td>Pós-graduação (lato senso) completa</td><td>44</td><td>14,1%</td></tr>
 				 <tr><td>Pós-graduação (nível mestrado) incompleta</td><td>2</td><td>0,6%</td></tr>
+				 <tr><td>Pós-graduação (nível mestrado) completa</td><td>9</td><td>2,9%</td></tr>
+				 <tr><td>Pós-graduação (nível doutorado) incompleta</td><td>2</td><td>0,6%</td></tr>
+				 <tr><td>Pós-graduação (nível doutorado) completa</td><td>2</td><td>0,6%</td></tr>
 				 <tr><td>Não quero responder</td><td>3</td><td>1,0%</td></tr>
 				</tbody></table>
 				
