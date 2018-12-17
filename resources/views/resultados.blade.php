@@ -6,9 +6,11 @@
 	<div class="usa-grid">	
 		<div class="usa-width-one-whole">
 			
-			<h1>Parte 1</h1>
+			<h1>Resultados da Pesquisa do Uso de Leitores de Tela</h1>
 			
-				<h2>Qual ano você nasceu?</h2>
+			<h2>Parte 1</h2>
+			
+				<h3>Qual ano você nasceu?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>25 a 29 anos</td><td>62</td><td>19,9%</td></tr>
@@ -25,8 +27,8 @@
 				 <tr><td>65 a 69 anos</td><td>1</td><td>0,3%</td></tr>
 				 <tr><td>70 a 74 anos</td><td>1</td><td>0,3%</td></tr>
 				</tbody></table>
-				
-				<h2>Qual é o seu gênero?</h2>
+
+				<h3>Qual é o seu gênero?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Homem</td><td>197</td><td>63,1%</td></tr>
@@ -35,7 +37,7 @@
 				 <tr><td>Outro</td><td>1</td><td>0,3%</td></tr>
 				</tbody></table>
 				
-				<h2>Em qual região você mora?</h2>
+				<h3>Em qual região você mora?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Sudeste</td><td>186</td><td>59,6%</td></tr>
@@ -45,7 +47,7 @@
 				 <tr><td>Norte</td><td>10</td><td>3,2%</td></tr>
 				</tbody></table>
 				
-				<h2>Qual o seu nível de escolaridade?</h2>
+				<h3>Qual o seu nível de escolaridade?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Superior completo</td><td>87</td><td>27,9%</td></tr>
@@ -63,7 +65,7 @@
 				 <tr><td>Não quero responder</td><td>3</td><td>1,0%</td></tr>
 				</tbody></table>
 				
-				<h2>Você possui uma deficiência?</h2>
+				<h3>Você possui uma deficiência?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Possui uma deficiência</td><td>288</td><td>92,3%</td></tr>
@@ -71,7 +73,7 @@
 				 <tr><td>Possui mais que uma deficiência</td><td>10</td><td>3,2%</td></tr>
 				</tbody></table>
 				
-				<h2>Qual(is) deficiência(s) você possui?</h2>
+				<h3>Qual(is) deficiência(s) você possui?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#disabilitytypes">webaim.org/projects/screenreadersurvey7/#disabilitytypes</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -86,9 +88,9 @@
 			
 			
 				
-			<h1>Parte 2</h1>
+			<h2>Parte 2</h2>
 			
-				<h2>Qual leitor de tela você mais utiliza para computador / notebook?</h2>
+				<h3>Qual leitor de tela você mais utiliza para computador / notebook?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#primary">webaim.org/projects/screenreadersurvey7/#primary</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -103,7 +105,7 @@
 				 <tr><td>Não utilizo</td><td>5</td><td>1,6%</td></tr>
 				</tbody></table>
 				
-				<h2>Quando foi a última vez que você atualizou seu leitor de tela para computador / notebook?</h2>
+				<h3>Quando foi a última vez que você atualizou seu leitor de tela para computador / notebook?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#updates">webaim.org/projects/screenreadersurvey7/#updates</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -114,7 +116,7 @@
 				 <tr><td>Não tenho certeza</td><td>20</td><td>6,4%</td></tr>
 				</tbody></table>
 				
-				<h2>Qual leitor de tela você mais utiliza para celular / tablet?</h2>
+				<h3>Qual leitor de tela você mais utiliza para celular / tablet?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#mobilescreenreaders">webaim.org/projects/screenreadersurvey7/#mobilescreenreaders</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -128,7 +130,7 @@
 				 <tr><td>Não utilizo nenhum</td><td>14</td><td>4,5%</td></tr>
 				</tbody></table>
 				
-				<h2>Qual opção descreve como você utiliza o seu leitor de tela?</h2>
+				<h3>Qual opção descreve como você utiliza o seu leitor de tela?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#usage">webaim.org/projects/screenreadersurvey7/#usage</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -139,7 +141,7 @@
 				 <tr><td>Não utilizo nenhum</td><td>5</td><td>1,6%</td></tr>
 				</tbody></table>
 				
-				<h2>Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?</h2>
+				<h3>Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#mobiledesktopusage">webaim.org/projects/screenreadersurvey7/#mobiledesktopusage</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -149,7 +151,7 @@
 				 <tr><td>Não utilizo nenhum</td><td>5</td><td>1,6%</td></tr>
 				</tbody></table>
 				
-				<h2>Como você aprendeu a utilizar seu leitor de tela?</h2>
+				<h3>Como você aprendeu a utilizar seu leitor de tela?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Sozinho</td><td>125</td><td>40,1%</td></tr>
@@ -159,7 +161,7 @@
 				 <tr><td>No trabalho</td><td>6</td><td>1,9%</td></tr>
 				</tbody></table>
 				
-				<h2>Você acha que vale a pena pagar por um leitor de tela?</h2>
+				<h3>Você acha que vale a pena pagar por um leitor de tela?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Não</td><td>167</td><td>53,5%</td></tr>
@@ -168,9 +170,9 @@
 				
 				
 				
-			<h1>Parte 3</h1>
+			<h2>Parte 3</h2>
 			
-				<h2>Qual navegador você mais utiliza no seu computador / notebook?</h2>
+				<h3>Qual navegador você mais utiliza no seu computador / notebook?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#browsers">webaim.org/projects/screenreadersurvey7/#browsers</a></p>	
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -184,7 +186,7 @@
 				 <tr><td>Opera</td><td>2</td><td>0,6%</td></tr>
 				</tbody></table>
 				
-				<h2>Qual navegador você mais utiliza no seu celular / tablet?</h2>
+				<h3>Qual navegador você mais utiliza no seu celular / tablet?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Chrome</td><td>166</td><td>53,2%</td></tr>
@@ -194,7 +196,7 @@
 				 <tr><td>Não utilizo nenhum</td><td>6</td><td>1,9%</td></tr>
 				</tbody></table>
 				
-				<h2>Ao tentar encontrar informações em uma página da Internet, qual das seguintes opções você costuma utilizar?</h2>
+				<h3>Ao tentar encontrar informações em uma página da Internet, qual das seguintes opções você costuma utilizar?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#finding">webaim.org/projects/screenreadersurvey7/#finding</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -205,7 +207,7 @@
 				 <tr><td>Navegar pelas marcas/regiões (tecla D ou R)</td><td>1</td><td>0,3%</td></tr>
 				</tbody></table>
 				
-				<h2>Com qual frequência você utiliza os links “ir para conteúdo” ou “ir para o menu” quando estão disponíveis em uma página?</h2>
+				<h3>Com qual frequência você utiliza os links “ir para conteúdo” ou “ir para o menu” quando estão disponíveis em uma página?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#skip">webaim.org/projects/screenreadersurvey7/#skip</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -217,7 +219,7 @@
 				 <tr><td>Não sei do que se trata</td><td>10</td><td>3,2%</td></tr>
 				</tbody></table>
 				
-				<h2>Com qual frequência você utiliza a navegação pelas marcas / regiões (tecla D ou R) em uma página?</h2>
+				<h3>Com qual frequência você utiliza a navegação pelas marcas / regiões (tecla D ou R) em uma página?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#landmarks">webaim.org/projects/screenreadersurvey7/#landmarks</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -229,7 +231,7 @@
 				 <tr><td>Não sei do que se trata</td><td>31</td><td>9,9%</td></tr>
 				</tbody></table>
 				
-				<h2>Com qual frequência você utiliza as opções de aumentar/diminuir fonte ou alternar contraste, quando estão disponíveis em uma página?</h2>
+				<h3>Com qual frequência você utiliza as opções de aumentar/diminuir fonte ou alternar contraste, quando estão disponíveis em uma página?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Sempre</td><td>26</td><td>8,3%</td></tr>
@@ -240,7 +242,7 @@
 				 <tr><td>Não sei do que se trata</td><td>8</td><td>2,6%</td></tr>
 				</tbody></table>
 				
-				<h2>Com qual frequência você utiliza as teclas de atalho de um site, quando estão disponíveis? Por exemplo, a tecla P para publicar um novo status no Facebook.</h2>
+				<h3>Com qual frequência você utiliza as teclas de atalho de um site, quando estão disponíveis? Por exemplo, a tecla P para publicar um novo status no Facebook.</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Sempre</td><td>68</td><td>21,8%</td></tr>
@@ -251,7 +253,7 @@
 				 <tr><td>Não sei do que se trata</td><td>20</td><td>6,4%</td></tr>
 				</tbody></table>
 				
-				<h2>Em qual elemento você tem mais dificuldade de navegar?</h2>
+				<h3>Em qual elemento você tem mais dificuldade de navegar?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#problematic">webaim.org/projects/screenreadersurvey7/#problematic</a></p>
 				<ol>
 					<li>Imagens CAPTCHA apresentando texto usado para verificar que você não é um robô</li>
@@ -268,7 +270,7 @@
 					<li>Falta de links “ir para conteúdo” ou “ir para o menu”</li>
 				</ol>
 				
-				<h2>Quando existem dois ou mais links seguidos, o seu leitor de tela lê todos na mesma linha ou cada link em uma linha separada?</h2>
+				<h3>Quando existem dois ou mais links seguidos, o seu leitor de tela lê todos na mesma linha ou cada link em uma linha separada?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Cada link em uma linha separada</td><td>182</td><td>58,3%</td></tr>
@@ -278,9 +280,9 @@
 				
 				
 				
-			<h1>Parte 4</h1>
+			<h2>Parte 4</h2>
 			
-			<h2>Você utiliza algum teclado virtual braille no seu celular / tablet?</h2>
+			<h3>Você utiliza algum teclado virtual braille no seu celular / tablet?</h3>
 			<table class="resultados">
 			<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 			 <tr><td>Não</td><td>259</td><td>83,5%</td></tr>
@@ -288,7 +290,7 @@
 			 <tr><td>Não sei do que se trata</td><td>5</td><td>1,6%</td></tr>
 			</tbody></table>
 			
-			<h2>Você utiliza alguma linha braille com seu leitor de tela?</h2>
+			<h3>Você utiliza alguma linha braille com seu leitor de tela?</h3>
 			<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#braille">webaim.org/projects/screenreadersurvey7/#braille</a></p>
 			<table class="resultados">
 			<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -297,7 +299,7 @@
 			 <tr><td>Não sei do que se trata</td><td>4</td><td>1,3%</td></tr>
 			</tbody></table>
 			
-			<h2>Você utiliza algum teclado externo para navegar e digitar no seu celular / tablet?</h2>
+			<h3>Você utiliza algum teclado externo para navegar e digitar no seu celular / tablet?</h3>
 			<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#mobilekeyboard">webaim.org/projects/screenreadersurvey7/#mobilekeyboard</a></p>
 			<table class="resultados">
 			<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -306,7 +308,7 @@
 			 <tr><td>Não sei do que se trata</td><td>6</td><td>1,9%</td></tr>
 			</tbody></table>
 			
-			<h2>Com qual frequência você utiliza o recurso de digitação por voz no seu celular / tablet?</h2>
+			<h3>Com qual frequência você utiliza o recurso de digitação por voz no seu celular / tablet?</h3>
 			<table class="resultados">
 			<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 			 <tr><td>Sempre</td><td>82</td><td>26,5%</td></tr>
@@ -319,9 +321,9 @@
 			
 				
 				
-			<h1>Parte 5</h1>
+			<h2>Parte 5</h2>
 			
-			<h2>Você prefere navegar em uma página da Internet pelo computador / notebook ou pelo celular / tablet?</h2>
+			<h3>Você prefere navegar em uma página da Internet pelo computador / notebook ou pelo celular / tablet?</h3>
 			<table class="resultados">
 			<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 			 <tr><td>Computador / notebook</td><td>160</td><td>54,1%</td></tr>
@@ -329,7 +331,7 @@
 			 <tr><td>Não tenho preferência</td><td>61</td><td>20,6%</td></tr>
 			</tbody></table>
 			
-			<h2>Na sua opinião, você acha que a Internet ficou mais acessível desde 2015?</h2>
+			<h3>Na sua opinião, você acha que a Internet ficou mais acessível desde 2015?</h3>
 			<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#progress">webaim.org/projects/screenreadersurvey7/#progress</a></p>
 			<table class="resultados">
 			<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -338,14 +340,14 @@
 			 <tr><td>Não, ficou menos acessível</td><td>16</td><td>5,4%</td></tr>
 			</tbody></table>
 			
-			<h2>Você já ouviu falar da LBI (Lei Brasileira de Inclusão, nº 13.146/2015)?</h2>
+			<h3>Você já ouviu falar da LBI (Lei Brasileira de Inclusão, nº 13.146/2015)?</h3>
 			<table class="resultados">
 			<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 			 <tr><td>Sim</td><td>248</td><td>83,8%</td></tr>
 			 <tr><td>Não</td><td>48</td><td>16,2%</td></tr>
 			</tbody></table>
 			
-			<h2>Qual é o site mais acessível que você utiliza?</h2>
+			<h3>Qual é o site mais acessível que você utiliza?</h3>
 			<ol>
 				<li>google.com</li>
 				<li>cegosbrasil.net</li>
@@ -354,7 +356,7 @@
 				<li>youtube.com</li>
 			</ol>
 			
-			<h2>Qual é o site menos acessível que você utiliza?</h2>
+			<h3>Qual é o site menos acessível que você utiliza?</h3>
 			<ol>
 				<li>facebook.com</li>
 				<li>decolar.com.br</li>
@@ -365,9 +367,9 @@
 			
 				
 				
-			<h1>Correlações</h1>
+			<h2>Correlações</h2>
 			
-				<h2>Leitor de Tela x Navegador Web</h2>
+				<h3>Leitor de Tela x Navegador Web</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#browsercombos">webaim.org/projects/screenreadersurvey7/#browsercombos</a></p>
 				<table class="resultados">
 				<thead><tr><th>Leitor de Tela e Navegador Web</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -382,7 +384,7 @@
 				 <tr><td>Outras combinações</td><td>29</td><td>9,5%</td></tr>
 				</tbody></table>
 				
-				<h2>Leitor de Tela x Região</h2>
+				<h3>Leitor de Tela x Região</h3>
 				<table class="resultados">
 				<thead><tr><th>Região</th><th>NVDA</th><th>JAWS</th><th>VoiceOver</th><th>Outros</th></tr></thead><tbody>
 				 <tr><td>Centro-Oeste</td><td>80,0%</td><td>13,3%</td><td>0,0%</td><td>6,7%</td></tr>
@@ -392,7 +394,7 @@
 				 <tr><td>Sudeste</td><td>62,9%</td><td>15,6%</td><td>10,2%</td><td>11,4%</td></tr>
 				</tbody></table>
 				
-				<h2>Leitor de Tela x Idade</h2>
+				<h3>Leitor de Tela x Idade</h3>
 				<table class="resultados">
 				<thead><tr><th>Idade</th><th>NVDA</th><th>JAWS</th><th>VoiceOver</th><th>Outros</th></tr></thead><tbody>
 				 <tr><td>10 a 14 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>
@@ -410,14 +412,14 @@
 				 <tr><td>55 a 59 anos</td><td>14,3%</td><td>28,6%</td><td>0,0%</td><td>57,2%</td></tr>
 				</tbody></table>
 				
-				<h2>Leitor de Tela x Resposta de “Você acha que vale a pena pagar por um leitor de tela?”</h2>
+				<h3>Leitor de Tela x Resposta de “Você acha que vale a pena pagar por um leitor de tela?”</h3>
 				<table class="resultados">
 				<thead><tr><th>Resposta</th><th>Todos</th><th>NVDA</th><th>JAWS</th><th>VoiceOver</th></tr></thead><tbody>
 				 <tr><td>Não, não vale a pena pagar</td><td>53,5%</td><td>55,1%</td><td>42,9%</td><td>59,1%</td></tr>
 				 <tr><td>Sim, vale a pena pagar</td><td>46,5%</td><td>44,9%</td><td>57,1%</td><td>40,9%</td></tr>
 				</tbody></table>
 				
-				<h2>Resposta de “Como você aprendeu a utilizar seu leitor de tela?” x Região</h2>
+				<h3>Resposta de “Como você aprendeu a utilizar seu leitor de tela?” x Região</h3>
 				<table class="resultados">
 				<thead><tr><th>Resposta</th><th>Brasil</th><th>Sudeste</th><th>Sul</th><th>Nordeste</th><th>Centro-Oeste</th><th>Norte</th></tr></thead><tbody>
 				 <tr><td>Sozinho</td><td>40,1%</td><td>41,9%</td><td>42,5%</td><td>27,9%</td><td>53,3%</td><td>50,0%</td></tr>
@@ -427,7 +429,7 @@
 				 <tr><td>No trabalho</td><td>1,9%</td><td>2,2%</td><td>0,0%</td><td>1,6%</td><td>6,7%</td><td>0,0%</td></tr>
 				</tbody></table>
 				
-				<h2>Resposta de “Como você aprendeu a utilizar seu leitor de tela?” x Resposta de “Ao tentar encontrar informações em uma página da Internet, qual das seguintes opções você costuma utilizar?”</h2>
+				<h3>Resposta de “Como você aprendeu a utilizar seu leitor de tela?” x Resposta de “Ao tentar encontrar informações em uma página da Internet, qual das seguintes opções você costuma utilizar?”</h3>
 				<table class="resultados">
 				<thead><tr><th>Resposta</th><th>Cabeçalhos</th><th>Item por item</th><th>Links</th><th>Pesquisa</th><th>Marcas</th></tr></thead><tbody>
 				 <tr><td>Sozinho</td><td>45,6%</td><td>22,4%</td><td>20,8%</td><td>11,2%</td><td>0,0%</td></tr>
@@ -437,7 +439,7 @@
 				 <tr><td>No trabalho</td><td>16,7%</td><td>16,7%</td><td>0,0%</td><td>66,7%</td><td>0,0%</td></tr>
 				</tbody></table>
 				
-				<h2>Idade x Resposta de “Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?”</h2>
+				<h3>Idade x Resposta de “Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?”</h3>
 				<table class="resultados">
 				<thead><tr><th>Idade</th><th>Mais mobile</th><th>Mais desktop</th><th>Ambos</th><th>Não utilizo</th></tr></thead><tbody>
 				 <tr><td>55 a 59 anos</td><td>42,9%</td><td>28,6%</td><td>28,6%</td><td>0,0%</td></tr>
