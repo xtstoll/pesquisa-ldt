@@ -285,8 +285,8 @@
 			<h3>Você utiliza algum teclado virtual braille no seu celular / tablet?</h3>
 			<table class="resultados">
 			<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
-			 <tr><td>Não</td><td>259</td><td>83,5%</td></tr>
 			 <tr><td>Sim</td><td>46</td><td>14,8%</td></tr>
+			 <tr><td>Não</td><td>259</td><td>83,5%</td></tr>
 			 <tr><td>Não sei do que se trata</td><td>5</td><td>1,6%</td></tr>
 			</tbody></table>
 			
@@ -294,8 +294,8 @@
 			<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#braille">webaim.org/projects/screenreadersurvey7/#braille</a></p>
 			<table class="resultados">
 			<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
-			 <tr><td>Não</td><td>288</td><td>92,9%</td></tr>
 			 <tr><td>Sim</td><td>18</td><td>5,8%</td></tr>
+			 <tr><td>Não</td><td>288</td><td>92,9%</td></tr>
 			 <tr><td>Não sei do que se trata</td><td>4</td><td>1,3%</td></tr>
 			</tbody></table>
 			
@@ -303,8 +303,8 @@
 			<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#mobilekeyboard">webaim.org/projects/screenreadersurvey7/#mobilekeyboard</a></p>
 			<table class="resultados">
 			<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
-			 <tr><td>Não</td><td>273</td><td>88,1%</td></tr>
 			 <tr><td>Sim</td><td>31</td><td>10,0%</td></tr>
+			 <tr><td>Não</td><td>273</td><td>88,1%</td></tr>
 			 <tr><td>Não sei do que se trata</td><td>6</td><td>1,9%</td></tr>
 			</tbody></table>
 			
@@ -396,8 +396,8 @@
 				<h3>Leitor de Tela x Resposta de “Você acha que vale a pena pagar por um leitor de tela?”</h3>
 				<table class="resultados">
 				<thead><tr><th>Resposta</th><th>Todos</th><th>NVDA</th><th>JAWS</th><th>VoiceOver</th></tr></thead><tbody>
-				 <tr><td>Não, não vale a pena pagar</td><td>53,5%</td><td>55,1%</td><td>42,9%</td><td>59,1%</td></tr>
 				 <tr><td>Sim, vale a pena pagar</td><td>46,5%</td><td>44,9%</td><td>57,1%</td><td>40,9%</td></tr>
+				 <tr><td>Não, não vale a pena pagar</td><td>53,5%</td><td>55,1%</td><td>42,9%</td><td>59,1%</td></tr>
 				</tbody></table>
 				
 				<h3>Resposta de “Como você aprendeu a utilizar seu leitor de tela?” x Região</h3>
