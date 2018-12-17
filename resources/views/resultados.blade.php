@@ -270,14 +270,6 @@
 					<li>Falta de links “ir para conteúdo” ou “ir para o menu”</li>
 				</ol>
 				
-				<h3>Quando existem dois ou mais links seguidos, o seu leitor de tela lê todos na mesma linha ou cada link em uma linha separada?</h3>
-				<table class="resultados">
-				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
-				 <tr><td>Cada link em uma linha separada</td><td>182</td><td>58,3%</td></tr>
-				 <tr><td>Todos os links na mesma linha</td><td>86</td><td>27,6%</td></tr>
-				 <tr><td>Não sei do que se trata</td><td>44</td><td>14,1%</td></tr>
-				</tbody></table>
-				
 				
 				
 			<h2>Parte 4</h2>
