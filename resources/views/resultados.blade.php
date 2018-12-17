@@ -13,18 +13,18 @@
 				<h3>Qual ano você nasceu?</h3>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
-				 <tr><td>25 a 29 anos</td><td>62</td><td>19,9%</td></tr>
-				 <tr><td>30 a 34 anos</td><td>56</td><td>17,9%</td></tr>
-				 <tr><td>35 a 39 anos</td><td>43</td><td>13,8%</td></tr>
-				 <tr><td>20 a 24 anos</td><td>37</td><td>11,9%</td></tr>
-				 <tr><td>40 a 44 anos</td><td>31</td><td>9,9%</td></tr>
-				 <tr><td>45 a 49 anos</td><td>31</td><td>9,9%</td></tr>
-				 <tr><td>15 a 19 anos</td><td>19</td><td>6,1%</td></tr>
-				 <tr><td>50 a 54 anos</td><td>18</td><td>5,8%</td></tr>
-				 <tr><td>55 a 59 anos</td><td>7</td><td>2,2%</td></tr>
-				 <tr><td>60 a 64 anos</td><td>5</td><td>1,6%</td></tr>
-				 <tr><td>10 a 14 anos</td><td>1</td><td>0,3%</td></tr>
-				 <tr><td>65 a 69 anos</td><td>1</td><td>0,3%</td></tr>
+				 <tr><td>10 a 14 anos</td><td>1</td><td>0,3%</td></tr>	
+				 <tr><td>15 a 19 anos</td><td>19</td><td>6,1%</td></tr>	
+				 <tr><td>20 a 24 anos</td><td>37</td><td>11,9%</td></tr>	
+				 <tr><td>25 a 29 anos</td><td>62</td><td>19,9%</td></tr>	
+				 <tr><td>30 a 34 anos</td><td>56</td><td>17,9%</td></tr>	
+				 <tr><td>35 a 39 anos</td><td>43</td><td>13,8%</td></tr>	
+				 <tr><td>40 a 44 anos</td><td>31</td><td>9,9%</td></tr>	
+				 <tr><td>45 a 49 anos</td><td>31</td><td>9,9%</td></tr>	
+				 <tr><td>50 a 54 anos</td><td>18</td><td>5,8%</td></tr>	
+				 <tr><td>55 a 59 anos</td><td>7</td><td>2,2%</td></tr>	
+				 <tr><td>60 a 64 anos</td><td>5</td><td>1,6%</td></tr>	
+				 <tr><td>65 a 69 anos</td><td>1</td><td>0,3%</td></tr>	
 				 <tr><td>70 a 74 anos</td><td>1</td><td>0,3%</td></tr>
 				</tbody></table>
 
@@ -378,19 +378,19 @@
 				<h3>Leitor de Tela x Idade</h3>
 				<table class="resultados">
 				<thead><tr><th>Idade</th><th>NVDA</th><th>JAWS</th><th>VoiceOver</th><th>Outros</th></tr></thead><tbody>
-				 <tr><td>10 a 14 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>
-				 <tr><td>65 a 69 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>
+				 <tr><td>10 a 14 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>	
+				 <tr><td>15 a 19 anos</td><td>84,2%</td><td>5,3%</td><td>5,3%</td><td>5,3%</td></tr>	
+				 <tr><td>20 a 24 anos</td><td>94,6%</td><td>5,4%</td><td>0,0%</td><td>0%</td></tr>	
+				 <tr><td>25 a 29 anos</td><td>77,4%</td><td>9,7%</td><td>9,7%</td><td>3,2%</td></tr>	
+				 <tr><td>30 a 34 anos</td><td>76,8%</td><td>5,4%</td><td>8,9%</td><td>9%</td></tr>	
+				 <tr><td>35 a 39 anos</td><td>58,1%</td><td>23,3%</td><td>7,0%</td><td>11,6%</td></tr>	
+				 <tr><td>40 a 44 anos</td><td>54,8%</td><td>25,8%</td><td>9,7%</td><td>9,7%</td></tr>	
+				 <tr><td>45 a 49 anos</td><td>61,3%</td><td>32,3%</td><td>3,2%</td><td>3,2%</td></tr>	
+				 <tr><td>50 a 54 anos</td><td>44,4%</td><td>27,8%</td><td>5,6%</td><td>22,3%</td></tr>	
+				 <tr><td>55 a 59 anos</td><td>14,3%</td><td>28,6%</td><td>0,0%</td><td>57,2%</td></tr>	
+				 <tr><td>60 a 64 anos</td><td>20,0%</td><td>40,0%</td><td>40,0%</td><td>0%</td></tr>	
+				 <tr><td>65 a 69 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>	
 				 <tr><td>70 a 74 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>
-				 <tr><td>20 a 24 anos</td><td>94,6%</td><td>5,4%</td><td>0,0%</td><td>0%</td></tr>
-				 <tr><td>15 a 19 anos</td><td>84,2%</td><td>5,3%</td><td>5,3%</td><td>5,3%</td></tr>
-				 <tr><td>25 a 29 anos</td><td>77,4%</td><td>9,7%</td><td>9,7%</td><td>3,2%</td></tr>
-				 <tr><td>30 a 34 anos</td><td>76,8%</td><td>5,4%</td><td>8,9%</td><td>9%</td></tr>
-				 <tr><td>45 a 49 anos</td><td>61,3%</td><td>32,3%</td><td>3,2%</td><td>3,2%</td></tr>
-				 <tr><td>35 a 39 anos</td><td>58,1%</td><td>23,3%</td><td>7,0%</td><td>11,6%</td></tr>
-				 <tr><td>40 a 44 anos</td><td>54,8%</td><td>25,8%</td><td>9,7%</td><td>9,7%</td></tr>
-				 <tr><td>50 a 54 anos</td><td>44,4%</td><td>27,8%</td><td>5,6%</td><td>22,3%</td></tr>
-				 <tr><td>60 a 64 anos</td><td>20,0%</td><td>40,0%</td><td>40,0%</td><td>0%</td></tr>
-				 <tr><td>55 a 59 anos</td><td>14,3%</td><td>28,6%</td><td>0,0%</td><td>57,2%</td></tr>
 				</tbody></table>
 				
 				<h3>Leitor de Tela x Resposta de “Você acha que vale a pena pagar por um leitor de tela?”</h3>
@@ -423,19 +423,19 @@
 				<h3>Idade x Resposta de “Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?”</h3>
 				<table class="resultados">
 				<thead><tr><th>Idade</th><th>Mais mobile</th><th>Mais desktop</th><th>Ambos</th><th>Não utilizo</th></tr></thead><tbody>
-				 <tr><td>55 a 59 anos</td><td>42,9%</td><td>28,6%</td><td>28,6%</td><td>0,0%</td></tr>
-				 <tr><td>25 a 29 anos</td><td>22,6%</td><td>8,1%</td><td>69,4%</td><td>0,0%</td></tr>
-				 <tr><td>20 a 24 anos</td><td>21,6%</td><td>18,9%</td><td>59,5%</td><td>0,0%</td></tr>
-				 <tr><td>30 a 34 anos</td><td>21,4%</td><td>12,5%</td><td>64,3%</td><td>1,8%</td></tr>
+				 <tr><td>10 a 14 anos</td><td>0,0%</td><td>100,0%</td><td>0,0%</td><td>0,0%</td></tr>
 				 <tr><td>15 a 19 anos</td><td>21,1%</td><td>15,8%</td><td>63,2%</td><td>0,0%</td></tr>
-				 <tr><td>60 a 64 anos</td><td>20,0%</td><td>20,0%</td><td>60,0%</td><td>0,0%</td></tr>
+				 <tr><td>20 a 24 anos</td><td>21,6%</td><td>18,9%</td><td>59,5%</td><td>0,0%</td></tr>
+				 <tr><td>25 a 29 anos</td><td>22,6%</td><td>8,1%</td><td>69,4%</td><td>0,0%</td></tr>
+				 <tr><td>30 a 34 anos</td><td>21,4%</td><td>12,5%</td><td>64,3%</td><td>1,8%</td></tr>
 				 <tr><td>35 a 39 anos</td><td>18,6%</td><td>14,0%</td><td>65,1%</td><td>2,3%</td></tr
 				 <tr><td>40 a 44 anos</td><td>16,1%</td><td>19,4%</td><td>61,3%</td><td>3,2%</td></tr>
 				 <tr><td>45 a 49 anos</td><td>16,1%</td><td>12,9%</td><td>71,0%</td><td>0,0%</td></tr>
 				 <tr><td>50 a 54 anos</td><td>11,1%</td><td>16,7%</td><td>61,1%</td><td>11,1%</td></tr>
-				 <tr><td>10 a 14 anos</td><td>0,0%</td><td>100,0%</td><td>0,0%</td><td>0,0%</td></tr>
+				 <tr><td>55 a 59 anos</td><td>42,9%</td><td>28,6%</td><td>28,6%</td><td>0,0%</td></tr>
+				 <tr><td>60 a 64 anos</td><td>20,0%</td><td>20,0%</td><td>60,0%</td><td>0,0%</td></tr>
 				 <tr><td>65 a 69 anos</td><td>0,0%</td><td>0,0%</td><td>100,0%</td><td>0,0%</td></tr>
-				 <tr><td>70 a 74 anos</td><td>0,0%</td><td>0,0%</td><td>100,0%</td><td>0,0%</td></tr>
+				 <tr><td>70 a 74 anos</td><td>0,0%</td><td>0,0%</td><td>100,0%</td><td>0,0%</td></tr>				
 				</tbody></table>  
 		   		
 		</div>
