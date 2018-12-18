@@ -362,7 +362,8 @@
 			</tbody></table>
 				
 				
-			<h2>Dados cruzados</h2>
+			<h2 id="dados-cruzados">Dados cruzados</h2>
+            <p>Os dados seguintes são correlações entre os dados acima. Podem utilizar este cruzamento de dados para se obter informações adicionais na hora de analisar os resultados.</p>
 			
 				<h3 id="ldt-x-navweb">Combinações de Leitores de Tela Desktop e Navegadores Web</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#browsercombos">webaim.org/projects/screenreadersurvey7/#browsercombos</a></p>
