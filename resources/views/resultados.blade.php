@@ -2,6 +2,8 @@
 
 @section('pageTitle', 'Resultados - ')
 
+@section('content')
+
 <main id="main-content">
 	<div class="usa-grid">	
 		<div class="usa-width-one-whole">
@@ -12,11 +14,11 @@
 			<p>Em outubro de 2018, a equipe de acessibilidade da Everis Brasil pesquisou as preferências dos usuários de leitores de tela no Brasil e recebemos 312 respostas válidas. Este foi a primeira pesquisa deste tipo realizada no Brasil.</p>
 			<p>Nossa pesquisa foi baseada na pesquisa mundial da WebAIM. As perguntas que se correlacionam com a pesquisa da WebAIM incluem links para sua pesquisa publicada em 2017 (<a href="https://webaim.org/projects/screenreadersurvey7">Screen Reader User Survey #7 Results</a>).</p>
 			<p>Antes de ler seus resultados, observe o seguinte:</p>
-			<ol>
+			<ul>
 				<li>Os totais podem não ser iguais a 100% devido a arredondamentos;</li>
 				<li>O total de respostas para cada pergunta pode não ser igual a 312 porque os participantes não responderam a essa pergunta em particular;</li>
 				<li>O grupo de participantes não foi controlado e pode não representar todos os usuários do leitor de tela no Brasil.</li>
-			</ol>
+			</ul>
 			<p>No futuro, esperamos realizar outras pesquisas dessa natureza no Brasil e o resto da América Latina. Se você tiver ideias ou perguntas, <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-Resultados">entre em contato conosco por e-mail</a>.</p>
 			
 			<h2 id="parte1">Parte 1</h2>
