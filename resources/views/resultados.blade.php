@@ -174,6 +174,7 @@
 				 <tr><td>Na escola</td><td>11</td><td>3,5%</td></tr>
 				 <tr><td>No trabalho</td><td>6</td><td>1,9%</td></tr>
 				</tbody></table>
+				<p><strong>Observação:</strong> Dos participantes que aprenderam numa instituição, 67,1% utilizam NVDA e 20% utilizam JAWS. Dos participantes que aprenderam numa escola, 90,9% utilizam NVDA e 9,1% utilizam JAWS.</p>
 				
 				<h3 id="leitor-de-tela-pagar">Você acha que vale a pena pagar por um leitor de tela?</h3>
 				<table class="resultados">
