@@ -8,6 +8,17 @@
 			
 			<h1>Resultados da Pesquisa do Uso de Leitores de Tela</h1>
 			
+			<h2 id="apresentação">Apresentação</h2>
+			<p>Em outubro de 2018, a equipe de acessibilidade da Everis Brasil pesquisou as preferências dos usuários de leitores de tela no Brasil e recebemos 312 respostas válidas. Este foi a primeira pesquisa deste tipo realizada no Brasil.</p>
+			<p>Nossa pesquisa foi baseada na pesquisa mundial da WebAIM. As perguntas que se correlacionam com a pesquisa da WebAIM incluem links para sua pesquisa publicada em 2017 (<a href="https://webaim.org/projects/screenreadersurvey7">Screen Reader User Survey #7 Results</a>).</p>
+			<p>Antes de ler seus resultados, observe o seguinte:</p>
+			<ol>
+				<li>Os totais podem não ser iguais a 100% devido a arredondamentos;</li>
+				<li>O total de respostas para cada pergunta pode não ser igual a 312 porque os participantes não responderam a essa pergunta em particular;</li>
+				<li>O grupo de participantes não foi controlado e pode não representar todos os usuários do leitor de tela no Brasil.</li>
+			</ol>
+			<p>No futuro, esperamos realizar outras pesquisas dessa natureza no Brasil e o resto da América Latina. Se você tiver ideias ou perguntas, <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-Resultados">entre em contato conosco por e-mail</a>.</p>
+			
 			<h2 id="parte1">Parte 1</h2>
 			
 				<h3 id="idade">Qual ano você nasceu?</h3>
@@ -27,6 +38,7 @@
 				 <tr><td>65 a 69 anos</td><td>1</td><td>0,3%</td></tr>	
 				 <tr><td>70 a 74 anos</td><td>1</td><td>0,3%</td></tr>
 				</tbody></table>
+				<p><strong>Observação:</strong> O participante mais novo tem 12 anos e o mais velho tem 70 anos. 63% dos participantes são entre 20 e 39 anos.</p>
 
 				<h3 id="genero">Qual é o seu gênero?</h3>
 				<table class="resultados">
@@ -64,6 +76,7 @@
 				 <tr><td>Pós-graduação (nível doutorado) completa</td><td>2</td><td>0,6%</td></tr>
 				 <tr><td>Não quero responder</td><td>3</td><td>1,0%</td></tr>
 				</tbody></table>
+				<p><strong>Observação:</strong> 48% dos participantes completaram ensino médio ou nível superior.</p>
 				
 				<h3 id="deficiencia">Você possui uma deficiência?</h3>
 				<table class="resultados">
@@ -115,6 +128,7 @@
 				 <tr><td>Não tenho costume de atualizar</td><td>22</td><td>7,1%</td></tr>
 				 <tr><td>Não tenho certeza</td><td>20</td><td>6,4%</td></tr>
 				</tbody></table>
+				<p><strong>Observação:</strong> Dos participantes que atualizaram nos últimos dias, 81,3% utilizam NVDA, 8,5% utilizam JAWS e 5,7% utilizam VoiceOver. Dos participantes que atualizaram no último ano, 56% utilizam NVDA, 32% utilizam JAWS e 4% utilizam VoiceOver.</p>
 				
 				<h3 id="leitor-de-tela-celular">Qual leitor de tela você mais utiliza para celular / tablet?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#mobilescreenreaders">webaim.org/projects/screenreadersurvey7/#mobilescreenreaders</a></p>
@@ -131,7 +145,7 @@
 				</tbody></table>
 				
 				<h3 id="leitor-de-tela-utilizacao">Qual opção descreve como você utiliza o seu leitor de tela?</h3>
-				<p cass="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#usage">webaim.org/projects/screenreadersurvey7/#usage</a></p>
+				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#usage">webaim.org/projects/screenreadersurvey7/#usage</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>Utilizo somente a fala do leitor de tela</td><td>243</td><td>77,9%</td></tr>
@@ -141,7 +155,7 @@
 				 <tr><td>Não utilizo nenhum</td><td>5</td><td>1,6%</td></tr>
 				</tbody></table>
 				
-				<h3 id="leitor-de-tela-celular">Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?</h3>
+				<h3 id="leitor-de-tela-mais">Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#mobiledesktopusage">webaim.org/projects/screenreadersurvey7/#mobiledesktopusage</a></p>
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
@@ -167,6 +181,7 @@
 				 <tr><td>Não</td><td>167</td><td>53,5%</td></tr>
 				 <tr><td>Sim</td><td>145</td><td>46,5%</td></tr>
 				</tbody></table>
+				<p><strong>Observação:</strong> Dos participantes que acham que não vale a pena pagar por um leitor de tela, 39,5% são satisfeitos com seus leitores de tela gratuitos (ex: NVDA) ou embutidos (ex: VoiceOver), 23,4% acham que são caros e 15% acham que deveria ser embutido no sistema operacional.</p>
 				
 				
 				
@@ -241,6 +256,7 @@
 				 <tr><td>Nunca</td><td>225</td><td>72,1%</td></tr>
 				 <tr><td>Não sei do que se trata</td><td>8</td><td>2,6%</td></tr>
 				</tbody></table>
+				<p><strong>Observação:</strong> Dos participantes com baixa visão, 33,3% responderem “Sempre”, 18,3% responderem “Frequentemente”, 8,3% responderem “Às vezes”, 5% responderem “Raramente”, 33,3% responderem “Nunca” e 1,7% responderem “Não sei do que se trata”.</p>
 				
 				<h3 id="web-atalho">Com qual frequência você utiliza as teclas de atalho de um site, quando estão disponíveis? Por exemplo, a tecla P para publicar um novo status no Facebook.</h3>
 				<table class="resultados">
@@ -281,6 +297,7 @@
 			 <tr><td>Não</td><td>259</td><td>83,5%</td></tr>
 			 <tr><td>Não sei do que se trata</td><td>5</td><td>1,6%</td></tr>
 			</tbody></table>
+			<p><strong>Observação:</strong> Dos participantes utilizam um teclado virtual braille, 47,8% utilizam VoiceOver e 41,3% utilizam TalkBack no seu celular ou tablet.</p>
 			
 			<h3 id="linha-braille">Você utiliza alguma linha braille com seu leitor de tela?</h3>
 			<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#braille">webaim.org/projects/screenreadersurvey7/#braille</a></p>
@@ -290,6 +307,7 @@
 			 <tr><td>Não</td><td>288</td><td>92,9%</td></tr>
 			 <tr><td>Não sei do que se trata</td><td>4</td><td>1,3%</td></tr>
 			</tbody></table>
+			<p><strong>Observação:</strong> Dos participantes utilizam uma linha braille, 66,7% utilizam VoiceOver e 16,7% utilizam TalkBack no seu celular ou tablet.</p>	
 			
 			<h3 id="teclado-externo">Você utiliza algum teclado externo para navegar e digitar no seu celular / tablet?</h3>
 			<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#mobilekeyboard">webaim.org/projects/screenreadersurvey7/#mobilekeyboard</a></p>
@@ -310,7 +328,7 @@
 			 <tr><td>Nunca</td><td>27</td><td>8,7%</td></tr>
 			 <tr><td>Não sei do que se trata</td><td>1</td><td>0,3%</td></tr>
 			</tbody></table>
-			
+			<p><strong>Observação:</strong> Dos participantes sempre utilizam uma digitação por voz, 52,4% utilizam TalkBack e 35,4% utilizam VoiceOver no seu celular ou tablet.</p>				
 				
 				
 			<h2 id="parte5">Parte 5</h2>
