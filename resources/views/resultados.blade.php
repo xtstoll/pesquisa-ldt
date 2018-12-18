@@ -342,10 +342,10 @@
 				
 			<h2>Dados cruzados</h2>
 			
-				<h3 id="ldt-x-navweb">Leitor de Tela x Navegador Web</h3>
+				<h3 id="ldt-x-navweb">Combinações de Leitores de Tela Desktop e Navegadores Web</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a href="https://webaim.org/projects/screenreadersurvey7/#browsercombos">webaim.org/projects/screenreadersurvey7/#browsercombos</a></p>
 				<table class="resultados">
-				<thead><tr><th>Leitor de Tela e Navegador Web</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
+				<thead><tr><th>Leitor de Tela Desktop e Navegador Web</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
 				 <tr><td>NVDA com Chrome</td><td>105</td><td>34,3%</td></tr>
 				 <tr><td>NVDA com Firefox</td><td>85</td><td>27,8%</td></tr>
 				 <tr><td>JAWS com IE</td><td>19</td><td>6,2%</td></tr>
@@ -357,7 +357,7 @@
 				 <tr><td>Outras combinações</td><td>29</td><td>9,5%</td></tr>
 				</tbody></table>
 				
-				<h3 id="ldt-x-regiao">Leitor de Tela x Região</h3>
+				<h3 id="ldt-x-regiao">Região x Leitor de Tela Desktop</h3>
 				<table class="resultados">
 				<thead><tr><th>Região</th><th>NVDA</th><th>JAWS</th><th>VoiceOver</th><th>Outros</th></tr></thead><tbody>
 				 <tr><td>Centro-Oeste</td><td>80,0%</td><td>13,3%</td><td>0,0%</td><td>6,7%</td></tr>
@@ -367,39 +367,41 @@
 				 <tr><td>Sudeste</td><td>62,9%</td><td>15,6%</td><td>10,2%</td><td>11,4%</td></tr>
 				</tbody></table>
 				
-				<h3 id="ldt-x-idade">Leitor de Tela x Idade</h3>
+				<h3 id="ldt-x-idade">Idade x Leitor de Tela Desktop</h3>
 				<table class="resultados">
 				<thead><tr><th>Idade</th><th>NVDA</th><th>JAWS</th><th>VoiceOver</th><th>Outros</th></tr></thead><tbody>
-				 <tr><td>10 a 14 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>	
-				 <tr><td>15 a 19 anos</td><td>84,2%</td><td>5,3%</td><td>5,3%</td><td>5,3%</td></tr>	
-				 <tr><td>20 a 24 anos</td><td>94,6%</td><td>5,4%</td><td>0,0%</td><td>0%</td></tr>	
-				 <tr><td>25 a 29 anos</td><td>77,4%</td><td>9,7%</td><td>9,7%</td><td>3,2%</td></tr>	
-				 <tr><td>30 a 34 anos</td><td>76,8%</td><td>5,4%</td><td>8,9%</td><td>9%</td></tr>	
-				 <tr><td>35 a 39 anos</td><td>58,1%</td><td>23,3%</td><td>7,0%</td><td>11,6%</td></tr>	
-				 <tr><td>40 a 44 anos</td><td>54,8%</td><td>25,8%</td><td>9,7%</td><td>9,7%</td></tr>	
-				 <tr><td>45 a 49 anos</td><td>61,3%</td><td>32,3%</td><td>3,2%</td><td>3,2%</td></tr>	
-				 <tr><td>50 a 54 anos</td><td>44,4%</td><td>27,8%</td><td>5,6%</td><td>22,3%</td></tr>	
-				 <tr><td>55 a 59 anos</td><td>14,3%</td><td>28,6%</td><td>0,0%</td><td>57,2%</td></tr>	
-				 <tr><td>60 a 64 anos</td><td>20,0%</td><td>40,0%</td><td>40,0%</td><td>0%</td></tr>	
-				 <tr><td>65 a 69 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>	
 				 <tr><td>70 a 74 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>
+				 <tr><td>65 a 69 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>
+				 <tr><td>10 a 14 anos</td><td>100%</td><td>0,0%</td><td>0,0%</td><td>0%</td></tr>
+				 <tr><td>20 a 24 anos</td><td>94,6%</td><td>5,4%</td><td>0,0%</td><td>0%</td></tr>
+				 <tr><td>15 a 19 anos</td><td>84,2%</td><td>5,3%</td><td>5,3%</td><td>5,3%</td></tr>
+				 <tr><td>25 a 29 anos</td><td>77,4%</td><td>9,7%</td><td>9,7%</td><td>3,2%</td></tr>
+				 <tr><td>30 a 34 anos</td><td>76,8%</td><td>5,4%</td><td>8,9%</td><td>9%</td></tr>
+				 <tr><td>45 a 49 anos</td><td>61,3%</td><td>32,3%</td><td>3,2%</td><td>3,2%</td></tr>
+				 <tr><td>35 a 39 anos</td><td>58,1%</td><td>23,3%</td><td>7,0%</td><td>11,6%</td></tr>
+				 <tr><td>40 a 44 anos</td><td>54,8%</td><td>25,8%</td><td>9,7%</td><td>9,7%</td></tr>
+				 <tr><td>50 a 54 anos</td><td>44,4%</td><td>27,8%</td><td>5,6%</td><td>22,3%</td></tr>
+				 <tr><td>60 a 64 anos</td><td>20,0%</td><td>40,0%</td><td>40,0%</td><td>0%</td></tr>
+				 <tr><td>55 a 59 anos</td><td>14,3%</td><td>28,6%</td><td>0,0%</td><td>57,2%</td></tr>
 				</tbody></table>
 				
-				<h3 id="ldt-x-pagar">Leitor de Tela x Resposta de “Você acha que vale a pena pagar por um leitor de tela?”</h3>
+				<h3 id="ldt-x-pagar">Leitor de Tela Desktop x Resposta de “Você acha que vale a pena pagar por um leitor de tela?”</h3>
 				<table class="resultados">
-				<thead><tr><th>Resposta</th><th>Todos</th><th>NVDA</th><th>JAWS</th><th>VoiceOver</th></tr></thead><tbody>
-				 <tr><td>Sim, vale a pena pagar</td><td>46,5%</td><td>44,9%</td><td>57,1%</td><td>40,9%</td></tr>
-				 <tr><td>Não, não vale a pena pagar</td><td>53,5%</td><td>55,1%</td><td>42,9%</td><td>59,1%</td></tr>
+				<thead><tr><th>Leitor de Tela Desktop</th><th>Sim</th><th>Não</th></tr></thead><tbody>
+				 <tr><td>NVDA</td><td>66,9%</td><td>71,3%</td></tr>
+				 <tr><td>JAWS</td><td>19,3%</td><td>12,6%</td></tr>
+				 <tr><td>VoiceOver</td><td>6,2%</td><td>7,8%</td></tr>
+				 <tr><td>Outros</td><td>7,7%</td><td>8,4%</td></tr>
 				</tbody></table>
 				
-				<h3 id="aprender-x-regiao">Resposta de “Como você aprendeu a utilizar seu leitor de tela?” x Região</h3>
+				<h3 id="aprender-x-regiao">Região x Resposta de “Como você aprendeu a utilizar seu leitor de tela?”</h3>
 				<table class="resultados">
-				<thead><tr><th>Resposta</th><th>Brasil</th><th>Sudeste</th><th>Sul</th><th>Nordeste</th><th>Centro-Oeste</th><th>Norte</th></tr></thead><tbody>
-				 <tr><td>Sozinho</td><td>40,1%</td><td>41,9%</td><td>42,5%</td><td>27,9%</td><td>53,3%</td><td>50,0%</td></tr>
-				 <tr><td>Com amigos</td><td>32,1%</td><td>31,2%</td><td>40,0%</td><td>37,7%</td><td>6,7%</td><td>20,0%</td></tr>
-				 <tr><td>Em uma instituição para pessoas com deficiência visual</td><td>22,4%</td><td>21,0%</td><td>12,5%</td><td>32,8%</td><td>26,7%</td><td>20,0%</td></tr>
-				 <tr><td>Na escola</td><td>3,5%</td><td>3,8%</td><td>5,0%</td><td>0,0%</td><td>6,7%</td><td>10,0%</td></tr>
-				 <tr><td>No trabalho</td><td>1,9%</td><td>2,2%</td><td>0,0%</td><td>1,6%</td><td>6,7%</td><td>0,0%</td></tr>
+				<thead><tr><th>Região</th><th>Sozinho</th><th>Com amigos</th><th>Em uma instituição</th><th>Na escola</th><th>No trabalho</th></tr></thead><tbody>
+				 <tr><td>Sudeste</td><td>62,4%</td><td>58%</td><td>55,7%</td><td>63,6%</td><td>66,7%</td></tr>
+				 <tr><td>Nordeste</td><td>13,6%</td><td>23%</td><td>28,6%</td><td>0%</td><td>16,7%</td></tr>
+				 <tr><td>Sul</td><td>13,6%</td><td>16%</td><td>7,1%</td><td>18,2%</td><td>0%</td></tr>
+				 <tr><td>Centro-Oeste</td><td>6,4%</td><td>1%</td><td>5,7%</td><td>9,1%</td><td>16,7%</td></tr>
+				 <tr><td>Norte</td><td>4%</td><td>2%</td><td>2,9%</td><td>9,1%</td><td>0%</td></tr>
 				</tbody></table>
 				
 				<h3 id="aprender-x-encontrar">Resposta de “Como você aprendeu a utilizar seu leitor de tela?” x Resposta de “Ao tentar encontrar informações em uma página da Internet, qual das seguintes opções você costuma utilizar?”</h3>
@@ -415,20 +417,20 @@
 				<h3 id="idade-x-maisldt">Idade x Resposta de “Você utiliza mais o leitor de tela do computador / notebook ou do celular / tablet?”</h3>
 				<table class="resultados">
 				<thead><tr><th>Idade</th><th>Mais mobile</th><th>Mais desktop</th><th>Ambos</th><th>Não utilizo</th></tr></thead><tbody>
-				 <tr><td>10 a 14 anos</td><td>0,0%</td><td>100,0%</td><td>0,0%</td><td>0,0%</td></tr>
-				 <tr><td>15 a 19 anos</td><td>21,1%</td><td>15,8%</td><td>63,2%</td><td>0,0%</td></tr>
-				 <tr><td>20 a 24 anos</td><td>21,6%</td><td>18,9%</td><td>59,5%</td><td>0,0%</td></tr>
-				 <tr><td>25 a 29 anos</td><td>22,6%</td><td>8,1%</td><td>69,4%</td><td>0,0%</td></tr>
-				 <tr><td>30 a 34 anos</td><td>21,4%</td><td>12,5%</td><td>64,3%</td><td>1,8%</td></tr>
-				 <tr><td>35 a 39 anos</td><td>18,6%</td><td>14,0%</td><td>65,1%</td><td>2,3%</td></tr
-				 <tr><td>40 a 44 anos</td><td>16,1%</td><td>19,4%</td><td>61,3%</td><td>3,2%</td></tr>
-				 <tr><td>45 a 49 anos</td><td>16,1%</td><td>12,9%</td><td>71,0%</td><td>0,0%</td></tr>
-				 <tr><td>50 a 54 anos</td><td>11,1%</td><td>16,7%</td><td>61,1%</td><td>11,1%</td></tr>
-				 <tr><td>55 a 59 anos</td><td>42,9%</td><td>28,6%</td><td>28,6%</td><td>0,0%</td></tr>
-				 <tr><td>60 a 64 anos</td><td>20,0%</td><td>20,0%</td><td>60,0%</td><td>0,0%</td></tr>
-				 <tr><td>65 a 69 anos</td><td>0,0%</td><td>0,0%</td><td>100,0%</td><td>0,0%</td></tr>
-				 <tr><td>70 a 74 anos</td><td>0,0%</td><td>0,0%</td><td>100,0%</td><td>0,0%</td></tr>				
-				</tbody></table>  
+				 <tr><td>55 a 59 anos</td><td>42.9%</td><td>28.6%</td><td>28.6%</td><td>0.0%</td></tr>
+				 <tr><td>25 a 29 anos</td><td>22.6%</td><td>8.1%</td><td>69.4%</td><td>0.0%</td></tr>
+				 <tr><td>20 a 24 anos</td><td>21.6%</td><td>18.9%</td><td>59.5%</td><td>0.0%</td></tr>
+				 <tr><td>30 a 34 anos</td><td>21.4%</td><td>12.5%</td><td>64.3%</td><td>1.8%</td></tr>
+				 <tr><td>15 a 19 anos</td><td>21.1%</td><td>15.8%</td><td>63.2%</td><td>0.0%</td></tr>
+				 <tr><td>60 a 64 anos</td><td>20.0%</td><td>20.0%</td><td>60.0%</td><td>0.0%</td></tr>
+				 <tr><td>35 a 39 anos</td><td>18.6%</td><td>14.0%</td><td>65.1%</td><td>2.3%</td></tr>
+				 <tr><td>40 a 44 anos</td><td>16.1%</td><td>19.4%</td><td>61.3%</td><td>3.2%</td></tr>
+				 <tr><td>45 a 49 anos</td><td>16.1%</td><td>12.9%</td><td>71.0%</td><td>0.0%</td></tr>
+				 <tr><td>50 a 54 anos</td><td>11.1%</td><td>16.7%</td><td>61.1%</td><td>11.1%</td></tr>
+				 <tr><td>10 a 14 anos</td><td>0.0%</td><td>100.0%</td><td>0.0%</td><td>0.0%</td></tr>
+				 <tr><td>65 a 69 anos</td><td>0.0%</td><td>0.0%</td><td>100.0%</td><td>0.0%</td></tr>
+				 <tr><td>70 a 74 anos</td><td>0.0%</td><td>0.0%</td><td>100.0%</td><td>0.0%</td></tr>
+				</tbody></table> 
 		   		
 		</div>
 	</div>
