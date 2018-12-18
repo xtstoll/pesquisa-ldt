@@ -58,6 +58,9 @@ a:hover, a:focus {
   background-color: #78d8f9;
   text-decoration: none;
 }
+a:visited {
+  color: #f2ff00;
+}
 
 input[type="checkbox"],
 input[type="radio"]
