@@ -19,7 +19,7 @@
 				<li>O total de respostas para cada pergunta pode não ser igual a 312 porque os participantes não responderam a essa pergunta em particular;</li>
 				<li>O grupo de participantes não foi controlado e pode não representar todos os usuários do leitor de tela no Brasil.</li>
 			</ul>
-			<p>No futuro, esperamos realizar outras pesquisas dessa natureza no Brasil e o resto da América Latina. Se você tiver ideias ou perguntas, <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-Resultados">entre em contato conosco por e-mail</a>.</p>
+			<p>No futuro, pretendemos realizar outras pesquisas dessa natureza no Brasil e o resto da América Latina. Se você tiver ideias ou perguntas, <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-Resultados">entre em contato conosco por e-mail</a>.</p>
 			
 			<h2 id="parte1">Parte 1</h2>
 			
