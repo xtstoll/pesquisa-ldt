@@ -40,13 +40,13 @@ Route::get('/parte6', function(){
 
 Route::post('/parte6', 'RespostaController@parte6');
 
-Route::get('pesquisa-ldt/resultados', function(){
-	return view('pesquisa-ldt/resultados');
+Route::get('pesquisa-ldt-2018/resultados', function(){
+	return view('pesquisa-ldt-2018/resultados');
 });
 
-Route::post('pesquisa-ldt/resultados', 'RespostaController@resultados');
+Route::post('pesquisa-ldt-2018/resultados', 'RespostaController@resultados');
 
 Route::get('resultados', function () {
-    return redirect('pesquisa-ldt/resultados');
+    return redirect('pesquisa-ldt-2018/resultados');
 });
 
