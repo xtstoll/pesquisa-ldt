@@ -1,5 +1,5 @@
 
-@extends('layouts.app')
+@extends('layouts.app-resultados')
 
 @section('pageTitle', 'Resultados - ')
 
@@ -9,8 +9,15 @@
 	<div class="usa-grid">	
 		<div class="usa-width-one-whole">
 			
-			<h1>Resultados da Pesquisa do Uso de Leitores de Tela</h1>
-			<p>Publicado no dia 21 de dezembro de 2018</p>
+			<section>
+				<div class="usa-width-two-thirds">
+					<h1>Resultados da Pesquisa do Uso de Leitores de Tela</h1>
+					<p>Publicado no dia 21 de dezembro de 2018</p>
+				</div>
+				<div class="usa-width-one-third">
+					<img class="logo-everis" src="{{ secure_asset('images/logo-everis.png') }}" alt="Logomarca da Everis"/>
+				</div>
+			</section>
 			
 			<h2 id="apresentação">Apresentação</h2>
 			<p>Em outubro de 2018, a equipe de acessibilidade da Everis Brasil pesquisou as preferências dos usuários de leitores de tela no Brasil e recebemos 312 respostas válidas. Esta foi a primeira pesquisa deste tipo realizada no Brasil.</p>
