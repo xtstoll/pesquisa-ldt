@@ -15,22 +15,33 @@
 					<p>Publicado no dia 21 de dezembro de 2018</p>
 				</div>
 				<div class="usa-width-one-third">
-					<img class="logo-everis" src="{{ secure_asset('images/logo-everis.png') }}" alt="Logomarca da Everis"/>
+					<img class="logo-everis" src="{{ secure_asset('images/logo-everis.jpg') }}" alt="Logomarca da Everis" width="240"/>
 				</div>
 			</section>
 			
-			<h2 id="apresentação">Apresentação</h2>
+			<h2>Sumário</h2>
+			<ul>
+				<li><a href="#apresentacao">Apresentação</a></li>
+				<li><a href="#parte1">Parte 1: Demografia</a></li>
+				<li><a href="#parte2">Parte 2: Leitores de tela</a></li>	
+				<li><a href="#parte3">Parte 3: Navegação na Internet</a></li>
+				<li><a href="#parte4">Parte 4: Teclados</a></li>
+				<li><a href="#parte5">Parte 5: Acessibilidade</a></li>
+				<li><a href="#dados-cruzados">Dados cruzados</a></li>
+			</ul>
+
+			<h2 id="apresentacao">Apresentação</h2>
 			<p>Em outubro de 2018, a equipe de acessibilidade da Everis Brasil pesquisou as preferências dos usuários de leitores de tela no Brasil e recebemos 312 respostas válidas. Esta foi a primeira pesquisa deste tipo realizada no Brasil.</p>
 			<p>Nossa pesquisa foi baseada na pesquisa mundial da WebAIM. As perguntas do questionário brasileiro que conversam com a pesquisa da WebAIM acompanham links que levam para os resultados do questionário internacional, publicada em 2017 (<a target="_blank" href="https://webaim.org/projects/screenreadersurvey7">Screen Reader User Survey #7 Results</a>).</p>
 			<p>Antes de ler os resultados, observe o seguinte:</p>
 			<ul>
 				<li>Os totais podem não ser iguais a 100% devido a arredondamentos;</li>
 				<li>O total de respostas para cada pergunta pode não ser igual a 312 porque os participantes não responderam a essa pergunta em particular;</li>
-				<li>O grupo de participantes não foi controlado e pode não representar todos os usuários de leitores de tela no Brasil.</li>
+				<li>O grupo de participantes não foi controlado e pode não representar todos os usuários de leitores de tela que existem no Brasil.</li>
 			</ul>
 			<p>No futuro, pretendemos realizar outras pesquisas dessa natureza no país e também na América Latina. Se você tiver ideias ou perguntas, <a href="mailto:cristina.henrietta.stoll@everis.com?subject=Pesquisa%20LDT%20-Resultados">entre em contato conosco por e-mail</a>.</p>
 			
-			<h2 id="parte1">Parte 1</h2>
+			<h2 id="parte1">Parte 1: Demografia</h2>
 			
 				<h3 id="idade">Qual ano você nasceu?</h3>
 				<div id="chart_grupoIdade" aria-hidden="true"></div>		
@@ -117,7 +128,7 @@
 				</tbody></table>
 			
 						
-			<h2 id="parte2">Parte 2</h2>
+			<h2 id="parte2">Parte 2: Leitores de tela</h2>
 			
 				<h3 id="leitor-de-tela-desktop1">Qual leitor de tela você mais utiliza para computador / notebook?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a target="_blank" href="https://webaim.org/projects/screenreadersurvey7/#primary">webaim.org/projects/screenreadersurvey7/#primary</a></p>
@@ -210,7 +221,7 @@
 				
 				
 				
-			<h2 id="parte3">Parte 3</h2>
+			<h2 id="parte3">Parte 3: Navegação na Internet</h2>
 			
 				<h3 id="navegador-desktop">Qual navegador você mais utiliza no seu computador / notebook?</h3>
 				<p class="webaim">Compare com a pesquisa da WebAIM: <a target="_blank" href="https://webaim.org/projects/screenreadersurvey7/#browsers">webaim.org/projects/screenreadersurvey7/#browsers</a></p>	
@@ -319,7 +330,7 @@
 				</ol>
 				
 							
-			<h2 id="parte4">Parte 4</h2>
+			<h2 id="parte4">Parte 4: Teclados</h2>
 			
 			<h3 id="teclado-braille">Você utiliza algum teclado virtual braille no seu celular / tablet?</h3>
 			<div id="chart_usoBraille" aria-hidden="true"></div>
@@ -365,7 +376,7 @@
 			<p><strong>Observação:</strong> Dos participantes que sempre utilizam uma digitação por voz, 52,4% utilizam TalkBack e 35,4% utilizam VoiceOver no seu celular ou tablet.</p>				
 				
 				
-			<h2 id="parte5">Parte 5</h2>
+			<h2 id="parte5">Parte 5: Acessibilidade</h2>
 			
 			<h3 id="preferencia-web-mobile">Você prefere navegar em uma página da Internet pelo computador / notebook ou pelo celular / tablet?</h3>
 			<div id="chart_prefNav" aria-hidden="true"></div>		
