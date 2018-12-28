@@ -8,7 +8,7 @@
 			
 		    <h1>Pesquisa sobre o uso de leitores de tela</h1>		    		    	
 		    	<p>Lançamos os resultados da pesquisa sobre o uso de leitores de tela! Acesse os resultados no link abaixo.</p> 
-				<p><a href="https://estudoinclusivo.com.br/pesquisa-ldt/resultados">Resultados da Pesquisa do Uso de Leitores de Tela</a></p>
+				<p><a href="https://estudoinclusivo.com.br/pesquisa-ldt-2018/resultados">Resultados da Pesquisa do Uso de Leitores de Tela</a></p>
 						   		
 		</div>
 	</div>
