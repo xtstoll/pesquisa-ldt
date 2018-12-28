@@ -6,19 +6,20 @@
 	<title>@yield('pageTitle')Pesquisa brasileira sobre o uso de leitores de tela</title>
 	<link rel="stylesheet" href="{{ secure_asset('uswds-1.6.8/css/uswds.css') }}">
 	<link rel="stylesheet" href="{{ secure_asset('css/pesquisa.css') }}">
-	<link rel="image_src" href="{{ secure_asset('images/logo_pesquisa-ldt_resultados_twitter.jpg') }}" />	
-	
+	<link rel="image_src" href="{{ secure_asset('images/logo_pesquisa-ldt_resultados_twitter.jpg') }}" />
+	<meta property="og:image" content="{{ secure_asset('images/logo_pesquisa-ldt_resultados_twitter.jpg') }}" />
+		
 <!-- Facebook -->
-	<meta property="og:url" content="https://estudoinclusivo.com.br" />
+	<meta property="og:url" content="https://estudoinclusivo.com.br/pesquisa-ldt-2018/resultados" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Pesquisa brasileira sobre o uso de leitores de tela" />
-	<meta property="og:description" content="Contribua para uma web mais inclusiva participando dessa pesquisa! Só leva de 15 a 20 min para preencher, e os dados coletados serão disponibilizados para todos." />
-	<meta property="og:image" content="{{ secure_asset('images/logo_pesquisa-ldt_resultados.jpg') }}" />	
+	<meta property="og:title" content="Resultados da pesquisa sobre o uso de leitores de tela" />
+	<meta property="og:description" content="Confira os resultados da primeira pesquisa brasileira sobre uso de leitores de tela! Entenda como pessoas cegas e com baixa visão usam seus smartphones, tablets e computadores." />
+	<meta property="og:image" content="{{ secure_asset('images/logo_pesquisa-ldt_resultados.png') }}" />	
 
 <!-- Twitter -->
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Pesquisa brasileira sobre o uso de leitores de tela" />
-	<meta name="twitter:description" content="Contribua para uma web mais inclusiva participando dessa pesquisa! Só leva de 15 a 20 min para preencher, e os dados coletados serão disponibilizados para todos." />
+	<meta name="twitter:title" content="Resultados da pesquisa sobre o uso de leitores de tela" />
+	<meta name="twitter:description" content="Confira os resultados da primeira pesquisa brasileira sobre uso de leitores de tela! Entenda como pessoas cegas e com baixa visão usam seus smartphones, tablets e computadores." />
 	<meta name="twitter:image" content="{{ secure_asset('images/logo_pesquisa-ldt_resultados_twitter.jpg') }}" />	
 
 <!-- Google Analytics -->
@@ -36,7 +37,7 @@
 	 <script type="text/javascript">
 
 	      // Load the Visualization API and the corechart package.
-	      google.charts.load('current', {'packages':['corechart']});
+	      google.charts.load("current", {packages:["corechart","bar"]});
 
 	      // Set a callback to run when the Google Visualization API is loaded.
 	      // Parte 1
@@ -120,7 +121,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -145,7 +146,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -156,34 +157,26 @@
 	      // Callback that creates and populates a data table, instantiates the pie chart, passes in the data and draws it.
 	      function nivelEscolaridade() {
 
-	        // Create the data table.
-	       var data = new google.visualization.DataTable();
-			data.addColumn('string', 'Escolaridade');
-			data.addColumn('number', 'Participantes');
-			data.addRows([
-				['Fundamental incompleto', 11],
-				['Fundamental completo', 5],
-				['Ensino médio incompleto', 16],
-				['Ensino médio completo', 63],
-				['Superior incompleto', 58],
-				['Superior completo', 87],
-				['Pós-graduação (lato sensu) incompleta', 10],
-				['Pós-graduação (lato sensu) completa', 44],
-				['Pós-graduação (nível mestrado) incompleta', 2],
-				['Pós-graduação (nível mestrado) completa', 9],
-				['Pós-graduação (nível doutorado) incompleta', 2],
-				['Pós-graduação (nível doutorado) completa', 2],
-				['Não quero responder', 3],
-			]);
 
-	        // Set chart options
-				var options = {
-					vAxis: {format:'#\'%\''}
-				};
+	        // Create the data table.
+	        var data = google.visualization.arrayToDataTable([
+	          ['Nível de Escolaridade', 'Incompleto', 'Completo'],
+	          ['Fundamental', 11, 5],
+	          ['Ensino médio', 16, 63],
+	          ['Superior', 58, 87],
+	          ['Pós-graduação (lato sensu)', 10, 44]
+	          ['Pós-graduação (nível mestrado)', 2, 9]
+	          ['Pós-graduação (nível doutorado)', 2, 2]
+	        ]);			
+
+	        var options = {
+	          bars: 'vertical',
+	          height: 400,
+	        };
 
 	        // Instantiate and draw our chart, passing in some options.
-	        var chart = new google.visualization.ColumnChart(document.getElementById('chart_nivelEscolaridade'));
-	        chart.draw(data, options);
+	        var chart = new google.visualization.Bar(document.getElementById('chart_nivelEscolaridade'));
+	        chart.draw(data, google.charts.Bar.convertOptions(options));
 	      }
 
 	      // Callback that creates and populates a data table, instantiates the pie chart, passes in the data and draws it.
@@ -201,7 +194,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -228,7 +221,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -257,7 +250,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -282,7 +275,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -310,7 +303,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -384,7 +377,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -406,7 +399,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':500,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -434,7 +427,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':700,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -459,7 +452,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':700,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -510,7 +503,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -536,7 +529,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -562,7 +555,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -588,7 +581,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -612,7 +605,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -636,7 +629,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -660,7 +653,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -686,7 +679,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -709,7 +702,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -732,7 +725,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
@@ -754,7 +747,7 @@
 			]);
 
 	        // Set chart options
-	        var options = {'width':800,
+	        var options = {'width':600,
 	                       'height':400};
 
 	        // Instantiate and draw our chart, passing in some options.
