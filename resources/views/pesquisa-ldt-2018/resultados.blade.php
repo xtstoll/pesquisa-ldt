@@ -43,7 +43,7 @@
 			
 			<h2 id="parte1">Parte 1: Demografia</h2>
 			
-				<h3 id="idade">Qual ano você nasceu?</h3>
+				<h3 id="idade">Quantos anos você tem?</h3>
 				<div id="chart_grupoIdade" aria-hidden="true"></div>		
 				<table class="resultados">
 				<thead><tr><th>Respostas</th><th>Participantes</th><th>Porcentagem</th></tr></thead><tbody>
